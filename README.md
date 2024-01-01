@@ -87,6 +87,7 @@ To deploy your Hugo site to GitHub Pages, follow the official Hugo documentation
 https://doks.netlify.app/ - dokumentacja i blog!
 https://doks.netlify.app/ - jw + lang switch ale brzydki
 https://themes.gohugo.io/themes/compose/- documentation (moze z blogiem)
+https://lotusdocs.dev/docs/help/troubleshooting/
 
 ## na inna strone
 https://zeon.studio/preview?project=hugoplate

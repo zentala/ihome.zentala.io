@@ -1,9 +1,9 @@
 {
   "name": "smarthome.zentala.io",
   "version": "0.0.0",
-  "description": "Doks theme",
-  "author": "Hyas",
-  "license": "MIT",
+  "description": "Smart Apartment Blog by Paweł Żentała",
+  "author": "Paweł Żentała",
+  "license": "",
   "scripts": {
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
     "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --buildDrafts",
