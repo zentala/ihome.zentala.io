@@ -1,0 +1,41 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPJDKW2YFW"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const consentGiven = localStorage.getItem('gaConsent');
+
+    if (consentGiven !== 'true') {
+      document.getElementById('cookie-consent-popup').style.display = 'block';
+    }
+
+    document.getElementById('accept-cookies').addEventListener('click', function() {
+      localStorage.setItem('gaConsent', 'true');
+      document.getElementById('cookie-consent-popup').style.display = 'none';
+      loadGA();
+    });
+
+    document.getElementById('reject-cookies').addEventListener('click', function() {
+      localStorage.setItem('gaConsent', 'false');
+      document.getElementById('cookie-consent-popup').style.display = 'none';
+    });
+  });
+
+  function loadGA() {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XPJDKW2YFW');
+  }
+</script>
+
+<div id="cookie-consent-popup" class="p-3 position-fixed bottom-0 start-0 end-0 bg-light text-center shadow" style="display: none;">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="text-start">
+      <i class="bi bi-cookie" style="font-size: 140%; position: relative; bottom: -4px; margin-right: 6px;"></i>
+      Ta strona używa ciasteczek do personalizacji treści i analizy ruchu.
+    </div>
+    <div class="text-end">
+      <button id="accept-cookies" class="btn btn-primary">Akceptuję</button>
+      <button id="reject-cookies" class="btn btn-secondary">Odrzucam</button>
+    </div>
+  </div>
+</div>
