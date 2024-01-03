@@ -74,6 +74,11 @@
   url = "/polityka-prywatnosci/"
   weight = 10
 
+[[footer]]
+  name = "Markdown Demo"
+  url = "/demo/"
+  weight = 20
+
 # [[footer]]
 #   name = "Terms of Service"
 #   url = "/terms/"
