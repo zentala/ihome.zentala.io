@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Artykuły"
 description: ""
 summary: ""
 date: 2023-09-07T16:21:44+02:00
@@ -11,6 +11,7 @@ tags: []
 contributors: []
 pinned: false
 homepage: false
+type: blog
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
