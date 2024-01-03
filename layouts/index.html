@@ -6,8 +6,8 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/example-guide/" role="button">{{ i18n "get_started" }}</a>
-      {{ .Content }}
+      <!-- <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/example-guide/" role="button">{{ i18n "get_started" }}</a> -->
+      <!-- {{ .Content }} -->
     </div>
   </div>
 </section>
@@ -43,6 +43,54 @@
     </div>
   </section>
   {{ end }}
+  {{ if eq $.Site.Language.LanguageName "Polish" }}
+  <section class="section section-md section-features mb-4">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-8 col-xl-5" style="padding-top:2em">
+          <i class="bi-power" style="font-size: 2rem; color: #777;"></i>
+          <h2 class="h4" style="margin-top: 0.5em">
+            Wymiana elektryki
+          </h2>
+          <p>Modernizacja przestarzałej instalacji elektrycznej: zwiększenie mocy i fazowości, cyfrowy monitoring zużycia energii, modernizacja zabezpieczeń, struktura nowoczesnego okablowania, wybór i instalacja osprzętu elektrycznego.</p>
+        </div>
+        <div class="col-md-8 col-xl-5" style="padding-top:2em">
+          <i class="bi-hdd-network" style="font-size: 2rem; color: #777;"></i>
+          <h2 class="h4" style="margin-top: 0.5em">
+            Instalacja sieciowa
+          </h2>
+          <p>Przepust dla ISP z klatki do szafki telecom przy drzwiach. Instalacja strukturalna ethernet. Mikro serwerowna w pawlaczu (UPS, NAS i inne). Wybór i rozplanowanie położenia routerów WiFi w mieszkaniu z 80-cm ścianą po środku. </p>
+        </div>
+        <div class="col-md-8 col-xl-5" style="padding-top:2em">
+          <i class="bi-shield-check" style="font-size: 2rem; color: #777; "></i>
+          <h2 class="h4" style="margin-top: 0.5em">
+            System alarmowy
+          </h2>
+          <p>Czujniki zalania zamykające zawory wody. Czujnik dymu w kuchni odcinający kuchenkę indukcyjną. Czujniki otwarcia okien alarmujący za wczasu o deszczu i wichurach. Alarm przeciwkradzieżowy na czujnikach ruchu i kontaktronach. </p>
+        </div>
+        <div class="col-md-8 col-xl-5" style="padding-top:2em">
+          <i class="bi-lamp" style="font-size: 2rem; color: #777;"></i>
+          <h2 class="h4" style="margin-top: 0.5em">
+            Oświetlenie
+          </h2>
+          <p>Czujniku: ruchu, natężenia światła, zamknięcia drzwi. LEDy. Przełączanie i ściemnianie żarówek. Sceny oświetleniowe. Deteckcja stanu i obecności mieszkańców. Rola przełączników światła w inteligentnym domu.</p>
+        </div>
+        <div class="col-md-8 col-xl-5" style="padding-top:2em">
+          <i class="bi-soundwave" style="font-size: 2rem; color: #777;"></i>
+          <h2 class="h4" style="margin-top: 0.5em">
+            System audio</h2>
+          <p>Naglośnienie strefowe: projekt, instalacja, wybór sprzętu, sterowanie. Microphone arrays dla asystentów głosowych. Sztuczna inteligencja z którą możesz porozmawiać w każdym pokoju. Prywatność i bezpieczeństwo. </p>
+        </div>
+        <div class="col-md-8 col-xl-5" style="padding-top:2em">
+          <i class="bi-buildings" style="font-size: 2rem; color: #777;"></i>
+          <h2 class="h4" style="margin-top: 0.5em">
+            Automatyka budynkowa</h2>
+          <p>Zaawansowane automatyzacje: Czy zamknąłeś okna przed wyjazdem na wakacje? Nadzorowanie mikroklimatu: Sterowanie grzejnikami i klimatyzacją. Utrzymanie bezpiecznej wilgodności w łazience. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
 {{ end }}
 
 {{ define "sidebar-footer" }}
@@ -51,9 +99,10 @@
   <div class="row justify-content-center text-center">
     <div class="col-lg-7">
       <h2 class="mt-2">Start building with Doks today</h2>
-      <a class="btn btn-primary rounded-pill px-4 my-2" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
+      <a class="btn btn-primary rounded-pill px-4 my-2" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get_started" }}</a>
     </div>
   </div>
+  <div class="bg-dots"></div>
 </section>
 {{ end -}}
 {{ end }}
