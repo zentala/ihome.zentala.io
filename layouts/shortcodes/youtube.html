@@ -1,0 +1,44 @@
+{{- /*  hugo-youtube shortcode
+  /*
+  /*    This file is part of hugo-youtube shortcode.
+  /*    A Hugo component shortcode to embed YouTube videos.
+  /*
+  /*    @author  @Paweł Żentała
+  /*    @source     https://github.com/zentala/hugo-youtube
+  /*    @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+  /*
+  */ -}}
+
+  {{/*  TODO make controls working & add proportions  */}}
+
+  {{- $video_id := .Get "id" -}}
+  {{- $autoplay := .Get "autoplay" -}}
+  {{- $controls := .Get "controls" -}}
+  {{- $allow := "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" -}}
+
+  <style>
+    .videoContainer {
+      position: relative;
+      height: 0;
+      padding-top: 56.25%;
+      width:100%;
+    }
+    .videoContainer iframe {
+      position: absolute;
+      top: 0; left: 0;
+      border: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+  <div class="videoContainer">
+    <iframe
+      src="https://www.youtube.com/embed/{{ $video_id }}?autoplay={{ $autoplay }}&controls={{ $controls }}"
+      title="YouTube video player"
+      frameborder="0"
+      allow="{{ $allow }}"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      allowfullscreen>
+    </iframe>
+  </div>

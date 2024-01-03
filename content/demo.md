@@ -252,9 +252,7 @@ if ([1,"one",2,"two"].includes(value)){
 
 ## Video
 
-TODO add video based on build in planner
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Wm4c4N1zm0?si=RzzkbBF8Y0BO1g0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< youtube id="6Wm4c4N1zm0">}}
 
 
 ## Images
@@ -286,6 +284,29 @@ Read more on [Hays Images](https://images.gethyas.com/).
 ## SVG
 
 TODO add
+
+## Link cards
+
+### With desc
+
+{{< link-card
+  title="Showcase"
+  description="Explore the infinite possibilities of Doks"
+  href="/showcase/"
+  target="_blank"
+>}}
+
+### Without
+
+{{< link-card title="Showcase" href="/showcase/" >}}
+
+### Grid
+
+{{< card-grid >}}
+  {{< link-card title="Showcase" href="/showcase/" >}}
+  {{< link-card title="Showcase" href="/showcase/" >}}
+{{< /card-grid >}}
+
 
 ## Fruther readings
 * [Offical theme docs about shortcodes](https://getdoks.org/docs/basics/shortcodes/)
