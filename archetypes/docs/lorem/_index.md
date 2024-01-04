@@ -4,7 +4,7 @@ description: ""
 summary: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
-draft: false
+draft: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)

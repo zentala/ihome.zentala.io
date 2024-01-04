@@ -31,8 +31,8 @@ blog
   [] czy na stronie wpisu pojawia sie obrazek
   [] czy na stronie pojawiaja sie podobne wpisy
 [] jaki zestaw ikon jest wykorzystyway, moze da rade go zaladowac
-[] usuna node_modules & reources from git history, add them to gitignore
-[] cookies alert
+[x] usuna node_modules & reources from git history, add them to gitignore
+[x] cookies alert
 [] demo page with markdows
 [] all pages not published by default
 [] create 1-2 posts and publish them now, publish simple website for SEO histry builing reasons

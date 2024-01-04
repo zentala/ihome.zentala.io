@@ -61,3 +61,22 @@ Mam nadzieję, że te propozycje zainspirują Cię do wyboru idealnej nazwy dla 
 
 ### To copy some code from
 * https://blowfish.page/docs/shortcodes/ - cool shortcodes examples
+
+## Design inspiration
+* [jbspeakr.cc](https://www.jbspeakr.cc/)
+  * nice footer
+  * [great single blog article design](https://www.jbspeakr.cc/long-password-login-system/) - contents list, author info, category, tag, created, updated, releated posts
+  * [nice blog list](https://www.jbspeakr.cc/blog/) - 2 columns
+  * [privacy](https://www.jbspeakr.cc/privacy-policy/)
+  * [about author](https://www.jbspeakr.cc/imprint/)
+  * [blog categories](https://www.jbspeakr.cc/categories/)
+* https://screenshotone.com/
+* https://gamesupport.gg/
+* https://oswalt.dev/portfolio/ - sub menu na stronie
+* https://www.fablabarnhem.nl/ - interesting page
+
+## Additional
+https://betterstack.com/uptime/pricing - monitoring
+
+## Markdown
+* https://github.com/martignoni/hugo-cloak-email
