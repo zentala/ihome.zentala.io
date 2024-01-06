@@ -29,23 +29,23 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Encyklopedia"
-  url = "/docs/concepts/smart-home"
-  weight = 10
+  name = "Teoria"
+  url = "/docs/systems/inteligentny-dom/"
+  weight = 35
 
 [[main]]
-  name = "Artykuły"
+  name = "Blog"
   url = "/blog/"
   weight = 20
 
 [[main]]
   name = "Poradniki"
-  url = "/poradniki"
+  url = "/tutorials/"
   weight = 30
 
 [[main]]
   name = "Usługi"
-  url = "/uslugi"
+  url = "/services/"
   weight = 40
 
 # [[social]]
@@ -71,7 +71,7 @@
 
 [[footer]]
   name = "Polityka Prywatności"
-  url = "/polityka-prywatnosci/"
+  url = "/privacy/"
   weight = 10
 
 [[footer]]
@@ -83,3 +83,8 @@
 #   name = "Terms of Service"
 #   url = "/terms/"
 #   weight = 20
+
+[[footer]]
+  name = "Kontakt"
+  url = "/contact/"
+  weight = 30

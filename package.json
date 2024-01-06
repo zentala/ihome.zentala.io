@@ -22,7 +22,8 @@
     "preinfo": "npm version",
     "info": "npm list",
     "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
+    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
+    "count": "echo 'Amount of pages:' $(find content -type f -name '*.md' | wc -l) 'markdown documents'"
   },
   "dependencies": {
     "@hyas/doks-core": "^1.3.0",

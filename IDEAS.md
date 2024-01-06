@@ -54,6 +54,7 @@ Mam nadzieję, że te propozycje zainspirują Cię do wyboru idealnej nazwy dla 
 * https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng/ - tutorials list
 * https://themes.gohugo.io/themes/hugo-theme-nightfall/ - cool simple blog
 * https://gethyas.com/themes/bolt/
+* https://github.com/StaticMania/roxo-hugo - blog i portflio, agancyjna
 
 ### Professional
 * https://hugo-profile.netlify.app/#experience - cool web portfolio homepage
@@ -79,4 +80,81 @@ Mam nadzieję, że te propozycje zainspirują Cię do wyboru idealnej nazwy dla 
 https://betterstack.com/uptime/pricing - monitoring
 
 ## Markdown
+* https://github.com/martignoni/awesome-hugo
 * https://github.com/martignoni/hugo-cloak-email
+* https://github.com/msfjarvis/hugo-social-metadata
+
+## Inne blogi na tej skórce
+
+### Pomysł na bloga o designie
+* materiały - szkla, siatki cieto ciagnione, siatki perorowane, blachy wytlaczane, rodzaje drewien, panele betonowe, mikrocement, etc
+* sufiyty rastrowe
+  * omoowienie rodzajow - liniowe, kratownice
+  * wlasny projekt na korytarzu, przyklady z azji ze sie robi z drewna powszechnie i ladnie jest
+* LEDy, przykady projektow np w łazience albo pomysl zamiany sztukaterii na LED w sypialni
+* customowa szafa
+* uzywanie pegboardow ikei jako sztkaterii
+* miejsce na elektronike przy projektowaniu domu
+* jak estetycznie odslonic rury i czerpac cieplo z nich za pomoca siatki cietociagnionej zamiat zabudowaywac je
+* odpowlania do elektroniki w lazience i do bloga o smarthome, polaczenie elektroniki z designem - ledy, wywietrzniki, podswietlane listo, etc
+* efekty za pomoca swiatla, gra swiatlem
+* rodzaje oswietlenia, sceny oswietleniowe w projktach wnetrz
+* podwieszany sufit w pracowni z siatki cietociagnioej
+* budowa wlasnego szerokiego kwadratu z tasma LED w srodku
+* uzywanie tras kablowych w mieszkania i malowanie ich (farba lateksowa)
+* jak zamaskowac rozdzielnice
+* stare cegly na scienie, z czym zestawic i jak odslonic -ceny, jak sie przygotowac
+* tanie drzwi lofotwoe - np gotowe albo z chin
+* materialy drewniane
+* naklejki, np na elektronike
+* pudelka ze sklejki
+* pomysl na customizable - parapety, pudelka, naklejki, etc
+* wlasne logo na scianie, w ogole aby rozwacyc zainwestowac w logo rodowe dla statusu
+* projekty mebli
+  * projekt siedziska w oknie
+  * projekt wysokiego lozka z miejscem na bagaze pod nim, miejscem na telefon i z ladowarka pod nim, z miejscem w zaglowku ew na ksiazki czy cos, jakie gniazka przy lozku i ile
+  * przegroda z blachy z europerforacja do wieszania itemow do pracowni
+  * projekt customowej szafy w sypiani - staowa z drewnem, siatka i flutez
+  * ew siedzisko w pracowni
+* przebudowa pokoju w radzyniu
+  * "zamaskowanie rur" za pomocna podobnej struktury z IKEA pegboards
+  * podniesione lozko, w ogole optymalizacje pokjowe
+  * docieplenie posadzki latwe
+  * ze za biurkiem blacha aby opierac nogi
+  * projekt mebli
+  * co z parapetem
+  * wymiana gniazdek
+  * mod lampy
+* design piwnicy w wwa
+
+### Pomysł - blog Zentała Travel
+* na tej samej skórce
+* cześć Żentała universum
+* cześć contnetu to video
+* przyklady contnentu
+  * przejsciowki
+  * wazenie walizki - waga
+  * praca zdalna - krzeslo i monitor + pomysl na firme wynajem
+  * przenosny monitor / tablet jako monitor
+  * ew zabrac ze soba lampy yonguo
+  * niezbednik na wyjazd - kopia dokumentow,
+  * zdrowie: dokumenty zdrowotne w chmurze, nazwy lekow po lacinie
+  * przenosny dysk SSD jaki mam ostatnio
+  * NAS jako serwer pliko z granica + pomysl reduntacja w chmurze
+  * wysylanie rzeczy osobiwtych bagazem to zly pomysl, bardzo
+  * zestawy higieniczne: male butelczeki do perfum na allegro, onbcegi do paznokci
+
+
+### Przywrócić WiFi
+
+ale trzeba przemyśleć conent bo teraz to nie wiem czy idzie wiele napisać o tym, ew dla celów archiwalnych pare artów
+
+* bloga (?) - nowe technolgiie
+* antenty - rodzaje
+* architektura sieci ogólnie - WLAN i WiFi (adhoc)
+* co jak masz slaby zasięg
+* zestawianie linków między 2ma odgległmy budynkami
+* architektura W ISP / MWLAN
+
+## UE
+* pomysły jako docs, a reszta jako arty na blogu, moze da się jakoś uporządkować

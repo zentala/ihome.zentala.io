@@ -18,8 +18,4 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
-
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+https://hpcontrol.pl/elektrozawor-kulowy-1cal-z-silownikiem-a80-lub-a83.html

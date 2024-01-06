@@ -1,7 +1,7 @@
 ---
-title: "Artykuły"
+title: "Blog"
 description: ""
-summary: ""
+summary: "Historia projektowania i budowy mojego własnego inteligetnego mieszkania. Moje przemyślenia, pomysły, decyzje, doświadczenia i wnoski. "
 date: 2023-09-07T16:21:44+02:00
 lastmod: 2023-09-07T16:21:44+02:00
 draft: false

@@ -1,7 +1,7 @@
 ---
-title: "Tania aparatura modułowa Simensa"
+title: "Kupiłem używaną aparaturę modułowa (RCBOs) Siemensa"
 description: "d"
-summary: "Jak podlaczylem prad do komurki lokatorskiej w piwnicy i zaprojejtwalem do niej elektryke."
+summary: "Dlaczego zdecydowałem się na drogie zabezpieczenia różnicowo-prądowe z członem nadprądowym i dlaczego kupiłem - tańsze - używane zamiast nowych?"
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
