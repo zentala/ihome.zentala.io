@@ -6,9 +6,9 @@ date: 2022-06-23T23:01:03+01:00
 lastmod: 2022-06-23T23:01:03+01:00
 draft: false
 weight: 50
-categories: []
+categories: ['Smart Home', 'Mieszkanie']
 tags: []
-contributors: []
+contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
 seo:

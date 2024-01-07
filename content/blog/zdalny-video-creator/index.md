@@ -6,9 +6,9 @@ date: 2024-02-27T16:04:48+02:00
 lastmod: 2024-02-27T16:04:48+02:00
 draft: false
 weight: 50
-categories: []
+categories: ['Home Office']
 tags: []
-contributors: []
+contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
 seo:

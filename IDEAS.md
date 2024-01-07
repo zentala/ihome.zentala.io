@@ -158,3 +158,31 @@ ale trzeba przemyśleć conent bo teraz to nie wiem czy idzie wiele napisać o t
 
 ## UE
 * pomysły jako docs, a reszta jako arty na blogu, moze da się jakoś uporządkować
+
+## Hugo therory
+
+### About Hugo files structure
+
+Here's a brief list of what each of these directories does in Hugo:
+
+- `content`: Directory where website content is stored, such as articles, blog posts, static pages, etc.
+- `static`: Directory where static files like images, CSS stylesheets, JavaScript scripts reside, which don't require processing by Hugo.
+- `layouts`: Directory containing HTML templates that define how content stored in the `content` directory is displayed.
+- `data`: Directory where data files reside, which can be used in templates, for example, JSON, YAML, or CSV files.
+- `assets`: Directory that may contain source files such as Sass or TypeScript files, which are compiled into files in the `static` directory.
+- `i18n`: Directory where translations of the website content for different languages are stored.
+- `archetypes`: Directory containing templates of files used to generate new posts or pages with default data in the `content` directory.
+
+### Advanced configuration
+* International menus: https://gohugo.io/content-management/multilingual/#menus
+* Sub-menus; childs & childrens: https://gohugo.io/content-management/menus/#define-in-site-configuration
+* Multiple langs links & content: https://gohugo.io/content-management/urls/#permalinks
+
+## SEO
+
+### External links
+* https://getdoks.org/showcase/
+* https://github.com/zentala/
+* https://zentala.io/ - zentala ekosystem Home Page (dodac tam z czasem wiecej linkow i info)
+* https://www.linkedin.com/in/zentala/
+*

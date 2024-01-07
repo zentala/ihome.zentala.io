@@ -45,8 +45,33 @@
 
 [[main]]
   name = "Usługi"
+  identifier = "services"
   url = "/services/"
   weight = 40
+
+  # [[main]]
+  #   name = "Konsultacja"
+  #   parent = "services"
+  #   url = "/services/consulting/"
+  #   weight = 10
+
+  # [[main]]
+  #   name = "Projekt Instalacji"
+  #   parent = "services"
+  #   url = "/services/project/"
+  #   weight = 20
+
+  # [[main]]
+  #   name = "Konfiguracja"
+  #   parent = "services"
+  #   url = "/services/configuration/"
+  #   weight = 30
+
+  # [[main]]
+  #   name = "Na zamówienie"
+  #   parent = "services"
+  #   url = "/services/custom/"
+  #   weight = 35
 
 # [[social]]
 #   name = "Twitter"

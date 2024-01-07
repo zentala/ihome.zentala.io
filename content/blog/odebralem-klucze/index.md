@@ -6,9 +6,9 @@ date: 2022-01-10T23:01:03+01:00
 lastmod: 2022-01-10T23:01:03+01:00
 draft: false
 weight: 50
-categories: []
+categories: ['Mieszkanie']
 tags: []
-contributors: []
+contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
 seo:

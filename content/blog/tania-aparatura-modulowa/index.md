@@ -1,14 +1,14 @@
 ---
 title: "Kupiłem używaną aparaturę modułowa (RCBOs) Siemensa"
 description: "d"
-summary: "Dlaczego zdecydowałem się na drogie zabezpieczenia różnicowo-prądowe z członem nadprądowym i dlaczego kupiłem - tańsze - używane zamiast nowych?"
+summary: "Zaoszczędziłem 70%. Było warto? Dlaczego zdecydowałem się na drogie zabezpieczenia różnicowo-prądowe z członem nadprądowym (po 200-300zł) i dlaczego kupiłem używane - znacznie tańsze (60-70zł) -  zamiast nowych?"
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
-categories: []
+categories: ['Elektryka']
 tags: []
-contributors: []
+contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
 seo:

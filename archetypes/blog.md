@@ -8,7 +8,7 @@ draft: true
 weight: 50
 categories: []
 tags: []
-contributors: []
+contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
 seo:

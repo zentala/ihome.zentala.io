@@ -1,0 +1,53 @@
+[404_text]
+other = "Strona które szukasz nie istnieje lub została przeniesiona."
+
+[404_title]
+other = "Strona nie znaleziona :("
+
+[browse]
+other = "Przeglądaj"
+
+[chapter_next]
+other = "Następny"
+
+[chapter_previous]
+other = "Poprzedni"
+
+[edit_page]
+other = "Edytuj tą stronę na"
+
+[get_started]
+other = "Przykładowy poradnik" # needed?
+
+[last_updated]
+other = "Ostatnio zaktualizowano"
+
+# https://github.com/victoriadrake/hugo-theme-introduction/pull/174#issuecomment-524542198
+[minute]
+one = "minuta"
+few = "minuty"
+other = "minut"
+
+[on_this_page]
+other = "Na tej stronie"
+
+[reading_time]
+other = "Szacowany czas czytania"
+
+[search_loading]
+other = "Ładwanie indexu wyszukiwania…"
+
+[search_no_recent]
+other = "Brak ostatnich wyszukiwań"
+
+[search_no_results]
+other = "Brak wyników"
+
+[search_placeholder]
+other = "Szukaj..."
+
+[search_title]
+other = "Szukaj"
+
+[video_unsupported]
+other = "Twoja przeglądarka nie obsługuje osdzonych video, ale nie martw się, możesz <a href=\"{{ .RelPermalink }}\">pobrać je</a> i obejrzeć w swoim ulubionym odtwarzaczu video!"

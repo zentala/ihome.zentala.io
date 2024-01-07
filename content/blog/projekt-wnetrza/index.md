@@ -6,11 +6,13 @@ date: 2022-08-14T10:11:21+01:00
 lastmod: 2022-08-14T10:11:21+01:00
 draft: false
 weight: 50
-categories: []
+categories: ['Interior design']
+thumb: "https://static.zentala.io/flat/4.jpg"
 tags: []
-contributors: []
+contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
+# http://localhost:1313/8_16917628281777760138_hudd4c2e605819639a0788014b2452f048_0_746a42a5b4aad78e8d819b2964c865c8.webp
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)

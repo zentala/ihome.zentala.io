@@ -5,12 +5,13 @@ disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "pl-PL"
-paginate = 10
-rssLimit = 10
-summarylength = 20 # 70 (default)
+paginate = 20
+rssLimit = 20
+summarylength = 40 # 70 (default)
+removePathAccents = true # remove PL characters from URLs
 
 # Multilingual
 defaultContentLanguage = "pl"
@@ -20,7 +21,7 @@ defaultContentLanguageInSubdir = false
 #copyRight = "Copyright (c) 2024 Paweł Żentała"
 
 [build.buildStats]
-  enable = true
+  enable = false
 
 [outputs]
   home = ["HTML", "RSS", "searchIndex"]
@@ -59,6 +60,7 @@ defaultContentLanguageInSubdir = false
 [permalinks]
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
+  services = "/services/:slug/"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]

@@ -5,6 +5,7 @@ lead: "sds"
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2023-09-07T16:33:54+02:00
 draft: false
+type: "services"
 seo:
  title: ""
  description: ""
@@ -16,12 +17,12 @@ seo:
   {{< link-card
     title="Konsultacje i doradztwo"
     description="w formule rozliczania godzinowego."
-    href="/showcase/"
+    href="/services/consulting/"
   >}}
   {{< link-card
     title="Komplesowy projekt"
     description="intelgentnej przestrzeni."
-    href="/showcase/"
+    href="/services/project/"
   >}}
 {{< /card-grid >}}
 
@@ -31,14 +32,12 @@ seo:
   {{< link-card
     title="Konfiguracja"
     description="urządzeń i oprogramowania."
-    href="/showcase/"
-    target="_blank"
+    href="/services/configuration/"
   >}}
   {{< link-card
     title="Szyte na wymiar"
     description="rozwiązania smart home i IoT."
-    href="/showcase/"
-    target="_blank"
+    href="/services/custom/"
   >}}
 {{< /card-grid >}}
 

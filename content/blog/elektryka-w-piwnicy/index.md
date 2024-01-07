@@ -1,14 +1,14 @@
 ---
 title: "Elektryka w komórce lokatorskiej"
 description: "d"
-summary: "Jak podlaczylem prąd do komórki lokatorskiej oraz zaprojektowałem w niej elektrykę i jakie umieściłem sensory."
+summary: "Jak podlaczylem prąd do komórki lokatorskiej, jaką zaprojektowałem w niej elektrykę i jakie umieściłem sensory."
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
-draft: true
+draft: false
 weight: 50
-categories: []
+categories: ['Elektryka']
 tags: []
-contributors: []
+contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
 seo:
@@ -19,51 +19,125 @@ seo:
 ---
 
 ## Podłączenie prądu
-W mojej piwnicy jak w innych nie bylo pradu.
-Ale mielismy rzecz jasna prad na korytarzach
-SKontaktowalem sie z administratorem, pozwolil mi sie wlaczyc do sieci, ale bez pobierania przesadnych ilosci pradu
+W mojej piwnicy - jak w innych - nie bylo pradu.</br>
+Ale mielismy rzecz jasna instalację oświetleniową na korytarzach.
 
-W pienicy byla instalacja 1 fazowa, 2 zylowa.
-Co wiecej nie mialem dostepu do bezpiecznikow.
+Skontaktowalem się z administratorem, który pozwolil mi sie podpiąć do sieci do sieci elektrycznej, z zastrzeżeniem, aby nie pobierać przesadnych ilosci pradu, np. urządzając sobie tam warsztat.
 
-Przecialem kable pod napiecniem. Raz jedna zyla, raz 2ga.
-zainstalowlaem puszke podobna do innych, w niej zlaczki wago,
-a do piwnicy poczatkowo wprowadzilem... przedluzacz.
+W piwnicy byla instalacja 1 fazowa, 2 żyłowa.</br>
+Niestety więcej nie mialem dostepu do bezpieczników ;/
 
-## Projekt instalacji
-nastepnie zabralem sie za projetkowanie instalacji elektrycznej w piwnicy
+Uważnie przepiłowałem więc rurkę elektroinstalacyjną. Próbowałem przeciąć przewód, ale nie byłem pewny jak się za to zabrać więc poprosiłem o pomoc ojca. Rozciął i zabezpieczył żyły osobno: napierw pierwszą, po czym założył na nią [złączkę WAGO](), później zrobił to samo z drugą - osobono aby uniknąć przypadkowego zetknięcia żył pod napięciem.
 
-1) puszka rozdzelcza z szyna din; co ma zawierac
-- zabezpieczenie nadpradowe. dosc niskie, mamy przewody 2.5mm2 miedz, ale dalem zabezpiecznie 10A bo one ida na cala piwnice, aby ich nie przegzac, bedzie tez funkcjowanolo jak rozlacznik glownyu
-- licznik pradu - zdecydowalem sie zainstlowac malu 1f licznik pradu jakby kedys ktos chcial sie rozpiczac ze mna
+Zainstalowaliśmy wcześniej zakupioną puszkę - z tej samej serii co inne w piwnicy, aby się nie wyróżniać - bo i po co? Nie chcę niepotrzebnie zwracać uwagi na moją piwnicę, aby nikt nie zastanawiał się co specjalnego może się w niej znajdować. Za puszką wywierciliśmy otwór do przewleczenia przewodu do środka.
 
-2) osprzet
+Następnie - tymaczsowo - podlączyliścy tam... przedłużcz z listwą zasilającą, co by mieć kilka gniazdek zanim położę tam docelową instalację elektryczną. Z przedłużacza obcieliśmy wtyczkę do gniazdka i wpieliśmy przewody do zainstalowanych wcześniej [złączek WAGO]().
+
+Teraz zostało tylko podłączyć [oprawkę żarówki]() do kawałka przewodu z wtyczką i mamy oświetlenie w piwnicy - załączane poprzez włożenie wtyczki z oprawką do gniazka przedłużacza. Pozostałe gniazdka pozwolą podłączyć niezbędne narzędzia na czas remontu.
+
+## Projekt komórki
+
+Następnie zabralem sie za projetkowanie rozkładu wnętrza, instalacji elektrycznej i automatyki i designu (wykończenia) wnętrza.
+
+### Projekt Funkcjonalny
+
+* półki po lewej i na wprost
+* jedna z półek na wprost przedłużona na małe biurko
+* maly składany stoleczek
+* pegboard po lewej
+* zabudowa rury lub jej usunięcie
+
+## Instalacja elektryczna
+
+* 3 gniazdka i przelacznik swiatla przy "biurku" albo zamiast gniazdek listwa zasilajace w biurku
+* jedn gniazko pod biurkiem
+* 2 gniazdka przy wejsciu - jedno nisko, 2gie wysoko
+* wlacznik swiatla przy wejsciu
+* puszka rozdzielcza w ścianie przy wejściu
+* przewody do zamaka elektromechaniczne do drzi, przewody do czytnik rfid do drzwi, na zgiecniu drzwi puscic skrecanym kablem telefonicznym
+* ledy o mozliwie niskiej mocy dookola pulek, delikatne poswietlenie
+* lampa listwowa na srodku nie zabudowanego sufitu
+* jakas lampa robocza przy biurku
+* przelacznik biurka: tamy LEDy, lampa sufitowa, lampa robocza, uzbrojenie/rozbrojenie drzwi
+* przelaczenik przy drzwiach: to samo
+* 2 czujniki ruchu - jeden na siedzisko, 2gi na drzi, maja obejmowac cala przestrzen
+* czujnik zalania w poblizu rozdzielnicy lub najnizszego punktu w pomiezczeniu
+
+## Interior design
+
+* Industrialny styl, jako że jest najtanszy i wymaga najmniej pracy.
+* Zachować 2 ściany z czerwonych cegieł, uzupełniając brakujące fugi.
+* Pozozstałe 2 ściany otynkować i (wybrać):
+  * zostawić nagi tynk cementowy
+  * pomalować szaro-grantową/atracytową farbą
+  * mikrocementem antracytowym potrakotować.
+* Posadzka - mikrocement w kolorze szarego cementu.
+* Półki z desek drewnianych zabezpieczyć bejcą w kolorze np. teak, orzech czy czereśnia. Wybrać z próbnikiem pod kolor ścian i mikrocmentu, aby się komponowało.
+* Montaż półek na stalowych podpórkach pomalowanych na czarno.
+
+## Projekt wykonawczy
+
+* Ściany z czerownej cegły
+  * Uzupełnić fugę z nadzieją że wydzie w miarę schludnie mimo że cegły układał pijany murarz.
+  * Jeśli jednak nadal czerwone cegły będzą źle wyglądały wówxczas otynkować tynkiem cementowym.
+* Pozostałe ściany
+  * Otynkować tynkiem cementowo-wapiennym.
+* Sufit z pustaków DZ (starasza wersja Terriva)
+  * Wygładzić zrywając ręcznie grudki z zaprawy cementowej, a w razie potrzeby szlifując.
+  * Ew też otynkować tynkiem cementowo wapiennym.
+  * Wówczas można zostawić tynk lub zabezpieczyć mikrocementem czy farbą.
+* Posadzka
+  * Wylewka samopoziomująca.
+  * Starać się aby spływała w strone drzwi (w razie gdyby pojawiała się woda)
+* Wykończenie
+  * posadzkę zostawić lub zanbezpieczyć mikrocementem
+  * ściany i ew sufit pomalować lub też zabezpieczyć mikrocementem
+* Ściana z otowrami od sąsiada - zostawić otwory celem wentylacji ale zabezpieczyć ja:
+  * gęstą siatką cięto ciagnioną
+  * blacha z europerforacja
+  * pegboardami aby wieszac na niej pojemniczki
+* Drzwi
+  * zostawić zewnętrzne drzwi - mają być brdzykie jak inne i nie wyróżniać się
+  * od środka wzmocnić deskami oraz płytą pilśniową lub sklejką
+  * zamocować do nich jakieś kółko aby ustabilizowac ponieważ zawiasy nie trzymają ich w pionie
+  * zrobić na zewnątrz jakąs prowadnicę, np wylać posadzkę albo położyć kawałek metalu aby kółko jezdziło po prowadnicy
+  * ew ymienic zawiasy na nowoczesne
+  * alob wymienic dzwi na piwniczne
+  * lub uzywane tanie przeciwpozarowe
+
+### Osprzęt elektryczny
 - przelacznik swiatla i gniazdka przy wejsciu
 - 2 gniazdka gniazko przy siedzisku, 2 na dole, 3 na gorze - lampka, laptop, jakies narzedzie ew, chociaz moze listwe dam tam jaks po prostu pradowa
 - jeszcze jedno gdzies na srodku
 
-3) oswietlnie
+### Oświetlenie
 - jedna na gorze glowne
 - ledu za plkami aby bylo widac co sie dzieje, wlaczana dodatkowo
 - pytanie jak je wlaczac jeszcze ? czy osobn czy nie?
 
-4) bezpieczenstwo
+### Bezpieczeństwo
 - [kontakton](), zewnetrzny (instalowany od srodka), na drzwi
 - [czujnik ruchu]() aby automatycznie zapalac swiatlo i wiedziec czy ktos nie wszedl
 - [czujnik zalania]() aby monitorowac na wypadek pojawiania sie wody/podtopów w piwnicy
+- [zamek elektromechaniczny]() aby móc otwierać komórkę bez kluczy, ale też kluczami jeśli zabraknie prądu
+- [czutnik RDFI]() zamaskowany gdzieś w ścianie lub drzwiach - aby można było zbliżając tag otworzyć drzwi i nie bawić się z kluczami
 
-5) internet
-- spobuje polaczyc sie bezprzewodowo z mieszkaniem pprzez WIFi albo [LoRaWAN]() (jesli WiFi nie nie bedzie miało zasiegu)
+### Komunikacja
+Zakładam że WiFi nie będzie działało przez kilka stropów i grube ściany, więc spobuje polaczyc sie bezprzewodowo z mieszkaniem poprzez specjalna siec bezprzewodowa dalkiego zasiegu przeznaczona do zastsowan IoT o nazwie [LoRaWAN]().
 
-wiec dodatkowo puszka ma zawierac:
-1) prosty sterownik z kilkoma wejsciami (przeaczniki, ruchu, kontrakton) i wyjsciami (LEDy, glowne swiatlo)
+### Mikro-rozdzielnica
+Puszka puszka rozdzelcza z [szyna DIN]():
+- [zabezpieczenie nadpradowe]() lub [różnicowo-prądowe z członem nadprądowym]() i [rozdział PEN]()
+  * użyję zabezpieczenia o dość niskim amperażu, prawdpodpnonie 6A, aby nie obiciążąć przesadnie sieci elekteyczne piwnicy która cała funkcjonuje na jednym miedzianym przewodzie 2x 2.5mm2
+- [cyfrowy licznik pradu na szynę DIN]() - jednomodułowy, 1fazowy licznik pradu - gdyby kedys ktos chcial sie rozpiczać ze mną za zużytą energię
+- sterownik z kilkoma wejsciami (przyckiski zwierne do świata czujnik ruchu, kontrakton) i wyjsciami (LEDy, glowne swiatlo)
 2) zasilacz led
 
-## Jak zrealizuje sterownik?
+## Konstrukcja mikro-sterownika
 
-### hardware
+Będziemy mieli tu max 10 wejść i max 6 wyjść, a w dodatku musimy podłączyć się z mieszkanie za pomocą [sieci bezprzewodowej LoRAWAN](), aby uzyskać stabilne połączenie i móc odberać sygnały z czujników alarmowych w piwnicy. Stąd zadecydowałem, że skonstruję coś własnego szytego na moje potrzeby. Będzie to ciekawy projekt którym postaram się zademonstrować potęgę szybkiego prototypowania z gotowych na rynku elementów i waznosc rozezniania co jest dostepne i jak to polaczyc, aby osiagnac docelowy, fajny efekt.
 
-Zakładam że wifi nie będzie działało. Więc weżmy na warsztat LoRa WAN. Mozna łatwo zreaziowac ten sam projekt na WiFi, ale zakladam ze mozesz miec podobne problemy wiec pokaze jak to zrobic na LoRaWAN:
+ Więc weżmy na warsztat LoRa WAN. Mozna łatwo zreaziowac ten sam projekt na WiFi, ale zakladam ze mozesz miec podobne problemy wiec pokaze jak to zrobic na LoRaWAN:
 * kupujemy 2x:
   * LoRa HAT dla Raspberry Pi
   * rpi0 W v2 (wifi pozwoli nam sie polaczyc jak bedzie lepszy zasieg czy cos, oraz polaczyc sie latpopowi ze steorniwkiem)

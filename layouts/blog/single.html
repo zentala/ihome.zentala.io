@@ -9,8 +9,8 @@
   </div>
   {{ if site.Params.doks.imageSingle -}}
     {{- $images := .Resources.ByType "image" -}}
-    {{- $featured := $images.GetMatch "*feature*" -}}
-    {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+    {{- $featured := $images.GetMatch "*thumb*" -}}
+    {{- if not $featured }}{{ $featured = .Params.thumb }}{{ end -}}
     {{- if $featured -}}
       <div class="col-md-13">
         {{ partial "picture" (dict
