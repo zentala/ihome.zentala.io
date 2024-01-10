@@ -8,7 +8,7 @@ draft: false
 weight: 50
 categories: ['Interior design']
 thumb: "https://static.zentala.io/flat/4.jpg"
-tags: []
+tags: ['Wnętrza i Meble']
 contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
