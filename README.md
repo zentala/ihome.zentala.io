@@ -16,17 +16,9 @@ Since the project transitioned from Jekyll to Hugo, here's an updated list of te
 | Marketing     | ![Google Analytics](https://img.shields.io/badge/-GoogleAnalytics-4285F4?logo=googleanalytics&logoColor=white) ![Google AdSense](https://img.shields.io/badge/-GoogleAdSense-E37400?logo=googleadsense&logoColor=white) |
 | IDE | ![Visual Studio Code](https://img.shields.io/badge/-VisualStudioCode-007ACC?logo=visualstudiocode&logoColor=white)                     |
 
-## Theme
+Build with [Hugo](https://gohugo.io/), [Hays](https://gethyas.com/) and [Doks](https://getdoks.org/) theme.
 
-Project based on: https://getdoks.org/docs/start-here/getting-started/
-
-## Setting Up Hugo for the Project
-
-https://getdoks.org/docs/start-here/getting-started/
-
-
-nie wiem czy trzeba, raczej nie:
-
+## Local Development
 
 1. **Install Hugo**: Make sure Hugo is installed on your machine. If not, download and install it from [Hugo Releases](https://github.com/gohugoio/hugo/releases). Follow the installation instructions for your operating system.
 
@@ -42,36 +34,23 @@ nie wiem czy trzeba, raczej nie:
    cd smarthome.zentala.io
    ```
 
-4. **Start the Hugo Server**:
+4. **Install dependencies**:
+
+   ```
+   npm install
+   ```
+
+5. **Start the dev server**:
 
    Run the following command to start the Hugo server:
 
    ```
-   hugo server -D
+   npm run dev
    ```
 
-   The `-D` flag tells Hugo to include content marked as draft. This is useful during the development phase.
+6. **Access Your Site**: By default, the Hugo server runs at `http://localhost:1313/`. Open this URL in your browser to view your site.
 
-5. **Access Your Site**: By default, the Hugo server runs at `http://localhost:1313/`. Open this URL in your browser to view your site.
-
-6. **Create New Posts**: To add new content, use the Hugo command:
-
-   ```
-   hugo new posts/<your-post-name>.md
-   ```
-
-   Replace `<your-post-name>` with the name of your new post. This command creates a new Markdown file in the `posts` directory, which you can then edit with your content.
-
-7. **Build Your Site**: When you're ready to build your site, run:
-
-   ```
-   hugo -D
-   ```
-
-   This command generates your static site in the `public` directory, which can then be deployed to GitHub Pages or your hosting service of choice.
 
 ## Deployment
 
-To deploy your Hugo site to GitHub Pages, follow the official Hugo documentation on [Hosting on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/), which provides a step-by-step guide.
-
-
+Deploymet to GitHub Pages with [Deploy GitHub Action](.github/workflows/deploy.yml)

@@ -2,7 +2,7 @@
   "name": "smarthome.zentala.io",
   "version": "0.0.0",
   "description": "Smart Apartment Blog by Paweł Żentała",
-  "author": "Paweł Żentała",
+  "author": "Paweł Żentała <zentala@gmail.com>",
   "license": "",
   "scripts": {
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
