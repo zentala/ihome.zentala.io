@@ -73,7 +73,7 @@ mainSections = ["docs"]
   editPage = false # false (default) or true
   lastMod = true # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/zentala/smarthome.zentala.io"
+  docsRepo = "https://github.com/zentala/ihome.zentala.io"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 

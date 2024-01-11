@@ -1,4 +1,4 @@
-# SmartHome Blog Project Documentation
+# Intelligent Home Portal Project Documentation
 
 ## Overview
 
@@ -22,16 +22,16 @@ Build with [Hugo](https://gohugo.io/), [Hays](https://gethyas.com/) and [Doks](h
 
 1. **Install Hugo**: Make sure Hugo is installed on your machine. If not, download and install it from [Hugo Releases](https://github.com/gohugoio/hugo/releases). Follow the installation instructions for your operating system.
 
-2. **Clone the Repository**: Clone the `smarthome.zentala.io` project repository from GitHub to your local machine using the following command:
+2. **Clone the Repository**: Clone the `ihome.zentala.io` project repository from GitHub to your local machine using the following command:
 
    ```
-   git clone https://github.com/zentala/smarthome.zentala.io.git
+   git clone https://github.com/zentala/ihome.zentala.io.git
    ```
 
 3. **Navigate to the Project Directory**:
 
    ```
-   cd smarthome.zentala.io
+   cd ihome.zentala.io
    ```
 
 4. **Install dependencies**:
