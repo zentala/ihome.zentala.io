@@ -15,7 +15,7 @@ seo:
 ## Inline styles
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-You can [link to another page](/docs/start-here/getting-started/).
+You can [link to another page](/contact/).
 
 You can highlight `inline code` with backticks.
 

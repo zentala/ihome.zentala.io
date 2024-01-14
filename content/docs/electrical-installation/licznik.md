@@ -18,8 +18,20 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.
+To co nas interesuje to odczyt energii z licznika, oraz podliczniki - miezenie pradu na kazdyej zyle, za kazdym zabezpiecznien,.
 
-## Further reading
+## dczyc konsumbji zdalnie z licznika
 
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+jesli wynajmujesz mieszenie i nie chce czekac na info o poborze lub bywasz na zadalnbym za granica i chcesz udostepnic wskazania do dostawcy przez panell www przyda Ci sie mozliwosc odczuytaywania danych z licznika. mozesz to zrbic za pomoca portu optycznego w liczniku.
+
+sa rozwiazania za okolo 200 zl, wykorzsutuja port optyczny dostepny w licznikach
+
+Glowica optyczka
+liczniki maja port optyczny
+https://pozyton.com.pl/pozblog/interfejsy-komunikacyjne-stosowane-w-licznikach-energii-elektrycznej/
+https://orno.pl/produkt/1089/glowica-optyczna-usb-do-licznikow-iec-62056-21
+https://e-elektryczna.pl/technika-i-technologie/odczyt-licznikow-energii-elektrycznej-za-pomoca-glowicy-optycznej-bluetooth/
+https://www.numeron.pl/urzadzenia/mreaderopto/
+https://onemeter.com/pl/
+https://botland.com.pl/inode-czujniki-i-moduly-bluetooth-android/18773-inode-energy-meter-monitor-zuzycia-energii-czujnik-odbiciowy-5904422363116.html
+https://www.fruugo.pl/optyczny-rs485-na-bliska-podczerwien-elektroniczna-g%C5%82owica-fotoelektryczna-iec62056-1107-dlms-przezroczysty-transmisyjny/p-270741998-599832524

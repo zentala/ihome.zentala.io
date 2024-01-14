@@ -4,7 +4,7 @@ description: "d"
 summary: "Jak podlaczylem prąd do komórki lokatorskiej, jaką zaprojektowałem w niej elektrykę i jakie umieściłem sensory."
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
-draft: false
+draft: true
 weight: 50
 categories: ['Elektryka']
 tags: []
@@ -17,6 +17,10 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+TODO dodac zdjecie z piwnicy
+TDO opublikowac posta jak piwnica bedzie na dalssyym pozomie
+
 
 ## Podłączenie prądu
 W mojej piwnicy - jak w innych - nie bylo pradu.</br>

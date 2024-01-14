@@ -1,4 +1,5 @@
 ---
+slug: "project"
 title : "Pojekt instalacji"
 description: ""
 lead: ""
@@ -12,5 +13,7 @@ seo:
  canonical: ""
  noindex: false
 ---
+
+Projekt całej instlaci IoT - smart home, sieciowej dla calego mieszkania lub domu.
 
 Platnsc za godzine.

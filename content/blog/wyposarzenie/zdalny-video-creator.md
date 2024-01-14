@@ -2,6 +2,7 @@
 title: "Na zdalnym wszyscy jesteśmy 'video creatorami'"
 description: ""
 summary: "Robimy 'lajwy' podczas rozmowy o pracę i podczas wewnętrznych prezentacji. Od jakości dźwięku zależy na ile przyjemnie będzie się nas słuchało, zaś od jakości obrazu i naszego tła zależy na ile profesjonalnie będziemy wyglądali. Dzielę się swoimi tipami jak wyglądać PRO na video."
+thumb: "https://static.zentala.io/remote-videos/workspace.jpg"
 date: 2024-02-27T16:04:48+02:00
 lastmod: 2024-02-27T16:04:48+02:00
 draft: false

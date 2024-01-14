@@ -1,5 +1,6 @@
 ---
 title: "Tani setup do nagrywania video"
+thumb: "https://static.zentala.io/remote-videos/hardware.jpg"
 description: ""
 summary: ""
 date: 2024-02-11T20:13:05+01:00

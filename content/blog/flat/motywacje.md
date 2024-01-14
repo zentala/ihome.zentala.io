@@ -2,6 +2,7 @@
 title: "Moje motywacje do budowy inteligentnego mieszkania"
 description: "Jak to się zaczeło? Czemu tutaj i czemu inwestować w takie mieszkanie? "
 summary: "Jak to się zaczeło? Po co i dlaczego zdecydowałem się zainwestować w mieszkanie IoT? Czy to dla każdego? Dla kogo nie? A może w ograniczonym zakresie? Jakim? Czego bym dziś nie robil, a co uważam za niezbędne."
+thumb: "https://static.zentala.io/flat/iot-planning.jpg"
 date: 2022-06-23T23:01:03+01:00
 lastmod: 2022-06-23T23:01:03+01:00
 draft: false

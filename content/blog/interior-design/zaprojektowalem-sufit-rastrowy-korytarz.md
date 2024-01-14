@@ -1,13 +1,13 @@
 ---
-title: "zaprojektowalem-sufit-rastrowy w korytarzy"
+title: "Zaprojektowalem sufit rastrowy w korytarzu aby upchnąć wszystkie kable"
 description: "bo prpjektantka nie wiedziala o co mi chodzi i nie umiala zrbic nic innego niz zainstalowac kraty z suyfitu rastrowego ;/ mi sie podoba. "
-summary: "Aby uzyskać mozliwosc modyfikacji "
-date: 2022-08-14T10:11:21+01:00
-lastmod: 2022-08-14T10:11:21+01:00
+summary: "Jak ukryć ogromną ilość kabli biegnących do rozdzielnicy, zarazem nie tracąc mozliwosc modyfikacji czy rozbudowy instalacji inteligentnego domu? Ja zdecydowałem się zamaskować główną magistralę komunikacyjną, gdzie zbiegają się ze sobą wszystkie przewody, tak zwanym sufitem otwartym, ukrywając je za ażurową, listwową konstrukcją."
+thumb: "https://static.zentala.io/flat/raster.png"
+date: 2022-07-21T13:11:37+01:00
+lastmod: 2022-07-21T13:11:37+01:00
 draft: false
 weight: 50
-categories: ['Interior design']
-thumb: "https://static.zentala.io/flat/4.jpg"
+categories: ['Interior design', 'Instalacje']
 tags: ['Wnętrza i Meble']
 contributors: ['Paweł Żentała']
 pinned: false
@@ -19,6 +19,68 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+---
+title: "Jak i Gdzie pomiescielm te wszysztkie przewody w starym mieszkaniu? "
+description: "d"
+summary: "Struktura instalacja i chwanie przewodow w starym budowanicnie"
+date: 2023-09-07T16:27:22+02:00
+lastmod: 2023-09-07T16:27:22+02:00
+draft: false
+weight: 50
+categories: ['Elektryka', 'Smart Home']
+tags: []
+contributors: ['Paweł Żentała']
+pinned: false
+homepage: false
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+
+mialem stare mieszkanie z gdzie z rodzidlznieyc na mieszkanie szedl jeden kabl 2x2.5mm2 a chce pusicc cala wizke przewodow smarthome do rozdzielnicy - ja ograniczyc ilosc kucia, gdzie pomiescic te kable
+
+# sufiy podweszane
+
+# trasy kablowe
+
+# przepusty wiernica diamentowa
+
+# system mikro rozdzielnic
+
+Redukcja ilości przewodów z system mikrorozdzielnic
+
+# adaptacja do puszek
+
+# przepust kably do rozdzielnicy
+
+# gleboka rozdizlenica
+
+
+
+
+elektryka pod sufirem vs w posadzce
+przebicie sie przez grube sciany
+wneka na rozdizlenice, jej ograniczneia
+jak uporac sie z gruba wiacha kabli do rozdizlenicy
+ -kable sterowicze
+ - komunikacyjne wielozylowe
+ - mikropuszki
+ - mirko rozdzielnice
+ - trasy kablowe pod podwesznaym sufieem
+  - tunele do rozdzielnicy w scianie z korytek elektroinstaacyjnch pcv
+dostepmsc do sufitu -sufity rastrowe
+malowacnie tras kablowych - farba lateksowa
+
+uporzakdowanie rozdzielnicy
+- 7 DIN *24 modukles
+- gleboka
+- z tylu LSA
+
+
 
 Proejtantka zapronowala sufit krzyzowy na korytarzu i generalnie nie miala pomysli jak zaprojekowac dobry sufit. dlatego zaprojejktowalem swoj:
 

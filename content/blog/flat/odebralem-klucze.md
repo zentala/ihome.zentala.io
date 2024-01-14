@@ -2,6 +2,7 @@
 title: "Właśnie odebrałem klucze!"
 description: ""
 summary: "Zobacz na video jak prezentowało mieszkanie w dniu odbioru. Zdecydowanie będę je remontował."
+thumb: "https://static.zentala.io/flat/klucze.jpg"
 date: 2022-01-10T23:01:03+01:00
 lastmod: 2022-01-10T23:01:03+01:00
 draft: false

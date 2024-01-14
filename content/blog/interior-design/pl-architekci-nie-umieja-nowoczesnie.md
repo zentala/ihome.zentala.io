@@ -6,7 +6,7 @@ date: 2023-04-07T16:27:22+02:00
 lastmod: 2023-04-07T16:27:22+02:00
 draft: false
 weight: 50
-categories: ['Home Office']
+categories: ['Interior design']
 tags: ['Wnętrza i Meble']
 contributors: ['Paweł Żentała']
 pinned: false

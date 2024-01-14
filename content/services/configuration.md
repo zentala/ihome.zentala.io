@@ -1,4 +1,5 @@
 ---
+slug: "configuration"
 title : "Konfiguracja"
 description: ""
 lead: ""
@@ -12,5 +13,7 @@ seo:
  canonical: ""
  noindex: false
 ---
+
+Zdalna konfiguracja Twjego systemu IoT - sterownikwo, [home assistanet](), sieci, etc. Takze customowe wtyczki do home assistant, etc.
 
 Platnsc za godzine.

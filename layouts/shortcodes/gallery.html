@@ -1,0 +1,84 @@
+{{ $sourceFile := .Get "sourceFile" }}
+{{ $images := index .Site.Data $sourceFile }}
+<div id="{{ .Get "id" }}" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-flex flex-row flex-nowrap">
+        {{ range $images }}
+          <img src="{{ .url }}" class="img-fluid" alt="{{ .alt }}" style="flex: 0 0 auto; width: 100%;">
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#{{ .Get "id" }}" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#{{ .Get "id" }}" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+
+
+<style>
+/* Domyślnie, na małych ekranach, pokazuj jeden obraz */
+.carousel-item {
+  margin: -5px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  margin: 5px;
+}
+
+/* Na średnich ekranach, pokazuj dwa obrazy */
+@media (min-width: 768px) {
+  .carousel-item img {
+    max-width: 50%;
+  }
+}
+
+/* Na dużych ekranach, pokazuj trzy obrazy */
+@media (min-width: 992px) {
+  .carousel-item img {
+    max-width: 33.333%;
+  }
+}
+
+{{/*  .carousel-control-prev {margin-left: -100px}
+.carousel-control-next {margin-right: -100px}  */}}
+
+/* I tak dalej, możesz dostosować dla większych ekranów */
+
+</style>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const carouselId = '{{ .Get "id" }}';
+    const carousel = document.getElementById(carouselId);
+    const slides = carousel.querySelectorAll('.carousel-item');
+    let itemsPerSlide = calculateItemsPerSlide();
+
+    function calculateItemsPerSlide() {
+      if (window.innerWidth >= 992) { // Duże ekrany
+        return 3;
+      } else if (window.innerWidth >= 768) { // Ekrany średnie
+        return 2;
+      } else { // Małe ekrany
+        return 1;
+      }
+    }
+
+    function adjustCarousel() {
+      itemsPerSlide = calculateItemsPerSlide();
+      slides.forEach((slide, i) => {
+        const start = Math.floor(i / itemsPerSlide) * itemsPerSlide;
+        const end = start + itemsPerSlide;
+        slide.style.display = i >= start && i < end ? 'block' : 'none';
+      });
+    }
+
+    window.addEventListener('resize', adjustCarousel);
+    adjustCarousel();
+  });
+  </script>

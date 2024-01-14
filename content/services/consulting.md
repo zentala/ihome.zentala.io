@@ -1,4 +1,5 @@
 ---
+slug: "consulting"
 title : "Consulting"
 description: ""
 lead: ""

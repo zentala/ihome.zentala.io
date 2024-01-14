@@ -1,4 +1,5 @@
 ---
+slug: "custom"
 title : "Na zamówienie"
 description: ""
 lead: ""

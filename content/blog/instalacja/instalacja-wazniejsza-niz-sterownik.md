@@ -1,10 +1,10 @@
 ---
-title: "Dlaczego wybrałem sterownik BoneIO i czy to dobry wybór"
+title: "Strukura instalacji ważniejsza niż sterownik"
 description: "Zdecydowałem się na instalację kablowa, ale jest mnóstwo argumentów aby wybrać bezprzewodowe rozwiązania smart home. Zanim zdecydujesz się na prócie wszystkich ścian, powinieneś je rozważyć. Prawdę mówiąc do dziś nie wiem, czy nie popełniłem błędu idąc w kable."
 summary: "Istnieje cała masa sterowników na rynku i ważne pytanie brzmi który wybrać. A jeszcze ważniejsze pytanie to: jak zaprojektować dom aby móc go wymienić?"
-thumb: "https://static.zentala.io/boneio/bone-esp32-2.jpg"
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+# thumb: "https://static.zentala.io/boneio/bone-esp32-2.jpg"
+date: 2024-03-14T03:50:44+02:00
+lastmod: 2024-03-14T03:50:44+02:00
 draft: false
 weight: 50
 categories: ['Smart Home']

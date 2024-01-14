@@ -186,3 +186,33 @@ Here's a brief list of what each of these directories does in Hugo:
 * https://zentala.io/ - zentala ekosystem Home Page (dodac tam z czasem wiecej linkow i info)
 * https://www.linkedin.com/in/zentala/
 *
+
+## Miniaturki entites
+
+* pracownia w mieszkaniu - jak gotowa?
+* projektaci nie umiejeta - miro screenshot of technologies /material albo z photo zagranicy / podrozy - fajenje wystawki albo sufitu rastrowego
+* elektryka w komorce - piwnica, albo zdjecie zrobionej komorki
+* kryteria mieszkania - mapa wawy ze strzalkami
+
+## TODO
+- blog
+  - ze nie umieja
+    - screenshoty z rozmowy
+    - video link
+  - post o przegladzie materialow (?)
+  - iot kablem czy bez kable - zdjecie ze pokute, tytul: czy bylo warto kuyc przewody i jak bym sie dzis za to zabral?
+  - pracownia w mieszkaniu draft poki co
+
+- design
+  - popradiki porpawic liste poradnikow
+  - rekomendacje na blogu porawic liste rekomendacji, zrobic pionowe rekomendacje i w 1 linii max
+  - ?? arty na blogu submenu, o ile dluzsze albo wiecej headers
+  - box/ramka na propozycje biznesowa albo przekierowac na strone agencji w ogole
+
+- poprawa teoria
+  - bez rozwlekania, pojecia terminy, infografiki, zwiezle, krotko, linki - nawiacja, czasem tylko tlumaczeni
+  - projekt uslug
+
+- filmik skleic dla naklejek i wrzucic
+- dodac posta ze mnie oszukali
+- rozdzielnic o tym dlaczego wybralem bone.io i dlaczego architektura instalacji jest najwazniejsza
