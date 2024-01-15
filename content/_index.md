@@ -1,5 +1,5 @@
 ---
-title : "Inteligentny Apartament"
+title : "Inteligentny Dom"
 description: ""
 lead: "Blog poświęcony transformacji 50m² mieszkania w socrealistycznej kamienicy z lat 50-tych w Warszawie w tzw. inteligentny dom."
 date: 2023-09-07T16:33:54+02:00

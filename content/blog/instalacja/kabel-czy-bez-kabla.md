@@ -2,6 +2,7 @@
 title: "IoT kablem czy bez kabla?"
 description: "Zdecydowałem się na instalację kablowa, ale jest mnóstwo argumentów aby wybrać bezprzewodowe rozwiązania smart home. Zanim zdecydujesz się na prócie wszystkich ścian, powinieneś je rozważyć. Prawdę mówiąc do dziś nie wiem, czy nie popełniłem błędu idąc w kable."
 summary: "Ile koszotwało mnie poprowadzenie tylu przewodów w mieszkaniu i dlaczego warto rozważyć bezprzewodowy smart home?"
+thumb: "https://static.zentala.io/flat/kable3.jpg"
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false

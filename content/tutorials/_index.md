@@ -11,7 +11,7 @@ tags: []
 contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
-type: blog
+type: tutorials
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)

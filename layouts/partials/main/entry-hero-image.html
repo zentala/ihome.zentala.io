@@ -1,0 +1,15 @@
+{{ if site.Params.doks.imageSingle -}}
+  {{- $images := .Resources.ByType "image" -}}
+  {{- $featured := $images.GetMatch "*thumb*" -}}
+  {{- if not $featured }}{{ $featured = .Params.thumb }}{{ end -}}
+  {{- if $featured -}}
+    <div class="col-md-13">
+      {{ partial "picture" (dict
+      "page" .
+      "src" $featured
+      "alt" .Title
+      "class" "img-post-single rounded-2"
+      )}}
+    </div>
+  {{ end -}}
+{{ end -}}

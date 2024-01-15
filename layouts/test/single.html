@@ -1,0 +1,41 @@
+{{ define "main" }}
+    <h1>Dostępne typy treści</h1>
+    <ul>
+        {{ range .Site.Sections }}
+            <li>{{ .Type }}</li>
+        {{ end }}
+    </ul>
+    <h2>Wszystkie strony</h2>
+    <ul>
+        {{ range .Site.AllPages }}
+            <li>{{ .RelPermalink }} - {{ .Type }}</li>
+        {{ end }}
+    </ul>
+
+    <h2>Dostępne Typy Treści</h2>
+    <ul>
+    {{ range .Site.Taxonomies }}
+        <li>{{ . }}</li>
+    {{ end }}
+    </ul>
+
+    <h2>Struktury Taksonomii</h2>
+    {{ range $taxonomyName, $taxonomy := .Site.Taxonomies }}
+        <h3>{{ $taxonomyName }}</h3>
+        <ul>
+        {{ range $key, $value := $taxonomy }}
+            <li>{{ $key }} ({{ len $value }})</li>
+        {{ end }}
+        </ul>
+    {{ end }}
+
+    <h2>Wszystkie Dostępne Strony</h2>
+    <ul>
+    {{ range .Site.AllPages }}
+        <li>{{ .Title }} - {{ .Type }}</li>
+    {{ end }}
+    </ul>
+
+    <pre>{{ printf "%#v" . }}</pre>
+
+{{ end }}

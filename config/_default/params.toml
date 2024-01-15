@@ -6,7 +6,8 @@ description = "Congrats on setting up a new Doks project!"
 mainSections = ["docs"]
 
 [social]
-  twitter = "getdoks"
+  twitter = "zentala"
+  linkedIn = "https://www.linkedin.com/in/zentala/"
 
 # Doks (@hyas/doks-core)
 [doks]

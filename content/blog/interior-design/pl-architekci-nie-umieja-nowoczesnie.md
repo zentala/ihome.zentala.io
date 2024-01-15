@@ -2,6 +2,7 @@
 title: "Polscy projektanci nie umieją projektować nowoczesnych wnętrz"
 description: ""
 summary: "i poslugiac sie nowoczesnymi materialami.  Zapytalem ich na grupie dla projektantow czy poprawia mi design aby wygladal jak centrach handlowych i na lotniskach i powiedzieli ze nie umieja, a Ci co umieja to kilka filrm w PL i wezma min 3x tyle co za zwykly projekt. A ja potrzrbuje takich rozwizan aby byc elastyczny z instalacja IoT w inteligentym domu.  "
+thumb: "https://static.zentala.io/flat/modern-ceiling.jpg"
 date: 2023-04-07T16:27:22+02:00
 lastmod: 2023-04-07T16:27:22+02:00
 draft: false

@@ -1,0 +1,13 @@
+{{ if site.Params.doks.imageSingle -}}
+  {{- $images := .Resources.ByType "image" -}}
+  {{- $featured := $images.GetMatch "*thumb*" -}}
+  {{- if not $featured }}{{ $featured = .Params.thumb }}{{ end -}}
+  {{- if $featured -}}
+      {{ partial "picture" (dict
+      "page" .
+      "src" $featured
+      "alt" .Title
+      "class" "card-img-top"
+      )}}
+  {{ end -}}
+{{ end -}}

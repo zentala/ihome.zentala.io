@@ -51,3 +51,6 @@ other = "Szukaj"
 
 [video_unsupported]
 other = "Twoja przeglądarka nie obsługuje osdzonych video, ale nie martw się, możesz <a href=\"{{ .RelPermalink }}\">pobrać je</a> i obejrzeć w swoim ulubionym odtwarzaczu video!"
+
+[related_posts]
+other = "Powiązane posty"

@@ -1,7 +1,8 @@
 ---
-title: "Kryteria wyboru mieszkania do zakupu"
+title: "Kryteria wyboru lokalizacji w Warszawie"
 description: ""
 summary: "Stoisz przed wyborem mieszkania do zakupu i chciałbyś poszeżyć swoją perspektę? Poznaj kryteria którymi sam się kieriowałem i jak oceniam swoje decyzje po 2 latach."
+thumb: "http://static.zentala.io/flat/lokalizacja.png"
 date: 2022-04-02T14:18:32+01:00
 lastmod: 2022-04-02T14:18:32+01:00
 draft: false

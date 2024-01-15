@@ -1,10 +1,10 @@
 ---
-title: "Modernizaca przylacza i instalacji elektrycznej - wazniejsze niz smart home"
+title: "random notes"
 description: "E.ON (STOEN operator) Warszawa"
 summary: "Zwiększenie mocy i fazowosci, przebudowa instalacji pod wspolczene potrzeby. Zuzywamy coraz wicej energii elektrycznej. Linia zasilająca do mieszkania z rynku wtórnego może nie zapewnić Ci dość mocy jeśli zamierzasz przejść na indukcję czy używać klimatyzacji. Dowiedz się kiedy i jak wymienić ją aby uniknąć przykrych niespodzianek w przyszłości."
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
-draft: false
+draft: true
 weight: 50
 categories: []
 tags: []

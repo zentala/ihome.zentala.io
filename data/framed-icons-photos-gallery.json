@@ -1,0 +1,78 @@
+[
+  {
+    "url": "https://static.zentala.io/framed/127mmTHT.jpg",
+    "alt": "1.27mm THT pin connectors"
+  },
+  {
+    "url": "https://static.zentala.io/framed/7-seg.digits.jpg",
+    "alt": "7-segment digital display"
+  },
+  {
+    "url": "https://static.zentala.io/framed/ac.dc.jpg",
+    "alt": "AC to DC converters"
+  },
+  {
+    "url": "https://static.zentala.io/framed/arduino.jpg",
+    "alt": "Arduino microcontrollers"
+  },
+  {
+    "url": "https://static.zentala.io/framed/atmega.jpg",
+    "alt": "ATmega microcontrollers"
+  },
+  {
+    "url": "https://static.zentala.io/framed/audio.jpg",
+    "alt": "Audio connectors & accessories"
+  },
+  {
+    "url": "https://static.zentala.io/framed/dc.dc.jpg",
+    "alt": "Regulated DC to DC converter"
+  },
+  {
+    "url": "https://static.zentala.io/framed/dc.dc.2.jpg",
+    "alt": "DC to DC converter"
+  },
+  {
+    "url": "https://static.zentala.io/framed/diodes.jpg",
+    "alt": "Various diodes"
+  },
+  {
+    "url": "https://static.zentala.io/framed/esp32.jpg",
+    "alt": "ESP32 microcontroller modules"
+  },
+  {
+    "url": "https://static.zentala.io/framed/esp8266.jpg",
+    "alt": "ESP8266 Wi-Fi modules"
+  },
+  {
+    "url": "https://static.zentala.io/framed/jumper.cables.jpg",
+    "alt": "Jumper cables"
+  },
+  {
+    "url": "https://static.zentala.io/framed/r9.holders.jpg",
+    "alt": "R9V battery holders"
+  },
+  {
+    "url": "https://static.zentala.io/framed/relays.jpg",
+    "alt": "Electrical relays"
+  },
+  {
+    "url": "https://static.zentala.io/framed/resistors.jpg",
+    "alt": "Various resistors"
+  },
+  {
+    "url": "https://static.zentala.io/framed/servo.jpg",
+    "alt": "Servo motors"
+  },
+  {
+    "url": "https://static.zentala.io/framed/shift.register.jpg",
+    "alt": "Shift registers IC"
+  },
+  {
+    "url": "https://static.zentala.io/framed/solder.masks.jpg",
+    "alt": "Solder masks for PCBs"
+  },
+  {
+    "url": "https://static.zentala.io/framed/iec320.c14.jpg",
+    "alt": "IEC 320 C14 power connector"
+  }
+]

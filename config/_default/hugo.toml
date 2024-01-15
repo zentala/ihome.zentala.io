@@ -1,4 +1,4 @@
-title = "Inteligentne Mieszkanie"
+title = "Inteligentny Dom"
 baseurl = "/"
 canonifyURLs = false
 disableAliases = true
@@ -17,8 +17,6 @@ removePathAccents = true # remove PL characters from URLs
 defaultContentLanguage = "pl"
 disableLanguages = ["en", "de", "nl"]
 defaultContentLanguageInSubdir = false
-
-#copyRight = "Copyright (c) 2024 Paweł Żentała"
 
 [build.buildStats]
   enable = false
@@ -56,12 +54,14 @@ defaultContentLanguageInSubdir = false
   contributor = "contributors"
   category = "categories"
   tag = "tags"
+  # defining new taxonomies
 
 [permalinks]
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
   services = "/services/:slug/"
-# docs = "/docs/1.0/:sections[1:]/:slug/"
+  tutorials = "/tutorials/:slug/"
+  # docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]
   keepWhitespace = false
@@ -86,3 +86,14 @@ defaultContentLanguageInSubdir = false
   hint = "photo"
   quality = 85
   resampleFilter = "Lanczos"
+
+[layouts]
+  # Szablony dla pojedynczych stron
+  [layouts.single]
+    default = "layouts/tutorials/single.html"
+    # Tutaj możesz dodać inne szablony dla określonych typów stron, jeśli jest to potrzebne
+
+  # Szablony dla list stron
+  [layouts.lists]
+    default = "layouts/tutorials/list.html"
+    # Tutaj możesz dodać inne szablony dla różnych typów list, jeśli jest to potrzebne

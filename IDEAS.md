@@ -40,52 +40,6 @@ Oczywiście, z przyjemnością zaproponuję więcej kreatywnych i unikalnych naz
 
 Mam nadzieję, że te propozycje zainspirują Cię do wyboru idealnej nazwy dla Twojego projektu. Każda z nich ma na celu przyciągnięcie uwagi i odzwierciedlenie innowacyjności oraz technologicznego charakteru Twojej strony o smart home.
 
-## Top Hugo Themes
-### For this website
-* https://doks.netlify.app/ - docs & blog! - CHOOSEN, best!
-* https://themes.gohugo.io/themes/compose/- documentation (maybe with blog)
-* https://lotusdocs.dev/docs/help/troubleshooting/
-
-### For other websites
-* https://zeon.studio/preview?project=hugoplate
-* https://themes.gohugo.io/themes/hugo-papermod/ - simple
-* https://themes.gohugo.io/themes/hugo-theme-stack/ - simple blog
-* https://hugo-paper.vercel.app/ - very simple blog
-* https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng/ - tutorials list
-* https://themes.gohugo.io/themes/hugo-theme-nightfall/ - cool simple blog
-* https://gethyas.com/themes/bolt/
-* https://github.com/StaticMania/roxo-hugo - blog i portflio, agancyjna
-
-### Professional
-* https://hugo-profile.netlify.app/#experience - cool web portfolio homepage
-* https://hugo-theme-gruvbox.schnerring.net/
-
-### To copy some code from
-* https://blowfish.page/docs/shortcodes/ - cool shortcodes examples
-
-## Design inspiration
-* [jbspeakr.cc](https://www.jbspeakr.cc/)
-  * nice footer
-  * [great single blog article design](https://www.jbspeakr.cc/long-password-login-system/) - contents list, author info, category, tag, created, updated, releated posts
-  * [nice blog list](https://www.jbspeakr.cc/blog/) - 2 columns
-  * [privacy](https://www.jbspeakr.cc/privacy-policy/)
-  * [about author](https://www.jbspeakr.cc/imprint/)
-  * [blog categories](https://www.jbspeakr.cc/categories/)
-* https://screenshotone.com/
-* https://gamesupport.gg/
-* https://oswalt.dev/portfolio/ - sub menu na stronie
-* https://www.fablabarnhem.nl/ - interesting page
-
-## Additional
-https://betterstack.com/uptime/pricing - monitoring
-
-## Markdown
-* https://github.com/martignoni/awesome-hugo
-* https://github.com/martignoni/hugo-cloak-email
-* https://github.com/msfjarvis/hugo-social-metadata
-
-## Inne blogi na tej skórce
-
 ### Pomysł na bloga o designie
 * materiały - szkla, siatki cieto ciagnione, siatki perorowane, blachy wytlaczane, rodzaje drewien, panele betonowe, mikrocement, etc
 * sufiyty rastrowe
@@ -127,56 +81,10 @@ https://betterstack.com/uptime/pricing - monitoring
   * mod lampy
 * design piwnicy w wwa
 
-### Pomysł - blog Zentała Travel
-* na tej samej skórce
-* cześć Żentała universum
-* cześć contnetu to video
-* przyklady contnentu
-  * przejsciowki
-  * wazenie walizki - waga
-  * praca zdalna - krzeslo i monitor + pomysl na firme wynajem
-  * przenosny monitor / tablet jako monitor
-  * ew zabrac ze soba lampy yonguo
-  * niezbednik na wyjazd - kopia dokumentow,
-  * zdrowie: dokumenty zdrowotne w chmurze, nazwy lekow po lacinie
-  * przenosny dysk SSD jaki mam ostatnio
-  * NAS jako serwer pliko z granica + pomysl reduntacja w chmurze
-  * wysylanie rzeczy osobiwtych bagazem to zly pomysl, bardzo
-  * zestawy higieniczne: male butelczeki do perfum na allegro, onbcegi do paznokci
-
-
-### Przywrócić WiFi
-
-ale trzeba przemyśleć conent bo teraz to nie wiem czy idzie wiele napisać o tym, ew dla celów archiwalnych pare artów
-
-* bloga (?) - nowe technolgiie
-* antenty - rodzaje
-* architektura sieci ogólnie - WLAN i WiFi (adhoc)
-* co jak masz slaby zasięg
-* zestawianie linków między 2ma odgległmy budynkami
-* architektura W ISP / MWLAN
 
 ## UE
 * pomysły jako docs, a reszta jako arty na blogu, moze da się jakoś uporządkować
 
-## Hugo therory
-
-### About Hugo files structure
-
-Here's a brief list of what each of these directories does in Hugo:
-
-- `content`: Directory where website content is stored, such as articles, blog posts, static pages, etc.
-- `static`: Directory where static files like images, CSS stylesheets, JavaScript scripts reside, which don't require processing by Hugo.
-- `layouts`: Directory containing HTML templates that define how content stored in the `content` directory is displayed.
-- `data`: Directory where data files reside, which can be used in templates, for example, JSON, YAML, or CSV files.
-- `assets`: Directory that may contain source files such as Sass or TypeScript files, which are compiled into files in the `static` directory.
-- `i18n`: Directory where translations of the website content for different languages are stored.
-- `archetypes`: Directory containing templates of files used to generate new posts or pages with default data in the `content` directory.
-
-### Advanced configuration
-* International menus: https://gohugo.io/content-management/multilingual/#menus
-* Sub-menus; childs & childrens: https://gohugo.io/content-management/menus/#define-in-site-configuration
-* Multiple langs links & content: https://gohugo.io/content-management/urls/#permalinks
 
 ## SEO
 
@@ -184,35 +92,50 @@ Here's a brief list of what each of these directories does in Hugo:
 * https://getdoks.org/showcase/
 * https://github.com/zentala/
 * https://zentala.io/ - zentala ekosystem Home Page (dodac tam z czasem wiecej linkow i info)
-* https://www.linkedin.com/in/zentala/
-*
 
-## Miniaturki entites
 
-* pracownia w mieszkaniu - jak gotowa?
-* projektaci nie umiejeta - miro screenshot of technologies /material albo z photo zagranicy / podrozy - fajenje wystawki albo sufitu rastrowego
-* elektryka w komorce - piwnica, albo zdjecie zrobionej komorki
-* kryteria mieszkania - mapa wawy ze strzalkami
 
-## TODO
-- blog
-  - ze nie umieja
-    - screenshoty z rozmowy
-    - video link
+## Contnet next steps
+
+### ze nie umieja
+  - screenshoty z rozmowy
+  - video link
   - post o przegladzie materialow (?)
-  - iot kablem czy bez kable - zdjecie ze pokute, tytul: czy bylo warto kuyc przewody i jak bym sie dzis za to zabral?
-  - pracownia w mieszkaniu draft poki co
 
-- design
+### poprawa teoria
+  - bez rozwlekania, pojecia terminy, infografiki, zwiezle, krotko, linki - nawiacja, czasem tylko tlumaczeni
+
+### projekt uslug
+  - research, kopia dobrych rozwizan
+
+### naklejki szufladki
+- filmik skleic dla naklejek i wrzucic
+
+### others
+- dodac posta ze mnie oszukali
+- rozdzielic o tym dlaczego wybralem bone.io i dlaczego architektura instalacji jest najwazniejsza
+
+
+
+## Thums
+  - iot kablem czy bez kable - zdjecie ze pokute, tytul: czy bylo warto kuyc przewody i jak bym sie dzis za to zabral?
+  - pracownia w mieszkaniu - zdjecie pracowni jak bedzie gotowa
+  - kryywria wyboru lokalizacji mieszkania - mapa wawy ze strzalkam
+  - smart kitchen - zdjecie jak skoncze? wzualizacja z jakimis dodatkowymi oznaczeniami?
+  - smart toilet - to samo? zmodyikowana wizualizacja?
+  - struktura instalacji - trasy kablowe, korytka, etc, moze cos pod suitem, najlepiej puszki z trasmami pod sufitem
+  - modernizacja przylacza - przepolu bbezpiecznik
+  - smarthome minimum - ?
+  - okablowanie dla sensorow - LSA box photo
+  - toolbox - mzoe zobic skrzyne z narzedizmai i ja sfotografowac?
+  - IoT Kablem czy bez kabla -
+  - elektryka w komorce - piwnica, albo zdjecie zrobionej komorki
+  - projektaci nie umiejeta - miro screenshot of technologies /material albo z photo zagranicy / podrozy - fajenje wystawki albo sufitu rastrowego
+
+
+
+## Theme
   - popradiki porpawic liste poradnikow
   - rekomendacje na blogu porawic liste rekomendacji, zrobic pionowe rekomendacje i w 1 linii max
   - ?? arty na blogu submenu, o ile dluzsze albo wiecej headers
   - box/ramka na propozycje biznesowa albo przekierowac na strone agencji w ogole
-
-- poprawa teoria
-  - bez rozwlekania, pojecia terminy, infografiki, zwiezle, krotko, linki - nawiacja, czasem tylko tlumaczeni
-  - projekt uslug
-
-- filmik skleic dla naklejek i wrzucic
-- dodac posta ze mnie oszukali
-- rozdzielnic o tym dlaczego wybralem bone.io i dlaczego architektura instalacji jest najwazniejsza

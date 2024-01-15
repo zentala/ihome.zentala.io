@@ -19,9 +19,11 @@ seo:
 ---
 
 * miernik
-* tester napiecia
+* tester napiecia / probnik
 * detektor kabli
 * wkretaki izolowane
 * zestaw izolowanych szczpiec, sciagaczy, kobinerek etc.
 * lutownica
 * zapalniczka
+
+Skompletuj niezbędny zestaw narzędzi i akcesoriów.
