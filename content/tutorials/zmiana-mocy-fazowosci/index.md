@@ -1,7 +1,7 @@
 ---
-title: "Modernizaca przylacza i instalacji elektrycznej - wazniejsze niz smart home1"
+title: "Modernizaca przylacza i instalacji elektrycznej - wazniejsze niz smart home"
 description: "E.ON (STOEN operator) Warszawa"
-summary: "Zwiększenie mocy i fazowosci, przebudowa instalacji pod wspolczene potrzeby. Zuzywamy coraz wicej energii elektrycznej. Linia zasilająca do mieszkania z rynku wtórnego może nie zapewnić Ci dość mocy jeśli zamierzasz przejść na indukcję czy używać klimatyzacji. Dowiedz się kiedy i jak wymienić ją aby uniknąć przykrych niespodzianek w przyszłości."
+summary: ""
 thumb: "http://static.zentala.io/flat/moc-fazowosc.jpg"
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
@@ -19,7 +19,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Weź po prostu wsadź wszędzie głębokie puszki pod elektronikę, nawet wielokrotne (najwyżej wstawisz w te miejsca jakieś puste gniazda czy inne zaślepki, żeby mieć mnóstwo miejsca na dokładanie różnych modułów) i przestań cudować z robieniem pajęczyny w mieszkaniu. Szkoda czasu, nerwów, pieniędzy, a później kolejnych nerwów podczas wiercenia.
+Zuzywamy coraz wicej energii elektrycznej, co w starym budownicmtwie moze skotkowac przeciazniemiem linii. Stad prawdpodobnie wazniejsza nawet niz inteligenty dom rzecza do zrozbienia podczas remontu jest modernizacaj przylacza do wspolczestnych stadnardow.
+
+ Linia zasilająca do mieszkania z lat 50tych może nie zapewnić Ci dość mocy i byc przeciazona. co widac na moim nadapalonym bezpieczniku. Dowiedz się kiedy i jak wymienić ją aby uniknąć przykrych niespodzianek w przyszłości.
+
+
 
 NAJWAŻNIEJSZE: Zadbaj o wymianę WLZ na przynajmniej 5x6, do pralek, suszarek, piekarników, płyt i kuchni (rozważ też osobne obwody do mat grzewczych tam gdzie chcesz mieć ciepłą podłogę), poprowadź osobne obwody 3x2,5, do płyty może być nawet 5x4 ale 5x2,5 też styknie, do oświetlenia 3x1,5 lub 4x1,5, dopilnuj żeby mieć rozdział PEN na PE i N jeśli to TN-C, dołóż jakiś przynajmniej w miarę przyzwoity ogranicznik przepięć, rozdziel obwody jednofazowe od trójfazowych stosując osobne różnicówki, najlepiej typu A. W międzyczasie zawnioskuj o większy przydział mocy, a po zamontowaniu osprzętu zadbaj o to, żeby mieć protokół z pomiarów - to wszystko jest ważniejsze niż te Smart wymysły... :)
 
@@ -77,11 +81,13 @@ osobny przewod neutralny i uziemienie
 
 80 zl oplata
 550 zl elektryk
-+8zł mc zalicznik 3 fazowy
++8zł/mc zalicznik 3 fazowy
 jesli bys zwiekszal moc na 1 fazie, np kabel 2.5 na 6mm to mozesz placic tyle samo na liczik
 prawde mowiac nie wiem czy potrzenie zwekszalem fazowsc ale dobra tam. jak bede mial elektryka to bede mogl ladowac z okna :)
 
 ## Procedury w STOEN
+jako ze mialem w wawie instalcje to powiem Ci jak to wyglada u nich, u operatora stoen (dostawca e-on)
+- bierzesz formularz zmiany
 
 ## Co dalej?
 - warto zainstlowac przelacznik faz (np do iot i swiatla)
