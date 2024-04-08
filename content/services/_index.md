@@ -16,6 +16,32 @@ seo:
 
 # Rozszerzone Usługi Inteligentnego Domu
 
+## Dla klientów indywidualnych
+
+Budujesz lub modernizujesz wlasny inteligentny dom?
+
+-> Doradztwo i konsultacje
+-> Projektowanie instalacji
+-> Konfiguracja systemu IoT
+
+## Dla obiektow noclegowych
+
+Automatyka budynkowa moze przyniesc szczegolne korzysci w obiektach mieszkalnych - hotelach, mieszkaniach czy domkach na wynajem. Opracowuję komplekswe wsparcie w automatyzacji obslugi klienta:
+
+-> Doradztwo i konstulacje
+-> Projektowanie systemu IoT dla poszczegolnych jednosek noclegowych jak i caleg obiektu. w tyn czesci swpwsolnych
+-> Projetwanie systemu IoT
+-> Personalizowane rozwiazania
+-> Panele nadzoru i zaradzania
+-> Intefesy uzsera, dla jego wygody etc
+
+## Dla instalatorow
+
+Masz klienta ktrory oczekuje customoego rozwiazania?
+Specjalizuje sie w projektowaniu rozwizan IoT
+Zaprojektuje dla Ciebie konkretny komponent i oprogramuje go , zrbobie wtyczke do niego do domoticza czy
+
+
 ## Szycie na Wymiar
 
 Oferuję tworzenie spersonalizowanych modułów i rozwiązań dla inteligentnych przestrzeni. Niezależnie od tego, czy potrzebujesz niestandardowego modułu do unikalnego zastosowania, czy złożonego systemu zintegrowanego z różnymi urządzeniami, mogę zaprojektować i zaprogramować rozwiązanie dokładnie spełniające Twoje wymagania.

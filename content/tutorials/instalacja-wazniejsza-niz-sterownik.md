@@ -1,7 +1,7 @@
 ---
 title: "Strukura instalacji ważniejsza niż sterownik"
-description: "Zdecydowałem się na instalację kablowa, ale jest mnóstwo argumentów aby wybrać bezprzewodowe rozwiązania smart home. Zanim zdecydujesz się na prócie wszystkich ścian, powinieneś je rozważyć. Prawdę mówiąc do dziś nie wiem, czy nie popełniłem błędu idąc w kable."
-summary: "Istnieje cała masa sterowników na rynku i ważne pytanie brzmi który wybrać. A jeszcze ważniejsze pytanie to: jak zaprojektować dom aby móc go wymienić?"
+description: ""
+summary: ""
 # thumb: "https://static.zentala.io/boneio/bone-esp32-2.jpg"
 date: 2024-03-14T03:50:44+02:00
 lastmod: 2024-03-14T03:50:44+02:00
@@ -19,15 +19,9 @@ seo:
   noindex: false # false (default) or true
 ---
 
-## Jaki wybrać sterownik intelignetgo domu?
+Jako programista specjalizujacy sie w intenrcecie rzeczy, oceniam ze 2024 roku nadal rynek inteigentnych domow jest na wczesnym etapie swojego rozwoju, to znaczy - w przyszlosci na rynku pojawia sie nowsze, bardziej funkcjonalne i rozbudowane rozwiazania, ktore na dzien dzisiejszy, mimo iz sa technicznie mozliwe do zrealizowania to, pozostaja tylko w strefie fantazji. Rozwizania ktore sa dostepne na rynku to kompromisy pomiedzy potrzebami a oplacalnosca. Opracowanie rozwaizana IoT, przetestowanie go to duzo pracy, stad mamy tylk dostepne rozwizania ktore sie oplacacalo stworzyc.
 
-Ja wybralem BoneIO.
-Nie wiem czy BoneIO to dobry wybór.
-Na pewno nie jest zły.
-
-### Nie ma idealnych rozwiazań SH
-
-Wydaje mi się, że rynek inteigentnych domow i produkow do nich nie jest jeszcze dosc rozwiniety aby moc mowic o idealnych rozwizaniach. Z mojego researchu wykonaneg w 2022 roku wynika, ze nie ma dobrych rozwiazzan (systemow). Sa tylko kompromisy i rozwiania nie dopracowane. Są niezłe i bardzo drogie produkty z pudelka ktorych bym dla siebie nie kupil (bo nie mozna ich customizowac, bo sa zdecydowanie za drogie i nie mam tyle kasy aby przeplacac). Oraz jest szereg bardziej otwartych rozwiazan ktore tez nie sa idealne, a przynajmniej nie stanowia kompleksowego sytsemu, ale sa tworzone przez splecznosc dzieki czemu sa customizowalne i latwo integrowalne.
+Sa tylko kompromisy i rozwiania nie dopracowane. Są niezłe i bardzo drogie produkty z pudelka ktorych bym dla siebie nie kupil (bo nie mozna ich customizowac, bo sa zdecydowanie za drogie i nie mam tyle kasy aby przeplacac). Oraz jest szereg bardziej otwartych rozwiazan ktore tez nie sa idealne, a przynajmniej nie stanowia kompleksowego sytsemu, ale sa tworzone przez splecznosc dzieki czemu sa customizowalne i latwo integrowalne.
 
 
 ## Kto buduje inteligente domy
