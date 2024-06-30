@@ -1,0 +1,4 @@
+- erorzkoj
+- blum webapp
+- https://flexmeble.com/
+- blog ktory substrybuje
