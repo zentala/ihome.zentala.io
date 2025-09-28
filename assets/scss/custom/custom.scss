@@ -1,3 +1,92 @@
 .card-nav {
   column-gap: 1rem;
 }
+
+// Import services page styles
+@import "services";
+
+/* Force Bootstrap card border color in dark mode and match footer top border */
+[data-bs-theme="dark"] .card {
+  --bs-card-border-color: #23262f;
+  background: #17181c;
+}
+
+[data-bs-theme="dark"] .card .card-footer {
+  border-top-color: var(--bs-card-border-color) !important;
+}
+
+/* Align SVGs nicely when used inline inside flex */
+.card-footer svg {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Reusable hover zoom utility */
+.u-hover-zoom {
+  transition: transform 0.3s;
+}
+
+.u-hover-zoom:hover {
+  transform: scale(1.025);
+}
+
+/* Reusable meta row and icon-text pair */
+.u-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* matches ms-3 spacing */
+}
+
+.u-inline-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.u-inline-icon > svg {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* No need for reading-time overrides; blog spacing is scoped in layouts/_posts.scss */
+
+.post-placeholder {
+  background: linear-gradient(135deg, rgba(125, 125, 125, 0.15), rgba(200, 200, 200, 0.15));
+  position: relative;
+  overflow: hidden;
+
+  .placeholder-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.35);
+    @media (prefers-color-scheme: dark) {
+      color: rgba(255, 255, 255, 0.25);
+    }
+  }
+
+  .placeholder-title {
+    position: absolute;
+    bottom: 0.75rem;
+    left: 1rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    opacity: 0.7;
+  }
+
+  .placeholder-icon {
+    position: absolute;
+    /* Move opacity to SVG for consistent alpha on strokes and fills */
+  }
+  .placeholder-icon svg { opacity: 0.18; }
+  .icon-1 { top: 6%; left: 6%; transform: rotate(-8deg); }
+  .icon-2 { top: 12%; right: 6%; transform: rotate(12deg); }
+  .icon-3 { bottom: 10%; left: 12%; }
+  .icon-4 { bottom: 8%; right: 10%; transform: rotate(-15deg); }
+  .icon-5 { top: 26%; left: 28%; }
+  .icon-6 { bottom: 26%; right: 28%; transform: rotate(22deg) scale(1.1); }
+}
+

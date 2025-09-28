@@ -58,9 +58,9 @@ $offcanvas-horizontal-width:        332px;
 $light-bg-subtle-dark:              hsl(224, 14%, 16%);
 $light-border-subtle-dark:          hsl(224, 10%, 23%);
 
-$body-bg-dark:           hsl(224, 10%, 10%);
+$body-bg-dark:           hsl(224, 10%, 10%); // #17181c;
 $body-overlay-dark:      hsl(224, 14%, 16%);
-$border-dark:            hsl(224, 14%, 16%);
+$border-dark:            hsl(224, 14%, 16%); // #23262f;
 $body-color-dark:        hsl(224, 6%, 77%);
 $headings-color-dark:    hsl(0, 0%, 100%);
 $dots-dark:              darken($body-color-dark, 50%);

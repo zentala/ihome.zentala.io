@@ -97,3 +97,4 @@ defaultContentLanguageInSubdir = false
   [layouts.lists]
     default = "layouts/tutorials/list.html"
     # Tutaj możesz dodać inne szablony dla różnych typów list, jeśli jest to potrzebne
+

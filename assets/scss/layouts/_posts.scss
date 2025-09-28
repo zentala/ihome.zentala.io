@@ -6,23 +6,9 @@
 .tags.list .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  transition: transform 0.3s;
 }
 
-.home .content .card:hover,
-.contributors.list .content .card:hover,
-.blog.list .content .card:hover,
-.blog.single .content .card:hover,
-.categories.list .content .card:hover,
-.tags.list .content .card:hover {
-  transform: scale(1.025);
-}
 
-.contributors.list .card.card-terms:hover,
-.categories.list .card.card-terms:hover,
-.tags.list .card.card-terms:hover {
-  transform: none;
-}
 
 .home .content .card-body,
 .contributors.list .content .card-body,
@@ -99,11 +85,9 @@ h2.section-title {
   margin-top: 2.5rem;
 }
 
-span.reading-time {
-  margin-left: 2rem;
 
-  svg {
-    margin-right: 0.3rem;
-    vertical-align: -0.4rem;
-  }
+
+.blog.list .content span.reading-time,
+.blog.single .content span.reading-time {
+  margin-left: 1rem;
 }

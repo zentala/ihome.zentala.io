@@ -1,0 +1,13 @@
+{{ $last := sub (len .Params.contributors) 1 -}}
+<div class="card-footer text-muted small u-meta-row">
+  <span class="u-inline-icon" title="{{ i18n "date" }}">
+    {{ partial "icons/calendar.html" (dict "class" "" "size" 20 "stroke" 2 "color" "currentColor") }}
+    <span>{{- time.Format (default ":date_long" .Site.Params.dateFormat) .PublishDate -}}</span>
+  </span>
+
+  <span class="u-inline-icon" title="{{ i18n "reading_time" }}">{{/* trim subsequent whitespace */ -}}
+    {{ partial "icons/clock.html" (dict "class" "" "size" 20 "stroke" 2 "color" "currentColor") }}
+    <span>{{- .ReadingTime }}&nbsp;{{ i18n "minute" .ReadingTime -}}</span>
+  </span>
+
+</div>

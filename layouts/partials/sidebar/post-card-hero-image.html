@@ -9,5 +9,7 @@
       "alt" .Title
       "class" "card-img-top"
       )}}
+  {{- else -}}
+    {{ partial "sidebar/post-card-hero-image-placeholder.html" (dict "title" "iHOME") }}
   {{ end -}}
 {{ end -}}

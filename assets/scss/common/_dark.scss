@@ -377,7 +377,14 @@ a.docs-link {
 .card {
   background: $body-bg-dark;
   border: 1px solid $border-dark;
+  /* Ensure Bootstrap uses our border color variable for all card edges */
+  --bs-card-border-color: #23262f;
+
+  .card-footer {
+    border-top: 1px solid $border-dark !important;
+  }
 }
+
 
 .card.bg-light {
   background: $body-overlay-dark !important;

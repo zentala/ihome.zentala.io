@@ -1,0 +1,20 @@
+{{/*
+  Picture placeholder with subtle overlay text and icons
+  Params (dict):
+    - title: string (optional) default "iHOME"
+    - icons: slice of icon names from layouts/partials/icons (optional)
+*/}}
+
+<div class="ratio ratio-16x9 rounded-top-1 post-placeholder">
+  <div class="placeholder-overlay">
+    <span class="placeholder-title">{{ .title | default "iHOME" }}</span>
+    {{ $icons := ( .icons | default (slice "bell" "home" "lightbulb" "lock" "power" "robot") ) | uniq }}
+    {{ range $i, $name := $icons }}
+      {{ $idx := add $i 1 }}
+      {{ $partial := printf "icons/%s.html" $name }}
+      <span class="placeholder-icon icon-{{ $idx }}">{{ partial $partial (dict "size" (sub 80 (mul $i 2)) "stroke" 2) }}</span>
+    {{ end }}
+  </div>
+  </div>
+
+
