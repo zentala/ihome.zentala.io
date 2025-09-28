@@ -1,0 +1,8 @@
+{{/* Clone of related-posts, but fed with latest posts across blog + tutorials and custom title */}}
+{{ $pages := where site.RegularPages "Section" "blog" }}
+{{ $latest := first 3 (sort $pages "Date" "desc") }}
+{{ with $latest -}}
+  {{ partial "sidebar/posts-section" (dict "title" "Najnowsze wpisy" "pages" . "cols" "col-lg-5") }}
+{{ end -}}
+
+
