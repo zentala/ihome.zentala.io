@@ -1,0 +1,21 @@
+{{/*
+  Generic post card used across sidebar sections
+  Expects dot (.) to be a Page
+*/}}
+
+<div class="card">
+
+  {{ partial "sidebar/related-post-hero-image.html" . }}
+
+  <div class="card-body">
+    <article>
+      <h2 class="h3 card-title mt-0"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+      <p class="card-text">{{ .Params.summary | truncate 100 "..." | safeHTML }}</p>
+    </article>
+  </div>
+
+  {{ partial "sidebar/related-post-meta.html" . -}}
+
+</div>
+
+

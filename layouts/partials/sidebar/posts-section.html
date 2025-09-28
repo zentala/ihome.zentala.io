@@ -1,0 +1,30 @@
+{{/*
+  Reusable posts section
+  Params (dict):
+    - title: string (section title)
+    - pages: Pages (slice of Page)
+    - cols: string (bootstrap col classes), default "col-lg-5"
+*/}}
+
+{{ $title := .title }}
+{{ $pages := .pages }}
+{{ $cols := .cols | default "col-lg-5" }}
+
+{{ with $pages -}}
+  <section class="section section-related container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-9">
+        <h2 class="section-title text-center">{{ $title }}</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {{ range . -}}
+        <div class="{{ $cols }}">
+          {{ partial "sidebar/post-card" . }}
+        </div>
+      {{ end -}}
+    </div>
+  </section>
+{{ end -}}
+
+
