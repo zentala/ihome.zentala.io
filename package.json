@@ -13,7 +13,8 @@
     "lint:styles": "stylelint --cache \"assets/scss/**/*.{css,sass,scss}\"",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "exec-bin node_modules/.bin/hugo/hugo.exe --minify",
+    "icons": "node scripts/generate-icons.mjs",
+    "build": "npm run icons && exec-bin node_modules/.bin/hugo/hugo.exe --minify",
     "preview": "http-server --gzip --brotli --ext=html --cors",
     "clean": "npm run clean:build && npm run clean:lint && npm run clean:install",
     "clean:build": "shx rm -rf public resources .hugo_build.lock",
@@ -36,6 +37,7 @@
     "hugo-installer": "^4.0.1"
   },
   "devDependencies": {
+    "sharp": "^0.33.5",
     "shx": "^0.3.4"
   },
   "otherDependencies": {
