@@ -8,6 +8,8 @@
 
 {{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "async" "transpile" false) -}}
 
+{{ partial "footer/esbuild" (dict "src" "js/draft-toggle.js" "load" "async" "transpile" false) -}}
+
 {{ partial "footer/script-footer-custom.html" . -}}
 
 {{ partial "main/showFlexSearch" . -}}

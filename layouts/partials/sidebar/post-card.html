@@ -3,7 +3,7 @@
   Expects dot (.) to be a Page
 */}}
 
-<div class="card u-hover-zoom">
+<div class="card u-hover-zoom{{ if .Draft }} draft-post{{ end }}"{{ if .Draft }} data-draft="true"{{ end }}>
 
   {{ partial "sidebar/post-card-hero-image.html" . }}
 

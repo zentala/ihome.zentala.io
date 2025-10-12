@@ -1,4 +1,6 @@
 node_modules/
 resources/
+public/
 .specstory
 .cursorindexingignore
+.hugo_build.lock

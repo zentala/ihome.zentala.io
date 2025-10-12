@@ -1,6 +1,12 @@
-{{/* Clone of related-posts, but fed with latest posts across blog + tutorials and custom title */}}
-{{ $pages := where site.RegularPages "Section" "in" (slice "blog") }} {{/*"tutorials"*/}}
-{{ $latest := first 3 (sort $pages "Date" "desc") }}
+{{/*
+  Latest posts section for homepage
+  Always shows exactly 3 published posts (no drafts)
+  Does NOT respond to draft toggle - drafts are never shown here
+  This ensures consistent content on homepage regardless of draft mode
+*/}}
+{{ $pages := where site.RegularPages "Section" "in" (slice "blog") }}
+{{ $publishedPages := where $pages "Draft" "!=" true }}
+{{ $latest := first 3 (sort $publishedPages "Date" "desc") }}
 {{ with $latest -}}
   {{ partial "sidebar/posts-section" (dict "title" "Najnowsze wpisy" "pages" . "cols" "col-lg-5") }}
 {{ end -}}

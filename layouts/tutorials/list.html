@@ -23,7 +23,7 @@
   {{/*  <div class="col-lg-8">  */}}
     {{ $paginator := .Paginate (.Data.Pages) -}}
     {{ range $paginator.Pages -}}
-      <div class="card col-lg-7" style="margin: 1.5em 1.5em; padding: 0;">
+      <div class="card col-lg-7{{ if .Draft }} draft-post{{ end }}" style="margin: 1.5em 1.5em; padding: 0;" {{ if .Draft }}data-draft="true"{{ end }}>
         {{ if site.Params.doks.imageList -}}
           {{- $images := .Resources.ByType "image" -}}
           {{- $featured := $images.GetMatch "*thumb*" -}}
@@ -46,7 +46,6 @@
         </div>
       </div>
     {{ end -}}
-  {{/*  </div>  */}}
 </div>
 <div class="row justify-content-center mt-5">
   <div class="col-md-12 col-lg-9">

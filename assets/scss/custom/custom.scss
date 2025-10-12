@@ -90,3 +90,48 @@
   .icon-6 { bottom: 26%; right: 28%; transform: rotate(22deg) scale(1.1); }
 }
 
+// Draft post styles
+.draft-post {
+  position: relative;
+
+  // Only apply styles to cards (lists), not full articles
+  &.card {
+    background-color: rgba(0, 0, 0, 0.05);
+
+    &::before {
+      content: "DRAFT";
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #6c757d;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: bold;
+      z-index: 10;
+    }
+  }
+}
+
+// Draft toggle button in navbar
+.draft-toggle {
+  transition: all 0.3s ease;
+
+  &.active {
+    color: #6c757d !important;
+    background-color: rgba(128, 128, 128, 0.1);
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+// Masonry layout improvements
+.card {
+  &.draft-post {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+}
+
