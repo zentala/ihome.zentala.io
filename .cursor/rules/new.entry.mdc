@@ -1,0 +1,94 @@
+---
+description: when creating new Hugo entry (tutorial, blog post)
+alwaysApply: false
+---
+
+## Struktura wpisów (Hugo) i konwencje folderów
+
+Poniżej zasady tworzenia nowych wpisów (blog, tutorials, docs, services) w tym projekcie.
+
+### Sekcje i permalinki
+- **blog**: `/blog/:slug/`
+- **tutorials**: `/tutorials/:slug/`
+- **docs**: `/docs/:sections[1:]/:slug/`
+- **services**: `/services/:slug/`
+
+Uwaga: `removePathAccents = true` — polskie znaki w URL są usuwane z automatu. Pole `url` w front matter nadpisuje wszystkie reguły i wymusza twardy adres.
+
+### Front matter — blog/tutorials (domyślne archetypy)
+```yaml
+---
+title: "..."
+description: ""
+summary: ""
+date: 2025-01-01T12:00:00+02:00
+lastmod: 2025-01-01T12:00:00+02:00
+draft: true
+weight: 50
+categories: []
+tags: []
+contributors: ['Paweł Żentała']
+pinned: false
+homepage: false
+# Opcjonalny twardy URL (nadpisuje slug/permalinks)
+# url: "/twoj-staly-url/"
+# Opcjonalne aliasy (uwaga: w tym projekcie aliasy są WYŁĄCZONE — patrz niżej)
+# aliases: ["/stary-url/"]
+seo:
+  title: ""
+  description: ""
+  canonical: ""
+  noindex: false
+---
+```
+
+### Front matter — docs (dodatkowo menu)
+```yaml
+---
+title: "..."
+description: ""
+summary: ""
+date: 2025-01-01T12:00:00+02:00
+lastmod: 2025-01-01T12:00:00+02:00
+draft: true
+menu:
+  docs:
+    parent: ""
+    identifier: "docs-<unikalne-id>"
+weight: 999
+toc: true
+seo:
+  title: ""
+  description: ""
+  canonical: ""
+  noindex: false
+---
+```
+
+### Konwencje folderów (content/)
+- `content/blog/<kategoria>/<slug>.md` lub `content/blog/<kategoria>/<slug>/index.md`
+- `content/tutorials/<slug>.md` lub `content/tutorials/<slug>/index.md`
+- `content/docs/<dzial>/<podzial>/<slug>.md`
+- `content/services/*.md`
+
+W katalogach sekcji dopuszczalne są `_index.md` do ustawień listy.
+
+### URL, slug i aliasy
+- `slug` domyślnie pochodzi z nazwy pliku. Możesz jawnie ustawić `slug`, ale najpewniejsze jest `url` (twardy permalink).
+- `url` w front matter ma najwyższy priorytet i wymusza dokładny adres.
+- `aliases` w tym repo NIE generują stron-redirectów, bo w `config/_default/hugo.toml` mamy `disableAliases = true`.
+  - Preferowane przekierowania: `static/_redirects` (np. na Netlify).
+
+Przykład wpisu w `static/_redirects`:
+```txt
+/tutorials/stary-slug/   /nowy-staly-url/   301
+```
+
+### Tworzenie nowych wpisów
+- Blog: `hugo new blog/<kategoria>/<slug>.md`
+- Tutorials: `hugo new tutorials/<slug>.md`
+- Docs: `hugo new docs/<dzial>/<podzial>/<slug>.md`
+- Services: `hugo new services/<slug>.md`
+
+Następnie uzupełnij front matter według powyższych wzorców i ustaw `draft: false` gdy wpis ma być publikowany.
+

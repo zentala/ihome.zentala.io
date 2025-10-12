@@ -1,0 +1,22 @@
+---
+description: wytyczne dt contentu w serwisie
+alwaysApply: true
+---
+
+# Written Content
+
+## Context
+
+Static blog about Smart Home and IoT.
+Published under https://ihome.zentala.io/
+Writed in Polish.
+
+## Context Structure
+
+  * home - 6 bloków z opisem contextu witryny (remont mieszkania i budowa smart home) oraz listą poruszanych zagadnień
+  * blog - moje przygody z IoT, remontem, projekty, etc
+  * tutorials (poradiniki) - moje porady
+  * theory (teoria) - dla mocnego zaplecza SEO
+  * offer (oferta) - zwięzła
+
+

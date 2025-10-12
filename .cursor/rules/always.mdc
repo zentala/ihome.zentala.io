@@ -1,0 +1,15 @@
+---
+alwaysApply: true
+---
+
+## Tech Stack
+
+* hugo
+* pnpm
+
+## Rules
+
+* keep it simple
+* kiedy mówię "prznosimy" w kontekście plików to mam na myśli abyś użył `mv` w konsoli
+* write to README.md in english!
+* chcemy ujednolić kod, style CSS, iść do 1 źródła prawdy. kod jest zaśmiecony więc staramy się edując go nadać mu jakaś strukturę ,szczególnie w CSS potrzeba opisać co i jak i do czego
