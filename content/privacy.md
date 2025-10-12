@@ -85,13 +85,15 @@ Z wyjątkiem postanowień zawartych w niniejszych „Zasadach ochrony prywatnoś
 3. Dane osobowe, które publikujesz na naszej stronie internetowej lub przesyłasz do publikacji na naszej stronie internetowej, mogą być dostępne za pośrednictwem Internetu na całym świecie. Nie możemy zapobiec wykorzystywaniu lub niewłaściwemu wykorzystaniu takich informacji przez inne osoby.
 4. Wyraźnie zgadzasz się na przekazywanie danych osobowych opisanych w tej sekcji F.
 
-## Zachowywanie danych osobowych**
+## Zachowywanie danych osobowych
 
 1. W Niniejszej Sekcji G określiliśmy nasze zasady i procedury dotyczące zatrzymywania danych, które mają na celu zapewnienie przestrzegania naszych zobowiązań prawnych w zakresie zachowywania i usuwania danych osobowych.
 2. Dane osobowe, które przetwarzamy w dowolnym celu lub celach, nie będą przechowywane dłużej niż jest to konieczne do tego celu lub tych celów.
 3. Bez uszczerbku dla artykułu G-2 zazwyczaj usuwamy dane osobowe należące do kategorii określonych poniżej w dniu/godzinie określonej poniżej:
-  1. typ danych osobowych zostanie usunięty {WPROWADŹ DATĘ/GODZINĘ}; i
-  2. {WPROWADŹ DODATKOWE DATY/GODZINY}.
+  1. dane kont użytkowników i profile - po 2 latach nieaktywności;
+  2. dane analityczne i statystyczne - po 3 latach;
+  3. dane dotyczące transakcji - po 5 latach zgodnie z wymogami prawa podatkowego; i
+  4. kopie zapasowe - po 6 miesiącach od usunięcia głównych danych.
 4. Niezależnie od innych postanowień niniejszej sekcji G zachowamy dokumenty (w tym dokumenty elektroniczne) zawierające dane osobowe:
   1. w zakresie, w jakim jest to wymagane przepisami prawa;
   2. jeśli uważamy, że dokumenty mogą mieć znaczenie dla wszelkich toczących się lub przyszłych postępowań sądowych; i
@@ -113,8 +115,8 @@ Niniejsze zasady mogą być okresowo aktualizowane poprzez zamieszczenie w nasze
 
 Użytkownik może zażądać udostępnienia jego danych osobowych, które są przechowywane. Udostępnienie takich danych wiąże się z:
 
-1.  uiszczeniem opłaty {WPROWADŹ OPŁATĘ, JEŚLI DOTYCZY}; i
-2.  dostarczenie odpowiedniego dowodu tożsamości ({DOSTOSUJ TEKST, ABY ODZWIERCIEDLAŁ TWOJĄ POLITYKĘ tym celu, zazwyczaj akceptujemy kserokopię paszportu poświadczoną przez notariusza oraz oryginalną kopię rachunku za media z aktualnym adresem}).
+1. opłatą w wysokości 50 PLN za przygotowanie i wysyłkę dokumentów (opłata nie dotyczy pierwszego żądania w roku kalendarzowym); oraz
+2. dostarczeniem odpowiedniego dowodu tożsamości (akceptujemy skan dowodu osobistego lub paszportu wraz z aktualnym rachunkiem za media potwierdzającym adres zamieszkania).
 
 Możemy na Twoje żądanie ukrywać dane osobowe, w zakresie dozwolonym przez prawo.
 
@@ -132,10 +134,10 @@ Prosimy o informację w przypadku konieczności skorygowania lub aktualizowania 
 
 ## Ciasteczka
 
-Nasza strona internetowa korzysta z plików cookie. Plik cookie to plik zawierający identyfikator (ciąg liter i cyfr), który jest wysyłany przez serwer internetowy do przeglądarki internetowej i przechowywany przez przeglądarkę. Dane identyfikacyjne są ponownie przesyłane na serwer za każdym razem, gdy przeglądarka wyśle żądanie otwarcia strony znajdującej się na serwerze. Pliki cookie mogą być „trwałymi” lub „sesyjnymi” plikami cookie: trwałe pliki cookie będą przechowywane przez przeglądarkę internetową i pozostaną ważne do ustalonej daty wygaśnięcia, chyba że użytkownik usunie je przed datą wygaśnięcia; sesyjny plik cookie wygasa z końcem sesji użytkownika, gdy przeglądarka internetowa jest zamykana. Pliki cookie zazwyczaj nie zawierają żadnych informacji identyfikujących użytkownika, ale dane osobowe, które przechowujemy na Twój temat, mogą być powiązane z informacjami przechowywanymi w plikach cookie i uzyskiwanymi z nich. {WYBIERZ ODPOWIEDNIĄ FRAZĘ Używamy tylko ciasteczek sesyjnych / tylko trwałych ciasteczek / zarówno sesyjnych, jak i trwałych ciasteczek na naszej stronie.}
+Nasza strona internetowa korzysta z plików cookie. Plik cookie to plik zawierający identyfikator (ciąg liter i cyfr), który jest wysyłany przez serwer internetowy do przeglądarki internetowej i przechowywany przez przeglądarkę. Dane identyfikacyjne są ponownie przesyłane na serwer za każdym razem, gdy przeglądarka wyśle żądanie otwarcia strony znajdującej się na serwerze. Pliki cookie mogą być „trwałymi” lub „sesyjnymi” plikami cookie: trwałe pliki cookie będą przechowywane przez przeglądarkę internetową i pozostaną ważne do ustalonej daty wygaśnięcia, chyba że użytkownik usunie je przed datą wygaśnięcia; sesyjny plik cookie wygasa z końcem sesji użytkownika, gdy przeglądarka internetowa jest zamykana. Pliki cookie zazwyczaj nie zawierają żadnych informacji identyfikujących użytkownika, ale dane osobowe, które przechowujemy na Twój temat, mogą być powiązane z informacjami przechowywanymi w plikach cookie i uzyskiwanymi z nich. Używamy zarówno sesyjnych, jak i trwałych ciasteczek na naszej stronie.
 
 1.  Nazwy plików cookie, których używamy na naszej stronie internetowej, oraz cele, w których są wykorzystywane, są określone poniżej:
-    1.  używamy Google Analytics i Adwords na naszej stronie internetowej, aby rozpoznać komputer, gdy użytkownik {OBEJMUJE WSZYSTKIE ZASTOSOWANIA DO KTÓRYCH PLIKI COOKIE SĄ UŻYWANE W TWOJEJ WITRYNIE, odwiedza witrynę / śledzi użytkowników podczas przeglądania witryny / umożliwia korzystanie z koszyka na stronie / poprawić użyteczność strony internetowej / analizować korzystanie ze strony internetowej / administrować stroną internetową / zarządzać witryną / zapobiegać oszustwom i poprawić bezpieczeństwo strony internetowej / personalizować stronę internetową dla każdego użytkownika / kierować reklamy, które mogą być szczególnie interesujące dla określonych użytkowników / opisać cele};
+    1.  używamy Google Analytics i Adwords na naszej stronie internetowej, aby rozpoznać komputer, gdy użytkownik odwiedza witrynę, analizować korzystanie ze strony internetowej i kierować reklamy, które mogą być szczególnie interesujące dla określonych użytkowników;
 
 2.  Większość przeglądarek pozwala odmówić przyjęcia plików cookie — na przykład:
     1.  w przeglądarce Internet Explorer (wersja 10) można blokować pliki cookie, korzystając z dostępnych ustawień zastępowania obsługi plików cookie, klikając „Narzędzia”, „Opcje internetowe”, „Prywatność”, a następnie „Zaawansowane”;

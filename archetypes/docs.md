@@ -8,7 +8,7 @@ draft: true
 menu:
   docs:
     parent: ""
-    identifier: "{{ .Name }}-{{ delimit (shuffle (split (md5 .Name) "" )) "" }}"
+    identifier: "docs-{{ .Name | md5 }}"
 weight: 999
 toc: true
 seo:

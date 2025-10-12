@@ -27,7 +27,7 @@ W 2giej iteracji dodalem wzomocnie przy gorze z 2ch powodywo - aby pudelko nie p
 ## Cena wykonania
 
 ### v1
-{{< picture src="https://static.zentala.io/plywood-box/v1-1.png" alt="" >}}
+![v1-1](https://static.zentala.io/plywood-box/v1-1.png)
 
 
 Cięcie SKLEJKI brzozowej laserem 3mm
@@ -36,13 +36,13 @@ Cięcie SKLEJKI brzozowej laserem 3mm
 
 dxf zawiera projekt pudelka. chce takie 2. jedno pudelko to niecale 6m ciecia wg moich wyliczen, wiec zamowilem 12m. ale jesli cos jest zle to doplace. dxf: https://drive.google.com/file/d/1r4e6o2yiOIykPPcjwB4w_u0mQ3HUdg0a/view?usp=sharing
 
-{{< picture src="https://static.zentala.io/plywood-box/v1-2.png" alt="" >}}
+![v1-2](https://static.zentala.io/plywood-box/v1-2.png)
 
 
 ### v2
 
-{{< picture src="https://static.zentala.io/plywood-box/v2a-3.png" alt="" >}}
-{{< picture src="https://static.zentala.io/plywood-box/v2b-2.png" alt="" >}}
+![v2a-3](https://static.zentala.io/plywood-box/v2a-3.png)
+![v2b-2](https://static.zentala.io/plywood-box/v2b-2.png)
 
 (6988171954)	99,00 zł
 18 × 5,50 zł
@@ -56,8 +56,8 @@ https://drive.google.com/drive/folders/1zubOCQHAO9UIT2hHNdoJ9VICZT82A4B8?usp=dri
 
 
 
-{{< picture src="https://static.zentala.io/plywood-box/v2a-5.png" alt="A" >}}
-{{< picture src="https://static.zentala.io/plywood-box/v2b-3.png" alt="B" >}}
+![v2a-5](https://static.zentala.io/plywood-box/v2a-5.png)
+![v2b-3](https://static.zentala.io/plywood-box/v2b-3.png)
 
 ### cena
 

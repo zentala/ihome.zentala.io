@@ -1,12 +1,32 @@
-Krytyczna recejzna pracy frellancerskiego studia projektowego wykonuwujacego mi projekt wnetrza i polskiego rynku projektóantów wenetrz. 
+---
+title: "Recenzja pracy architekta wnętrz"
+description: "Krytyczna recenzja pracy freelancera projektującego wnętrza"
+summary: "Moja opinia na temat pracy architekta wnętrz i polskiego rynku projektowania wnętrz"
+date: 2024-01-01
+lastmod: 2024-01-01
+draft: true
+weight: 50
+categories: ['Interior Design']
+tags: []
+contributors: ['Paweł Żentała']
+pinned: false
+homepage: false
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+Krytyczna recejzna pracy frellancerskiego studia projektowego wykonuwujacego mi projekt wnetrza i polskiego rynku projektóantów wenetrz.
 
 Bo jak sie okaalo wiekszosc polskich projektoantów tego nie umie - zapytalem ich na grupie dla projektów o interesujace mnie poprawki t powiedzieli "Paaanie a to kilka studiow w polsce robi takie rzeczy, na palcach jednej reki policyc, i to ceny zaczyna sie od 20k zl  za takie mieszkanie 50m2 jak Pana".
 
 Wiec oto wskazowki dla Ciebie na co powinienes zwracac uwage zatudniajac projektanta - czy to umie czy sie nie orientuje :
 
-1) nie umie projejtowac mebli. 
-* jednym z powodow dla ktoeych ja wzialem byly te "meble", tymaczsem na dzien dzisiejszy jej meble w portfolio to kopia projetku mojej kuchni z castoramy. 
-* nie miala zadnego pojecia o projektowania mebli przez internet na wymiar np za pomoca takich kreatorow jak [FlexMeble](https://flexmeble.com/). zamawiajac szafe do sypialni czy meble do kuchni miala jedynie w glowie "stolarza" albo gotowce z supermarketu, tak jakby trudno bylo wyklikac szafe na wymiar w kreatorze! 
+1) nie umie projejtowac mebli.
+* jednym z powodow dla ktoeych ja wzialem byly te "meble", tymaczsem na dzien dzisiejszy jej meble w portfolio to kopia projetku mojej kuchni z castoramy.
+* nie miala zadnego pojecia o projektowania mebli przez internet na wymiar np za pomoca takich kreatorow jak [FlexMeble](https://flexmeble.com/). zamawiajac szafe do sypialni czy meble do kuchni miala jedynie w glowie "stolarza" albo gotowce z supermarketu, tak jakby trudno bylo wyklikac szafe na wymiar w kreatorze!
 * chciala dodatkowe pieniadze za projektowanie mebli, tymczasem biorac pod uwage ze to kilka klikniec to poiwinna byla mi je wyklikac i mialbyl zalatwione
 
 2) mowia o 2giej wersji zakrawa o oszustwo, bo ta 2ga 2ga werjsa to marne, male i niechetnie poprawki nanoszone w pospiechu
@@ -23,10 +43,10 @@ Wiec oto wskazowki dla Ciebie na co powinienes zwracac uwage zatudniajac projekt
 * nie zamowilbym u sary projektu wnetrza. zamowibym najwyzej projekt funkcjonalny. byloby taniej. meble i inne wyposarzenie i tak bedziesz dobieral na bierzaco
 * nie zamowiloibym wiizualizacji 3d, to ona ich potrzebowala do portfolio a nie ja, a obcoazyla kosztami mnie. - np zle dobrala tkaniny w pokoju a zroibla wizke sobie do poerfolio
 
-* warto korzystac zpomocy projektata ale nie warto na niego duzo wydawac. 
+* warto korzystac zpomocy projektata ale nie warto na niego duzo wydawac.
   * zanim wykonasz projekt mozesz tego nie wiedziec, bo przeciez projektant ma ladne wizualizacje w portfolio wiec wyglada na to ze jest OK ale Polscy projetanci wnetrz sa slabi. byloby nie uczciwe jakbym napisal ze ta konkretna projektnatka jest slaba. ale chcialem poprawic wszyskie te marne rzeczy i wrzucilem posta na grupe dla projektantow wnetrz i feedback jaki od nich dostalem jest tak ze on itez sa slabi i nie umieja w wymienione rzeczy/
 
-    * biorac pod uwage ze wiekszosc projektnatkow jest slabym a projekty malo dokladne radze na nich oszczedzac. jesli wydajesz 7.5k aby dowiedziec ze ze to co chcesz jako klient by kosztowalo min 20k i ze projektaci tego nie umieja to masz prawo czuc sie rozczarowany i nie chcec wydawac na nich kasy. 
+    * biorac pod uwage ze wiekszosc projektnatkow jest slabym a projekty malo dokladne radze na nich oszczedzac. jesli wydajesz 7.5k aby dowiedziec ze ze to co chcesz jako klient by kosztowalo min 20k i ze projektaci tego nie umieja to masz prawo czuc sie rozczarowany i nie chcec wydawac na nich kasy.
 
 * projekt funkcjonakny wnetrza jest najwazniejszy
 
@@ -46,14 +66,14 @@ to co jest do wykonania trudne, np w staryym budowanictiwe np plytki octagon, bo
 nie pomyslala bo to majster styka sie  takimi problemami
 wiec mozzesz jak ja dostac projekt mieszkania ktory bedzie trudny do zrealizowania
 albo sztukateria na mocno krzywych scianach - trzeba poprawiac sciany
-w ogole pomysly projetantka wnetrzz moga nie miec odzwierciedlenia nijak w tym co bedzie latwe i rozsadne cenowo do wykonania. 
-jesli chces wykonac szybki i latwy remont to ogolenie nie wyobrazzam sobie projektanta bez doswiadczenia w remonach aby zatrudniac. 
+w ogole pomysly projetantka wnetrzz moga nie miec odzwierciedlenia nijak w tym co bedzie latwe i rozsadne cenowo do wykonania.
+jesli chces wykonac szybki i latwy remont to ogolenie nie wyobrazzam sobie projektanta bez doswiadczenia w remonach aby zatrudniac.
 
 ogolnie to rynek projektoantow w pl jest niedojrzaly, ale zatrudniajac ich i wymagajac ukstaltujemy lepszy
 
 albo PL propjektanci nie projektuja mebli. w ogole przeciez to prosste dzisiaj oproc projektu projektowac meble na wymiar do mieszkania, do wysciaca i zlozoenia z komnkretnego rozkrjoju.
 
-nie mowiac o proejktowaniu mebli efdektywnie wykorzystujacych miejsce do mieskan, szczegolne w budynkach wielorodzinnych. 
+nie mowiac o proejktowaniu mebli efdektywnie wykorzystujacych miejsce do mieskan, szczegolne w budynkach wielorodzinnych.
 
 dalej nie mowiac o tym zze peojetant wnetr moglby byc defacto porojektantem iot, moglby wtedy wybierac jaka archiekture iot wybiora - przewodowa czy bezprzewodowa, w zaleznosci od stopnia, glebokosci remontu.
 
@@ -61,6 +81,13 @@ podobnie taki archiekt wnetrzna moglby zaporojektowac remont instalacji w mieszk
 
 stamtad juz bliskosc do projektowania systemow iot do miesznn.
 
-i taka firma ktora projeujke mieszkania z systemami iot i meblami, calkowicie sustomizowane ale tez elastyczne i intelignecje przestrednie - zmiana przeznaczneia mojego mieszkania z prywatnego na wynajmowane. 
+i taka firma ktora projeujke mieszkania z systemami iot i meblami, calkowicie sustomizowane ale tez elastyczne i intelignecje przestrednie - zmiana przeznaczneia mojego mieszkania z prywatnego na wynajmowane.
 
 [totalnie futurologiczny scenariusz: wyjezdzam na zdany na zime na 6mcy, zostawiam swoje mieskanie do wynajecia jako airbnb, ono juz posiada cala niezbedna elektronikedo tego (np zdalnie otwierane drzwi), co wiecej humanoidalny robot oproznia mieszkanie z moich rzezy do schowka ktorey mam w tym samym budynky, gdzie przechowuje swoje rzeczy na czas kiedy nie ma mniej w mieszkaniu. ]
+
+---
+
+w ogole stworzylbym portal z ugliugami architektow wnetrz i ich portfolio, oraz jakas mozliwosc koporeracji z innymi specjalistami, aby projekt wnetrzna byl praca zespolowa, bo prawde mowiac jeden archiekt to troche malo aby umial i wiedzial wszystko, a gdyby dalo sie w jakis spsoosb przprowadzic Twoj projekt przez poprawki i ulepszenia roznych specjalistow, rozne proozycje, to mialbys duzo lepszy wynikowy efekt.
+potrzeba nie tylko architektow ale tez ludzi co znaja sie na wykoanwestiw ebyaby li w stanie wskazac jaki projekt jest latwy albo tani do zrobienia,  bo to nie sztuka zprojekto projekt ladny ale trodnu do wykonania, i kosztowy, wymahgajany ogoemnych kladow pracy.
+potrzbea by tez aby byli tam specjaliso od oswietlania, jak je rozplanowac, od smart home, aby wiedzieli jakich systemow i rozwizan uzyc, jak polzyc kable.
+mysle ze przylzoscia sa serwisy gdzie polacznie archiektor i akiesgosc scafoldingu systemow jak iot, czy rozwiznai iot bedzie genttowalo projekty wnetrza, ale to  nadal docs dlaeka przyosc, trzeba by to zintegroac z opgroeamowniem do projektowani 3d...

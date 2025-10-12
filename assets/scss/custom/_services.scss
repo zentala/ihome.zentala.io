@@ -1,0 +1,133 @@
+// Services page custom styles
+
+// Services card grid
+.services-grid {
+  .card {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    padding: 0;
+    border: 0;
+
+
+    // Background icon
+    .background-icon {
+      position: absolute;
+      top: -80%;
+      right: -70%;
+      opacity: 0.08;
+      font-size: 12rem;
+      color: $gray-600;
+      z-index: 1;
+
+      // Hide on mobile
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    // Card body
+    .card-body {
+      position: relative;
+      z-index: 2;
+      text-align: left;
+      padding: 2rem;
+
+      // Service icon
+      .service-icon {
+        font-size: 2rem;
+        color: $gray-700;
+        margin-bottom: 0.5em;
+        display: block;
+      }
+
+      // Title
+      h2 {
+        margin-top: 0;
+        color: $body-color;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+
+      // Description
+      .service-description {
+        color: $text-muted;
+        margin-bottom: 1.5rem;
+      }
+
+      // Features list
+      .features-list {
+        padding-left: 0;
+        list-style: none;
+
+        li {
+          margin-bottom: 0.75em;
+          color: $gray-700;
+          display: flex;
+          align-items: flex-start;
+
+          // Check icon - grayscale
+          .bi-check-circle {
+            color: $gray-600;
+            margin-right: 0.75em;
+            margin-top: 0.125em;
+            flex-shrink: 0;
+            opacity: 0.8;
+            font-size: 1.1em;
+          }
+        }
+      }
+    }
+
+    // Stretched link for entire card clickability
+    .stretched-link {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      text-decoration: none;
+    }
+  }
+}
+
+// Dark mode styles
+@include color-mode(dark) {
+  .services-grid {
+    .card {
+      background-color: $body-overlay-dark;
+
+      .background-icon {
+        color: $gray-500;
+        opacity: 0.05;
+      }
+
+      .card-body {
+        h2 {
+          color: $headings-color-dark;
+        }
+
+        .service-icon {
+          color: $gray-400;
+        }
+
+        .service-description {
+          color: darken($body-color-dark, 7.5%);
+        }
+
+        .features-list li {
+          color: $body-color-dark;
+
+          .bi-check-circle {
+            color: $gray-500;
+          }
+        }
+      }
+    }
+  }
+}

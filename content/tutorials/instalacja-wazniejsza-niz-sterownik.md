@@ -1,99 +1,105 @@
 ---
-title: "Strukura instalacji ważniejsza niż sterownik"
-description: ""
-summary: ""
+title: "Sterownik wymienisz, kabli w ścianie wolałbyś nie - jak mądrze zaplanować elastyczną instalację Smart Home"
+description: "Dlaczego przy budowie Smart Home struktura instalacji elektrycznej jest ważniejsza niż wybór sterownika? Sterownik można wymienić, ale kabli w ścianach już nie. Praktyczne porady jak zaprojektować instalację IoT na lata."
+summary: "Co wziąć pod uwagę przy budowie Smart Home z myślą o przyszłości? Dowiedz się dlaczego warto skupić się na strukturze kabli, oznaczeniach i zapasowych przewodach... i być gotowym na ewentualną modernizację sterownika w przyszłości."
 # thumb: "https://static.zentala.io/boneio/bone-esp32-2.jpg"
 date: 2024-03-14T03:50:44+02:00
 lastmod: 2024-03-14T03:50:44+02:00
 draft: false
 weight: 50
 categories: ['Smart Home']
-tags: []
+tags: ['instalacja elektryczna', 'kable', 'IoT', 'BoneIO', 'projektowanie', 'modernizacja', 'rozdzielnica', 'przewody zapasowe']
 contributors: ['Paweł Żentała']
 pinned: false
 homepage: false
+url: "/strukura-instalacji-wazniejsza-niz-sterownik/"
+aliases: ["/tutorials/instalacja-wazniejsza-niz-sterownik/"]
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Future-proof instalacja Smart Home - jak zaplanować okablowanie raz a dobrze" # custom title (optional)
+  description: "Sterownik można wymienić, kabli w ścianach już nie. Praktyczny poradnik jak zaprojektować elastyczną instalację Smart Home gotową na przyszłe technologie IoT." # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
 
-Jako programista specjalizujacy sie w intenrcecie rzeczy, oceniam ze 2024 roku nadal rynek inteigentnych domow jest na wczesnym etapie swojego rozwoju, to znaczy - w przyszlosci na rynku pojawia sie nowsze, bardziej funkcjonalne i rozbudowane rozwiazania, ktore na dzien dzisiejszy, mimo iz sa technicznie mozliwe do zrealizowania to, pozostaja tylko w strefie fantazji. Rozwizania ktore sa dostepne na rynku to kompromisy pomiedzy potrzebami a oplacalnosca. Opracowanie rozwaizana IoT, przetestowanie go to duzo pracy, stad mamy tylk dostepne rozwizania ktore sie oplacacalo stworzyc.
+Jako programista IoT oceniam, że w 2024 roku rynek inteligentnych domów jest wciąż na wczesnym etapie rozwoju. Obecnie powstają głównie rozwiązania, które opłaca się tworzyć ze względu na skalę - wystarczająco uniwersalne, by kupowało je wiele osób. Gdy popularność Smart Home wzrośnie, pojawią się bardziej różnorodne, niszowe rozwiązania dopasowane do konkretnych potrzeb. Dziś takie specjalistyczne produkty są albo bardzo drogie (bo robione na zamówienie dla majętnych), albo w ogóle się ich nie opłaca produkować.
 
-Sa tylko kompromisy i rozwiania nie dopracowane. Są niezłe i bardzo drogie produkty z pudelka ktorych bym dla siebie nie kupil (bo nie mozna ich customizowac, bo sa zdecydowanie za drogie i nie mam tyle kasy aby przeplacac). Oraz jest szereg bardziej otwartych rozwiazan ktore tez nie sa idealne, a przynajmniej nie stanowia kompleksowego sytsemu, ale sa tworzone przez splecznosc dzieki czemu sa customizowalne i latwo integrowalne.
+Na rynku mamy więc kompromisy: drogie systemy pudełkowe (zamknięte, nie do customizacji) lub otwarte rozwiązania społecznościowe (customizowalne, ale niekompletne). Idealnego sterownika po prostu jeszcze nie ma.
 
 
-## Kto buduje inteligente domy
-Inteligentne domy buduja sobie glownie programsci alb majetni ludzie. Majetni bo ich stac na rozwiazania z pudelka i sa w stanie wydac extra kase na podniesiony komfort zycia, zas programisci bo wiedza co jest mozliwe i maja wizje aby poekserymentowac sobie z inteligentym mieszkaniem.
+## Kto buduje inteligentne domy
+Inteligentne domy budują sobie głównie programiści albo majętni ludzie. Majętni bo ich stać na rozwiązania z pudełka i są w stanie wydać extra kasę na podniesiony komfort życia, zaś programiści bo wiedzą co jest możliwe i mają wizję aby poeksperymentować sobie z inteligentnym mieszkaniem.
 
-Jest jeszcze 3cia grupa - interesujaca sie nowinakami - bardziej pragmantyczna, ktora jednak na ogol idzie w rozwiazania bezprzewodowe. Dla niej w ogole stworzylem artykuly "Smart Home w wersji minimum" oraz "Tani i Prosty Inteligentny Dom". Dziele się tam swoimi przemysleniami jak zbudwac prosta i efektywna kosztowo insalacje -co poradzilbym osobom nie technicznym planujacym mieszkanie. Opisuje tam co latwo i tanio mozna wdrozyc, tez jak czasem dzieki kladzeniu kabli na etapie budowy mozna pozniej oszczedzic na bezprzewodwyhc rozwiazaniach. Tej grupe ppolecam przeczyac moej artykuly z ktorych dowiedza sie co jest tanio mozliwe, a apo co nie warto siegac aby mierzac sily na zamiary mogli zdecydowac sie na to co jest prosto wdrozyc.
+Jest jeszcze 3cia grupa - interesująca się nowinkami - bardziej pragmatyczna, która jednak na ogół idzie w rozwiązania bezprzewodowe. Dla niej w ogóle stworzyłem artykuły "Smart Home w wersji minimum" oraz "Tani i Prosty Inteligentny Dom". Dzielę się tam swoimi przemyśleniami jak zbudować prostą i efektywną kosztowo instalację - co poradziłbym osobom nietechnicznym planującym mieszkanie. Opisuję tam co łatwo i tanio można wdrożyć, też jak czasem dzięki kładzeniu kabli na etapie budowy można później oszczędzić na bezprzewodowych rozwiązaniach. Tej grupie polecam przeczytać moje artykuły z których dowiedzą się co jest tanio możliwe, a po co nie warto sięgać aby mierząc siły na zamiary mogli zdecydować się na to co jest prosto wdrożyć.
 
 ## Czym się kierowałem w wyborze sterownika?
-Kazdej z tych grup polecilbym cos nieco innego. Natomiast ja jako programista chcacy eksperymentwac mialem prwien zestaw kierowalem sie nastepujacymi kryteriami:
+Każdej z tych grup poleciłbym coś nieco innego. Natomiast ja jako programista chcący eksperymentować miałem pewien zestaw kryteriów:
 
-{x} dokumentacja Kiedy patrzysz na dokumentacje sterownikow na ogol wiele tam nie ma bo prawde mowiac te sterowniki sa slabo udokumentwoane bo sa wzglednie proste i nie ma tam co dokumentowac. Jest kilka opcji do ktorych aby sie dostac i tak pewnie bedziesz potrzebowal kwadransu kogos bardziej doswiadczonego. Dlatego ja nie zwracam uwagi na domentacje.
+{x} dokumentacja - Kiedy patrzysz na dokumentację sterowników na ogół wiele tam nie ma bo prawdę mówiąc te sterowniki są słabo udokumentowane bo są względnie proste i nie ma tam co dokumentować. Jest kilka opcji do których aby się dostać i tak pewnie będziesz potrzebował kwadransu kogoś bardziej doświadczonego. Dlatego ja nie zwracam uwagi na dokumentację.
 
-To co liczyc sie to:
-{v} stabilnoc dzialania
-{v} otwartosc oprogramowania (mozliwosc wlasnych modyfkacji i integracji),
-{v} pomoc jaka mozesz dostac od spolecznosci.
+To co liczy się to:
+{v} stabilność działania
+{v} otwartość oprogramowania (możliwość własnych modyfikacji i integracji),
+{v} pomoc jaką możesz dostać od społeczności.
 
-Omwmy dokladniej te punkty:
+Omówmy dokładniej te punkty:
 
-Stabilnosc dzialania z oczywistych przyczyn - trzeba wybrac cos z czego korzystali juz inni i maja dobre opinie, a przynajmniej to istnieje na rynku i nie ma zlych opinii :)
+Stabilność działania z oczywistych przyczyn - trzeba wybrać coś z czego korzystali już inni i mają dobre opinie, a przynajmniej to istnieje na rynku i nie ma złych opinii :)
 
-Otwattosc orpgoramoania - z powodu jej braku powstal BoneIO i jest to bardzo wazny czynnik jesli chcemy miec smart home tani i elastyczny (rozbudowywalny). Za jakis czas mozesz chciec cos zmienic lub dodać, a produkty mocno komercyjnych firm beda mialy drogie komponenty albo beda chcialy duzo za customizacje oprogamwania. Natomiast jesli wybierasz
+Otwartość oprogramowania - z powodu jej braku powstał BoneIO i jest to bardzo ważny czynnik jeśli chcemy mieć smart home tani i elastyczny (rozbudowywalny). Za jakiś czas możesz chcieć coś zmienić lub dodać, a produkty mocno komercyjnych firm będą miały drogie komponenty albo będą chciały dużo za customizację oprogramowania.
 
-Pomoc jest bardzo wazna, moze najwazniejsza. Dlatego wybralem Bone.IO bo podobala mi sie jej spolecznosc. Widzialem jeszcze inny polski system XXX ktory tez ma fajna spolecznosc i jest nieco bardziej rozwiniety, wiec prawdopodobnie dzis zdecydowalbym sie na niego ale prawde mowiac - nie robi to duzej roznicy.
+Pomoc jest bardzo ważna, może najważniejsza. Dlatego wybrałem Bone.IO bo podobała mi się jej społeczność. Widziałem jeszcze inny polski system który też ma fajną społeczność i jest nieco bardziej rozwinięty, więc prawdopodobnie dziś zdecydowałbym się na niego ale prawdę mówiąc - nie robi to dużej różnicy.
 
-## Daczego struktura instalacji jest wazniejsza niz sterownik?
-Natmiast poniewaz idealne rozwiazanie w moim mniejamniu nie istnieje - bo smart home to rynek rozwijacy sie - to jestem zwolnnikiem pogladu, ze wazniejsze od wyboru sterownika SH, jest projekt instalacji w taki sposb, aby sterownik dalo sie wymienic i zastaapiac innym. Co kilka lat wymieniamy telefony i komputery, technologia zmienia się z roku na rok. Czemu nie mielibysmy wymienic w przyszlosci stwoenika smart home? Uwazam ze bedziemy to robic, stad nowsze ze striktura instalacji IoT powina byc na tyle elastyczna aby sie dalo.
+## Dlaczego struktura instalacji jest ważniejsza niż sterownik?
+Ponieważ idealne rozwiązanie w moim mniemaniu nie istnieje - bo smart home to rynek rozwijający się - jestem zwolennikiem poglądu, że ważniejsze od wyboru sterownika SH jest zaprojektowanie instalacji w taki sposób, aby sterownik dało się wymienić i zastąpić innym. Co kilka lat wymieniamy telefony i komputery, technologia zmienia się z roku na rok. Czemu nie mielibyśmy wymienić w przyszłości sterownika smart home? Uważam że będziemy to robić, stąd struktura instalacji IoT powinna być na tyle elastyczna aby się dało. **Sterownik można zmienić, ale tego co położysz w ścianie - kabli - już nie.**
 
-## Na jakim etapie rozwoju jest ryenk intelignetnych domow?
-Moim zdaniem smart home jest mniej wiecej na takm etapie rozwoju jak urzadzenia AGD w czasach wynalezienia silnika elektrycznego. Uzywano go glownie do mielenia ziarna w mlycnach elektrycznch i ciecia drewna w tartakach. Ktos tam wymyslil pralke, ale wielu putalo po co to? Trzeba prad podlaczac do domu a i przeciez mozna prac recznie, c'nie? Nie wiedza jeszcze ze za niedlugo przyjdzie mixer, maszynka do miesa a w przyszlosci AGD zrewolucjonizuje thermomix.
+## Na jakim etapie rozwoju jest rynek inteligentnych domów?
+Moim zdaniem smart home jest mniej więcej na takim etapie rozwoju jak urządzenia AGD w czasach wynalezienia silnika elektrycznego. Używano go głównie do mielenia ziarna w młynach elektrycznych i cięcia drewna w tartakach. Ktoś tam wymyślił pralkę, ale wielu pytało po co to? Trzeba prąd podłączać do domu a i przecież można prać ręcznie, c'nie? Nie wiedzą jeszcze że za niedługo przyjdzie mikser, maszynka do mięsa a w przyszłości AGD zrewolucjonizuje thermomix.
 
-podobnie jest z inteligentnym domem 2024 roku - wizjonerzy wiedza ze smarthome wchodzi i bedzie sie rozwijac, technologia (metaformny silnik) juz jest, ale znalezienie sposobw jego wykorzystania w bardziej kreatywny i ambitny sposob jest jeszcze przed nami!
+Podobnie jest z inteligentnym domem 2024 roku - wizjonerzy wiedzą że smarthome wchodzi i będzie się rozwijać, technologia (metaforyczny silnik) już jest, ale znalezienie sposobów jego wykorzystania w bardziej kreatywny i ambitny sposób jest jeszcze przed nami!
 
-stad powinienes zakladac ze smart home sie zmieni, co wiecej nie waiadmo jak. dlatego nie warto w niego prze inwestowywac, a jednoczesnie warto starac sie go budowac (na tyule na ile to mozliwe, bonie wiemy co sie pojawi) tak, aby dalo sie go skonfigurowac w inny sposob.
+Stąd powinieneś zakładać że smart home się zmieni, co więcej nie wiadomo jak. IoT ewoluuje, potrzeby się zmieniają, rozwiązania techniczne się zmieniają. Dlatego nie warto w niego przeinwestowywać, a jednocześnie warto starać się go budować (na tyle na ile to możliwe, bo nie wiemy co się pojawi) tak, aby dało się go skonfigurować w inny sposób. **Kluczem jest modyfikowalność i edytowalność systemu.**
 
-korzystajac dalej z metafory slnika - jacys kolesie w garazu zbudowali juz prototyp miskera, ale t dopiero prototyp i nie ma wygodnej obudowy i nie pojawi sie na rynku. podobnie dzis np w inteligentych domach nie ma dobrych sterownikow oswietlenia - sciemniaczy oraz sterwnikow RGBWA led po to aby dom mogl np komunikowac sie z Toba swiatlem albo tworzyc nim nastroj. owszem da sie cos takiego zaaplikowac, ale jest to na tyle nie dopracowane, na tyle ma ograniczone mozliwosci (np do konkrenego rodzaju zrodla swiatla) i w dodaktu brakuje do tego oprogramowania ktorym by sie to skonfugoealo bez umiejetnosci programowani, ze w zwiazku z tym wdazanie takiego zaawansowego oswietlenia jest na tyle karkolomne we wdrozeniu, ze nie oplaca sie tego robic jesli nie jestem informatykem ktory ma ochote sie z tym bawic i defacto wymylac jak to zrobic.
+Korzystając dalej z metafory silnika - jacyś kolesie w garażu zbudowali już prototyp miksera, ale to dopiero prototyp i nie ma wygodnej obudowy i nie pojawi się na rynku. Podobnie dziś np. w inteligentnych domach nie ma dobrych sterowników oświetlenia - ściemniaczy oraz sterowników RGBWA LED po to aby dom mógł np. komunikować się z Tobą światłem albo tworzyć nim nastrój. Owszem da się coś takiego zaaplikować, ale jest to na tyle nie dopracowane, na tyle ma ograniczone możliwości (np. do konkretnego rodzaju źródła światła) i w dodatku brakuje do tego oprogramowania którym by się to skonfigurowało bez umiejętności programowania, że w związku z tym wdrażanie takiego zaawansowanego oświetlenia jest na tyle karkołomne we wdrożeniu, że nie opłaca się tego robić jeśli nie jestem informatykiem który ma ochotę się z tym bawić i de facto wymyślać jak to zrobić.
 
-bo to Ci informatycy ktorzy dzis sie tym bawia wypracuja standardy i pomsyly na wykrozystanie tych technologii. np mowisz cos do asystenta glosowanego a on potiwerdza ze zaczal suchac delikatnym sygnalem swietlnym (np nieco sie rozjasnia), albo potwierdza ze przyjal cos i wykonuje 2ma mrugnieciami zamiast gadac do Ciebie, co jest niezbyt fajne moim daniem jesli nie konieczne.
+Bo to Ci informatycy którzy dziś się tym bawią wypracują standardy i pomysły na wykorzystanie tych technologii. Np. mówisz coś do asystenta głosowego a on potwierdza że zaczął słuchać delikatnym sygnałem świetlnym (np. nieco się rozjaśnia), albo potwierdza że przyjął coś i wykonuje 2-ma mrugnięciami zamiast gadać do Ciebie, co jest niezbyt fajne moim zdaniem jeśli nie konieczne.
 
-wiec CI infomatycy dzisiaj ktorzy na tym sprzecie jaki juz jest, bo da sie to zlozyc z komponentw jakie sa, budyja z tego systemym ktore pewnie keidys sie przyja sa jak ludzie ktorzy z silnika zbudowali mixer, bo ktos pierwszy raz musal wymyslec jak zrobic z tego silnika system skladajacy sie z wymiennych miesadlem i korpusu oraz jakiejs tam regulacji obrotow.
+Więc Ci informatycy dzisiaj którzy na tym sprzęcie jaki już jest, bo da się to złożyć z komponentów jakie są, budują z tego systemy które pewnie kiedyś się przyjmą są jak ludzie którzy z silnika zbudowali mikser, bo ktoś pierwszy raz musiał wymyślić jak zrobić z tego silnika system składający się z wymiennych mieszadeł i korpusu oraz jakiejś tam regulacji obrotów.
 
-## zalecenia przy budowie smart home
+## Zalecenia przy budowie smart home
 
-### proste i pewne rozwiazania
-stad - dla przecietnego zjadacza mrozonego chleba - owszem warto **skorzystac ze sprawdzonych, prostych rozwiazan**, w zakresie smarthome, ale warto zdawac sobie sprawe gdzie sa te niskowiszace jablka, a gdzie sa fantazje dla wizjonerow i tworcow, po ktore nie warto siegac. i warto tez **zdawac sobie sprawe ze w przyszlosci moga pojawic sie nowe zastosowania, nowe rewolucujne steronwiki iot** itd do smarthome. to moze byc za 5-10-20 lat. i warto **miec gotowa infrastukrue pod te przyszłe rozwiazania**. nie wyamga to znaczących nakładów, a jedynie nieco pracy na wlasciwe zaprojektowanie i opisanie jej - aby miec infrastukture na tyle czytelna i PROSTA aby dalo sie podlaczyc pod nia cokolwiek.
+### Proste i pewne rozwiązania
+Stąd - dla przeciętnego zjadacza mrożonego chleba - owszem warto **skorzystać ze sprawdzonych, prostych rozwiązań** w zakresie smarthome, ale warto zdawać sobie sprawę gdzie są te niskowiszące jabłka, a gdzie są fantazje dla wizjonerów i twórców, po które nie warto sięgać. I warto też **zdawać sobie sprawę że w przyszłości mogą pojawić się nowe zastosowania, nowe rewolucyjne sterowniki IoT** itd. do smarthome. To może być za 5-10-20 lat. I warto **mieć gotową infrastrukturę pod te przyszłe rozwiązania**. Nie wymaga to znaczących nakładów, a jedynie nieco pracy na właściwe zaprojektowanie i opisanie jej - aby mieć infrastrukturę na tyle czytelną i PROSTĄ aby dało się podłączyć pod nią cokolwiek.
 
-### oznaczenie przewodow
-bo pomysl - jaki jest najwieszy koszt przebudwy instalacji IoT w istniejacy mieszkaniu? to remont. kucie kabli w sciacnach. kurz i brud. wymiana czy dokladnie nowych przewodow. nie chcesz tego. mozesz zmienic urzadzenia po obu stonach kabla, ale nie chcesz wymieniac kabla - tak powinines myslec o instalacji budujac smart home. w zwiazku z tym **dobrze** [**oznacz przewody po obu stronach** za pomoca drukarki etykiet](), bo za 20 lat nie będziesz pamietał który do czego
+### Oznaczenie przewodów
+Bo pomyśl - jaki jest największy koszt przebudowy instalacji IoT w istniejącym mieszkaniu? To remont. Kucie kabli w ścianach. Kurz i brud. Wymiana czy dokładanie nowych przewodów. **Nie chcesz kuć w ścianach!** Możesz zmienić urządzenia po obu stronach kabla, ale nie chcesz wymieniać kabla - tak powinieneś myśleć o instalacji budując smart home. W związku z tym **dobrze** [**oznacz przewody po obu stronach** za pomocą drukarki etykiet](), bo za 20 lat nie będziesz pamiętał który do czego.
 
-### mapa instalacji
+### Mapa instalacji
 
-ponadto majac na uwadze ze moga pojawic sie nowe urzadzenia **zaprewne gdzieniejdzie zostawisz nadmiarowe kable na zas. w szczegolosci kable elektryczne**. bo o ile urzadzenia iot moga komunikwac sie bezprzeowodwo ze soba, to braku kabla z napieciniem niczym nie zamienisz.
+Ponadto mając na uwadze że mogą pojawić się nowe urządzenia **zapewne gdzieniegdzie zostawisz nadmiarowe kable na zapas. W szczególności kable elektryczne**. Bo o ile urządzenia IoT mogą komunikować się bezprzewodowo ze sobą, to braku kabla z napięciem niczym nie zastąpisz. **Musisz też położyć zapasowe kable myśląc o ewentualnym zapasie** - potrzeby się zmieniają!
 
-## do czego warto polozyc nadmiarowe kable
-* **rolety elektryczne wewn** np nie ma dzis na rynku atrkacyjnej oferty rolet wewnatrznych sterowanych przez smarthome. ale kedys tak ofeta sie pojawi bo technolgia istnieje, po prostu jeszcze nie stworzono produktow. dlatego ja zdecydowalem sie polozyc kable zasilania do puszek podtynkowych obok okien. rolety moga sie komunikowac bezprzeowdowo ale pradu bezprzewodowo nie przeslemy.
+## Do czego warto położyć nadmiarowe kable
+* **Rolety elektryczne wewnętrzne** - np. nie ma dziś na rynku atrakcyjnej oferty rolet wewnętrznych sterowanych przez smarthome. Ale kiedyś taka oferta się pojawi bo technologia istnieje, po prostu jeszcze nie stworzono produktów. Dlatego ja zdecydowałem się położyć kable zasilania do puszek podtynkowych obok okien. Rolety mogą się komunikować bezprzewodowo ale prądu bezprzewodowo nie prześlemy.
 
-- tak warto myslec o przyszlej potencjalnej modernizacji kladzac kable. warto rozwazyc czy w przyszlosci nie chcielnbysmy jakiegos feature i  czy w zwiazku z tym nie chcemy gdzie zostawic kabla na zas.
+Tak warto myśleć o przyszłej potencjalnej modernizacji kładąc kable. Warto rozważyć czy w przyszłości nie chcielibyśmy jakiegoś feature i czy w związku z tym nie chcemy gdzieś zostawić kabla na zapas.
 
-- **siłowniki do (drzwi i) okien** - pada deszcz, chcesz zamknąć automatycznie okno. dzis nie ma takich rozwiazan albo sa diablenie drogie ale stawiam ze za 30 lat beda dosc tanie. po fortunie ktora wydamy na transformacje enegetyczna i ogranicznaie kosztw zuzycia energii takie silowniki moga stac sie dosc popuarne a wraz z nimi spadnie ich cena.
+* **Siłowniki do (drzwi i) okien** - pada deszcz, chcesz zamknąć automatycznie okno. Dziś nie ma takich rozwiązań albo są diabelnie drogie ale stawiam że za 30 lat będą dość tanie. Po fortunie którą wydamy na transformację energetyczną i ograniczanie kosztów zużycia energii takie siłowniki mogą stać się dość popularne a wraz z nimi spadnie ich cena.
 
-- **zamki w drzwiach** - zaluje ze nie poloylem kabla 2x1 do kazdego zamka drzwi, z czasem z pewnsci bardzie latwiej je otwierac elektrcznie. czasami moglbys chciec zamknac dzwrzi do pokoju z lozka, albo wpuszaajac kogos do mieszkania podczas swojej niebecnosci odciac droge do jednego pokoju. nie mowiac juz o drzwiach wejscowych - moze fajnie byloby pozowlic kurierwi wejsc do mieszkania i zostawic paczke na podlodze podczas wakacji. albo umozliwoc awaryjne wejscie do mieszkania dzorcy w razie awarii np instalacji wodnej.
+* **Zamki w drzwiach** - żałuję że nie położyłem kabla 2x1 do każdego zamka drzwi, z czasem z pewnością łatwiej będzie je otwierać elektrycznie. Czasami mógłbyś chcieć zamknąć drzwi do pokoju z łóżka, albo wpuszczając kogoś do mieszkania podczas swojej nieobecności odciąć drogę do jednego pokoju. Nie mówiąc już o drzwiach wejściowych - może fajnie byłoby pozwolić kurierowi wejść do mieszkania i zostawić paczkę na podłodze podczas wakacji. Albo umożliwić awaryjne wejście do mieszkania dozorcy w razie awarii np. instalacji wodnej.
 
-- **podjazdy dla wozkow inwalidzkich** niezwiazane z IoT ale zyjemy w starzejacym sie spoleczenstwie i szczegolnie na klatkach warto zabezpieczyc prad na winde dla wozkow, po za tym kazdy moze ulec kedys jakies kontuzji (mam nadzieje ze nie)
+* **Podjazdy dla wózków inwalidzkich** - niezwiązane z IoT ale żyjemy w starzejącym się społeczeństwie i szczególnie na klatkach warto zabezpieczyć prąd na windę dla wózków, poza tym każdy może ulec kiedyś jakiejś kontuzji (mam nadzieję że nie)
 
-nie sa to obowiazkowe rzeczy ale warte rozwaznia, szceglnie jesli pracujesz w [systemie mirkorodzielnic]() i w zwiazku z tym nie masz duzo przewdu do pociagniecia.
+Nie są to obowiązkowe rzeczy ale warte rozważenia, szczególnie jeśli pracujesz w [systemie mikrorozdzielnic]() i w związku z tym nie masz dużo przewodu do pociągnięcia.
 
-dodatkowo zawsze mozna dorzucic skretke telekomunikacyjna. natomiast najwazniejszy jest prad. tam gdzie mozemy chciec cos podlaczyc zawsze przyda sie prad. np jesli nie wiesz czy bedziesz chcial cos podlaczyc w sfucie podwieszanym zawsze mozesz zostac kable z pradem (odlaczaony lub zabezpueczny zlaczmaki na kncu), bedziesz chcial dodac glosnik - dodasz bezprzewodowy, bedziesz chcial dodac extra sensor, podobnie - dobasz bezprzewodowy, bedziesz chcial dodac tasme led, znow - bezprzewodowa
+Dodatkowo zawsze można dorzucić skrętkę telekomunikacyjną. Natomiast najważniejszy jest prąd. Tam gdzie możemy chcieć coś podłączyć zawsze przyda się prąd. Np. jeśli nie wiesz czy będziesz chciał coś podłączyć w suficie podwieszanym zawsze możesz zostawić kable z prądem (odłączony lub zabezpieczony złączkami na końcu), będziesz chciał dodać głośnik - dodasz bezprzewodowy, będziesz chciał dodać extra sensor, podobnie - dodasz bezprzewodowy, będziesz chciał dodać taśmę LED, znów - bezprzewodowa.
 
-## pdsumwanie
+## Podsumowanie
 
-ne wiem czy czy bone.io to najlepszy wybor, prawde mowiac nie znalazlem najlepzego wyboru. nie ma tanich systemow sciemniaczy swiatla ani tanich rolet wewnetrznych sterwnych elektrycznie. nie ma dobrych sterownikow ledow aby mozna bylo latwo osiagac na nich fajne efekty wizualne. nie da sie latwo scentralizoac sterowania oswietniem swiatal. ale nie sa to tylko wady bone.io. po prostu nie bardzo sa takie rozwiaazania na rynkku. sa jakies zamkniete systemy pudelkowe oferujace tego rodzaju funkcjonalnosci, ale nie sa one na tyle zaawansowe aby biorac pod uwagre ogromna cene takich systemow warto bylo je polecic. dlatego mowi ze indealny sterownik (lub system sterownikow) do inteligentego domu nie istnieje. przyjdzie nam na niego zaczekac. poki co nalezy skupic sie na
-a) [nisko wiszacych jablkach - minimalnych i tanich do wdrozenia rozwiazaniach iot](minialny-dom-io),
-b) majac na uwadze aby prjektujac instalacje [dobrze opsac przewody]() i [zrobic ich solidna mape](), aby w przyszlosci dalo sie latwo zmoderunowc urzdzenia po obu stronch kabla, gdy wyjdna lepsze rzwaizania smart home,
-c) a takze dolozyc gdzeniegdzie przewody zasilajace jesli liczymy na to ze dodamy kiedys jakies rozwiazania ktore technicznie sa juz mozliwe ale poki co nie ma ich na rynku
+Nie wiem czy Bone.IO to najlepszy wybór, prawdę mówiąc nie znalazłem najlepszego wyboru. Nie ma tanich systemów ściemniaczy światła ani tanich rolet wewnętrznych sterowanych elektrycznie. Nie ma dobrych sterowników LED-ów aby można było łatwo osiągać na nich fajne efekty wizualne. Nie da się łatwo scentralizować sterowania oświetleniem świateł. Ale nie są to tylko wady Bone.IO. Po prostu nie bardzo są takie rozwiązania na rynku. Są jakieś zamknięte systemy pudełkowe oferujące tego rodzaju funkcjonalności, ale nie są one na tyle zaawansowane aby biorąc pod uwagę ogromną cenę takich systemów warto było je polecić. Dlatego mówię że idealny sterownik (lub system sterowników) do inteligentnego domu nie istnieje. Przyjdzie nam na niego zaczekać.
+
+**Kluczowa myśl: sterownik można zmienić, ale tego co położysz w ścianie - kabli - już nie.** IoT ewoluuje, potrzeby i rozwiązania techniczne się zmieniają. Nie chcesz kuć w ścianach za kilka lat!
+
+Póki co należy skupić się na:
+a) [Niskowiszących jabłkach - minimalnych i tanich do wdrożenia rozwiązaniach IoT](minimalny-dom-io),
+b) Mając na uwadze aby projektując instalację [dobrze opisać przewody]() i [zrobić ich solidną mapę](), aby w przyszłości dało się łatwo zmodernizować urządzenia po obu stronach kabla, gdy wyjdą lepsze rozwiązania smart home,
+c) A także dołożyć gdzieniegdzie przewody zasilające jeśli liczymy na to że dodamy kiedyś jakieś rozwiązania które technicznie są już możliwe ale póki co nie ma ich na rynku. **Położyć zapasowe kable myśląc o ewentualnym zapasie!**
 
