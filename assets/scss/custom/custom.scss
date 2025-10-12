@@ -135,3 +135,67 @@
   }
 }
 
+
+// TODO czo logo moze miec kolor var --bs-body-color która zmienia się ze skórką
+// TODO czy logo moze uzywac na hover --bs-navbar-brand-color na hover
+
+// Logo filter for proper color in light/dark modes
+// The logo SVG is white, so we need to apply filters to make it match navbar text color
+:root {
+  // In light mode: invert white to black, then adjust brightness to match navbar text
+  --logo-filter: invert(1) brightness(0.25);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    // In dark mode: keep it lighter to match navbar text
+    --logo-filter: invert(1) brightness(1.8);
+  }
+}
+
+// Manual dark mode override
+[data-bs-theme="dark"] {
+  --logo-filter: invert(1) brightness(1.8);
+}
+
+[data-bs-theme="light"] {
+  --logo-filter: invert(1) brightness(0.25);
+}
+
+// Navbar brand color rules (text + masked logo stay in sync)
+.navbar-brand {
+  color: var(--bs-body-color);
+  transition: color 0.2s ease;
+}
+
+// Subtle theme-aware hover contrast: darker on light theme, lighter on dark
+[data-bs-theme="light"] .navbar-brand:hover,
+[data-bs-theme="light"] .navbar-brand:focus {
+  color: color-mix(in srgb, currentColor 60%, black 40%);
+}
+
+[data-bs-theme="dark"] .navbar-brand:hover,
+[data-bs-theme="dark"] .navbar-brand:focus {
+  color: var(--bs-navbar-brand-color, #fff);
+}
+
+// Navbar logo as mask colored by currentColor (inherits from .navbar-brand)
+.navbar-brand .navbar-logo {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin-right: 0.5rem;
+  transform: translateY(-2px);
+  background-color: currentColor;
+  /* Use mask to paint monochrome SVG with theme color */
+  -webkit-mask-image: url('/logo.svg');
+  mask-image: url('/logo.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+
