@@ -37,6 +37,57 @@ Remontując swoje mieszkanie, najbardziej bolało mnie stosowanie wszędzie arch
 
 Zamiast ciągnąć kilka skrętek z każdego pomieszczenia, pociągniemy jedną. Zamiast kilku linii 250V do punktów światła, ciągniemy jedną linię zasilającą. Lokalny sterownik w pomieszczeniu obsługuje wszystko na miejscu, komunikując się z centrum przez MQTT, ale zachowując podstawową funkcjonalność nawet przy awarii sieci.
 
+#### Architektura Drzewa vs Gwiazdy
+
+```mermaid
+graph TD
+    %% Traditional Star Architecture
+    A[Central Hub<br/>BoneIO/ESP32] --> B[Room 1<br/>10 cables]
+    A --> C[Room 2<br/>8 cables]
+    A --> D[Room 3<br/>12 cables]
+    A --> E[Kitchen<br/>15 cables]
+    A --> F[Bathroom<br/>6 cables]
+
+    %% Problems
+    B --> G[Cable mess]
+    C --> G
+    D --> G
+    E --> G
+    F --> G
+
+    G --> H[Single point of failure]
+    G --> I[Difficult maintenance]
+    G --> J[High installation cost]
+
+    %% Tree Architecture Solution
+    K[Central Hub<br/>MQTT Server] --> L[Room Controller 1<br/>2 cables only]
+    K --> M[Room Controller 2<br/>2 cables only]
+    K --> N[Room Controller 3<br/>2 cables only]
+
+    L --> O[Local devices<br/>Lights, sensors, switches]
+    M --> P[Local devices<br/>Lights, sensors, switches]
+    N --> Q[Local devices<br/>Lights, sensors, switches]
+
+    %% Benefits
+    O --> R[Local intelligence]
+    P --> R
+    Q --> R
+
+    R --> S[Reduced cables 80%]
+    R --> T[Fault isolation]
+    R --> U[Easy expansion]
+```
+
+**Porównanie architektur:**
+
+| Aspekt | Architektura Gwiazdy | Architektura Drzewa |
+|--------|---------------------|-------------------|
+| **Kable z pokoju** | 8-15 kabli | 2 kable |
+| **Awaryjność** | Cały system pada | Tylko jeden pokój |
+| **Rozszerzalność** | Wymaga nowych kabli | Lokalne dodawanie |
+| **Koszt instalacji** | Wysoki | Średni |
+| **Łatwość utrzymania** | Trudna | Łatwa |
+
 ### Sterownik do pomieszczeń - koniec z kablomazią
 
 **Problem:** W salonie mam 5 punktów światła, 3 przełączniki i 2 czujniki ruchu. W obecnej architekturze to oznacza 10 skrętek biegnących do rozdzielnicy głównej.

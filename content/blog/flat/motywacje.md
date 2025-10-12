@@ -125,6 +125,31 @@ Tak więc moje motywacje nie są do końca typowe. Piszę o tym ponieważ zanim 
 
 Jednocześnie staram się wyznaczyć standard dla inteligentnych domów. Starałem się zoptymalizować podejście do projektowania i wiele rzeczy jest do skopiowania. Więcej o tym co na pewno bym zachwalał znajdziesz w artykule [smart home w minimalnej wersji]() - opisuję tutaj minimalną infrastrukturę którą rekomendowałbym każdemu remontującemu mieszkanie. Zaś w artykule [smart home w wersji medium]() opisuję co nie jest aż tak niezbędne ale warto dodać do wersji basic. Z kolei w artykule [wybór sterownika czy topologii infrastruktury]() opisuję jakie przewody bym dodatkowo dodał w całym mieszkaniu aby mieć instalację future proof, jeśli w przyszłości pojawią się fajne możliwości rozszerzania instalacji. Dodatkowo polecam zapoznać się z koncepcją [mikrorozdzielnic](), która pozwala ograniczyć ilość kabli w tak złożonym systemie.
 
+#### Mapa Drogi do Smart Home
+
+```mermaid
+graph LR
+    A[Decyzja o Smart Home] --> B{Poziom zaawansowania}
+    B -->|Początkujący| C[Smart Home Minimum<br/>Podstawowe automatyzacje]
+    B -->|Średniozaawansowany| D[Smart Home Medium<br/>Dodatkowe funkcje]
+    B -->|Zaawansowany| E[Smart Home Maximum<br/>Eksperymentalne features]
+
+    C --> F[Komfort: oświetlenie, ogrzewanie]
+    D --> G[Bezpieczeństwo: czujniki, alarm]
+    E --> H[Eksperymenty: AI, zaawansowana automatyka]
+
+    F --> I[Podstawowa instalacja elektryczna]
+    G --> J[Sieć komputerowa + IoT]
+    H --> K[Przyszłościowa infrastruktura]
+
+    I --> L[Gotowe do użytkowania]
+    J --> L
+    K --> L
+
+    L --> M[Sukces: wygodny i bezpieczny dom]
+```
+
+
 
 
 

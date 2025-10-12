@@ -131,3 +131,6 @@ Zakładam, że od razu puszczamy przewody do bramy oraz furtki. Dajemy oświetle
 ---
 
 **To wszystko.** Czysta wersja tylko z tego co napisałeś, żadnych dodatków ode mnie.
+
+
+MORE: https://claude.ai/chat/79fc0776-d0d2-45a6-a40c-1388fc19a803 / SRC
