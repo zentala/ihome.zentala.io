@@ -1,22 +1,26 @@
 ---
-title: "Inteligentny Dom"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Inteligentny Dom - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-9cfe4731588484c8"
-weight: 100
-toc: true
+    identifier: docs-9cfe4731588484c8
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Inteligentny Dom - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: Inteligentny Dom | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Inteligentny Dom
+toc: true
+weight: 100
 ---
+
 
 ## Definicja
 

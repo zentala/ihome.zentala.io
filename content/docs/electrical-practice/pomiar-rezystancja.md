@@ -1,19 +1,23 @@
 ---
-title: "Pomiary rezystancji"
-description: ""
-summary: ""
-date: 2023-09-07T16:13:18+02:00
-lastmod: 2023-09-07T16:13:18+02:00
+date: 2023-09-07 16:13:18+02:00
+description: Pomiary rezystancji - kompleksowy opis Więcej informacji na smart home
+  znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:13:18+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-f2c2b3d8251614a0"
-weight: 700
-toc: true
+    identifier: docs-f2c2b3d8251614a0
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Pomiary rezystancji - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: Pomiary rezystancji | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Pomiary rezystancji
+toc: true
+weight: 700
 ---
+

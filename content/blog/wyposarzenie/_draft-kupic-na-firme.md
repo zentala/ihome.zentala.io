@@ -1,22 +1,28 @@
 ---
-title: "Wposażenie Home Office które `wrzucisz w firmowe koszty`"
-description: ""
-summary: "Jest kilka takich rzeczy, które jako programista lub innego rodzaju pracownik zdalny, warto kupić `na firmę`. Jeśli zastanwiasz się co wrzucić w koszty lub na co wydać budżet na urządzenie domowego biura - mam dla Ciebie kilka pomysłów. Zapraszam. "
-date: 2024-03-04T16:54:18+02:00
-lastmod: 2024-03-04T16:54:18+02:00
-draft: true
-weight: 50
-categories: ['Home Office']
-tags: []
+categories:
+- Home Office
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2024-03-04 16:54:18+02:00
+description: Wposażenie Home Office które `wrzucisz w firmowe koszty` - kompleksowy
+  opis Więcej informacji na smart home znajdziesz w naszym serwisie.
+draft: true
 homepage: false
+lastmod: 2024-03-04 16:54:18+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Wposażenie Home Office które `wrzucisz w firmowe koszty` - kompleksowy
+    opis Więcej informacji na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Wposażenie Home Office które `wrzucisz w firmow... | Dokumentacja - ihome.zentala.io
+summary: 'Jest kilka takich rzeczy, które jako programista lub innego rodzaju pracownik
+  zdalny, warto kupić `na firmę`. Jeśli zastanwiasz się co wrzucić w koszty lub na
+  co wydać budżet na urządzenie domowego biura - mam dla Ciebie kilka pomysłów. Zapraszam. '
+tags: []
+title: Wposażenie Home Office które `wrzucisz w firmowe koszty`
+weight: 50
 ---
+
 
 ## Zestaw do nagrywania
 

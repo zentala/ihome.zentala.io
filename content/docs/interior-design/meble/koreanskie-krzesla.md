@@ -1,19 +1,23 @@
 ---
-title: "Koreanskie Krzesla"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Koreanskie Krzesla - kompleksowy opis Więcej informacji na smart home
+  znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-f8d8b6bbe3e3548a"
-weight: 30
-toc: true
+    identifier: docs-f8d8b6bbe3e3548a
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Koreanskie Krzesla - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: Koreanskie Krzesla | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Koreanskie Krzesla
+toc: true
+weight: 30
 ---
+

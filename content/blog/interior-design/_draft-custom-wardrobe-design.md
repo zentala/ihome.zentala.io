@@ -1,21 +1,25 @@
 ---
-title: "Własny projekt szafy"
-description: "Z moim sygnetem. Do zabudowy w meblach, zapewne w drzwiach garderoby i moze paru innych reprezentacyjnych miejsach."
-summary: ""
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
-categories: ['Smart Home']
-tags: []
+categories:
+- Smart Home
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Z moim sygnetem. Do zabudowy w meblach, zapewne w drzwiach garderoby
+  i moze paru innych reprezentacyjnych miejsach.
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Własny projekt szafy - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Własny projekt szafy | Dokumentacja - ihome.zentala.io
+summary: ''
+tags: []
+title: Własny projekt szafy
+weight: 50
 ---
+
 
 w pracowni logo na scianie, a w sypialnie te samo logo perforowane w blasze. przenikanie sie motywow na rozne sposoby.

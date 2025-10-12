@@ -1,22 +1,26 @@
 ---
-title: "RCBO - Zabezpiecznie Różnicowo Prądowe z Członem Nadprądowym"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: RCBO - Zabezpiecznie Różnicowo Prądowe z Członem Nadprądowym - kompleksowy
+  opis Więcej informacji na smart home znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-fbf071d73856a454"
-weight: 60
-toc: true
+    identifier: docs-fbf071d73856a454
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: RCBO - Zabezpiecznie Różnicowo Prądowe z Członem Nadprądowym - kompleksowy
+    opis Więcej informacji na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: RCBO - Zabezpiecznie Różnicowo Prądowe z Człone... | Dokumentacja - ihome.zentala.io
+summary: ''
+title: RCBO - Zabezpiecznie Różnicowo Prądowe z Członem Nadprądowym
+toc: true
+weight: 60
 ---
+
 
 **Zabezpieczenie przeciwporażeniowe**: Jest to **Residual Current Device (RCD)**, znane również jako **Residual Current Circuit Breaker (RCCB)**. W niektórych przypadkach może być to również **Residual Current Circuit Breaker with Overcurrent Protection (RCBO)**, które łączy w sobie funkcje RCD i MCB.
 

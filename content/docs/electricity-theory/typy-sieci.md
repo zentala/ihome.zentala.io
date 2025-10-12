@@ -1,22 +1,26 @@
 ---
-title: "Typy układów sieci enegetycznych"
-description: "Reference pages are ideal for outlining how things work in terse and clear terms."
-summary: ""
-date: 2023-09-07T16:13:18+02:00
-lastmod: 2023-09-07T16:13:18+02:00
+date: 2023-09-07 16:13:18+02:00
+description: Reference pages are ideal for outlining how things work in terse and
+  clear terms.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:13:18+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-9bdd5058f935f77b"
-weight: 200
-toc: true
+    identifier: docs-9bdd5058f935f77b
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Typy układów sieci enegetycznych - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Typy układów sieci enegetycznych | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Typy układów sieci enegetycznych
+toc: true
+weight: 200
 ---
+
 
 Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.
 

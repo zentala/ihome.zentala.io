@@ -1,30 +1,35 @@
 ---
-title: "Kryteria wyboru lokalizacji w Warszawie"
-description: ""
-summary: "Stoisz przed wyborem mieszkania do zakupu i chciałbyś poszeżyć swoją perspektę? Poznaj kryteria którymi sam się kieriowałem i jak oceniam swoje decyzje po 2 latach."
-thumb: "http://static.zentala.io/flat/lokalizacja.png"
-date: 2022-04-02T14:18:32+01:00
-lastmod: 2022-04-02T14:18:32+01:00
-draft: false
-weight: 50
-categories: ['Mieszkanie']
-tags: []
+categories:
+- Mieszkanie
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2022-04-02 14:18:32+01:00
+description: Kryteria wyboru lokalizacji w Warszawie - kompleksowy opis Więcej informacji
+  na smart home znajdziesz w naszym serwisie.
+draft: false
 homepage: false
+lastmod: 2022-04-02 14:18:32+01:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Kryteria wyboru lokalizacji w Warszawie - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Kryteria wyboru lokalizacji w Warszawie | Dokumentacja - ihome.zentala.io
+summary: Stoisz przed wyborem mieszkania do zakupu i chciałbyś poszerzyć swoją perspektę?
+  Poznaj kryteria którymi sam się kierowałem i jak oceniam swoje decyzje po 2 latach.
+tags: []
+thumb: http://static.zentala.io/flat/lokalizacja.png
+title: Kryteria wyboru lokalizacji w Warszawie
+weight: 50
 ---
+
 
 
 
 Pod koniec 2021 roku kupiłem mieszkanie w Warszawskiej kamienicy z lat 50tych, które jak zakładałem nadawało się do generalnego remontu.
 
 
-(ten post pomoze Ci zrozumiec motywacje i czynniki decyzyyjne jakimi kierowowałem sie przy wyborze mieszkania, co moze poszeyzc Twoja perspektywe jesli stoisz przed podobnym wyborem)
+(ten post pomoze Ci zrozumiec motywacje i czynniki decyzyyjne jakimi kierowowałem sie przy wyborze mieszkania, co moze poszerzyć Twoja perspektywe jesli stoisz przed podobnym wyborem)
 
 ## Lokalizacja
 

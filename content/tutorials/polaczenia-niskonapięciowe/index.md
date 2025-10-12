@@ -1,19 +1,22 @@
 ---
-title: "Okablowanie dla sensorów"
-description: ""
-summary: "Budowa infrasturuktury niskonapięciowej 12-24V dla czujników."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Okablowanie dla sensorów - kompleksowy opis Więcej informacji na smart
+  home znajdziesz w naszym serwisie.
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Okablowanie dla sensorów - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Okablowanie dla sensorów | Dokumentacja - ihome.zentala.io
+summary: Budowa infrasturuktury niskonapięciowej 12-24V dla czujników.
+tags: []
+title: Okablowanie dla sensorów
+weight: 50
 ---
+

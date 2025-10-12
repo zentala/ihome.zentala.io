@@ -1,22 +1,26 @@
 ---
-title: "Sieciowe"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Sieciowe - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-9a9f74aeb0e72946"
-weight: 500
-toc: true
+    identifier: docs-9a9f74aeb0e72946
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Sieciowe - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Sieciowe | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Sieciowe
+toc: true
+weight: 500
 ---
+
 
 Skretka (Przewody Komunikacyjne/Sieciowe): Przewody używane do przesyłania danych w sieciach komputerowych i telekomunikacyjnych, w tym Ethernet. Skretka może być ekranowana (STP) lub nieekranowana (UTP) i jest kluczowa w budowie infrastruktury sieciowej.
 

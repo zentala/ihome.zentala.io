@@ -1,20 +1,24 @@
 ---
-title: "Zabudwy rur"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Zabudwy rur - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-fc40a254b22f2296"
-weight: 30
-toc: true
+    identifier: docs-fc40a254b22f2296
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Zabudwy rur - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Zabudwy rur | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Zabudwy rur
+toc: true
+weight: 30
 ---
+
 te sycianane z allegro

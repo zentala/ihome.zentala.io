@@ -5,6 +5,7 @@ description: "Customowe urządzenia i oprogramowanie IoT szyte na miarę Twoich 
 lead: "Nie możesz znaleźć gotowego rozwiązania dla swojego problemu? Oferuję tworzenie dedykowanych systemów, urządzeń i oprogramowania na indywidualne zamówienie."
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2023-09-07T16:33:54+02:00
+contributors: ['Paweł Żentała']
 draft: false
 type: "services"
 seo:

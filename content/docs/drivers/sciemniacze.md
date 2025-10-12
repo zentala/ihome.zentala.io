@@ -1,22 +1,26 @@
 ---
-title: "Sciemniacze"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Sciemniacze - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-e916c60576d3a512-01"
-weight: 400
-toc: true
+    identifier: docs-e916c60576d3a512-01
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Sciemniacze - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Sciemniacze | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Sciemniacze
+toc: true
+weight: 400
 ---
+
 
 ## SSR (w kontescie modulu bone.io)
 

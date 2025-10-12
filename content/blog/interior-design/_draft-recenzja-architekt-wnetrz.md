@@ -1,22 +1,26 @@
 ---
-title: "Recenzja pracy architekta wnętrz"
-description: "Krytyczna recenzja pracy freelancera projektującego wnętrza"
-summary: "Moja opinia na temat pracy architekta wnętrz i polskiego rynku projektowania wnętrz"
-date: 2024-01-01
-lastmod: 2024-01-01
-draft: true
-weight: 50
-categories: ['Interior Design']
-tags: []
+categories:
+- Interior Design
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2024-01-01
+description: Krytyczna recenzja pracy freelancera projektującego wnętrza
+draft: true
 homepage: false
+lastmod: 2024-01-01
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Recenzja pracy architekta wnętrz - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Recenzja pracy architekta wnętrz | Dokumentacja - ihome.zentala.io
+summary: Moja opinia na temat pracy architekta wnętrz i polskiego rynku projektowania
+  wnętrz
+tags: []
+title: Recenzja pracy architekta wnętrz
+weight: 50
 ---
+
 
 Krytyczna recejzna pracy frellancerskiego studia projektowego wykonuwujacego mi projekt wnetrza i polskiego rynku projektóantów wenetrz.
 

@@ -1,22 +1,25 @@
 ---
-title: "Inteligentna kuchnia"
-description: "Przydatne i obowiązkowe wyposażenie planując nowoczesną kuchnię w ramach inteligentnego domu."
-summary: "Niezbędne i przydatne funkcjonalności inteligentnej kuchni."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Przydatne i obowiązkowe wyposażenie planując nowoczesną kuchnię w ramach
+  inteligentnego domu.
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Inteligentna kuchnia - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Inteligentna kuchnia | Dokumentacja - ihome.zentala.io
+summary: Niezbędne i przydatne funkcjonalności inteligentnej kuchni.
+tags: []
+title: Inteligentna kuchnia
+weight: 50
 ---
+
 
 # Rozwiązania IoT
 1) czujnik zalania (sprzężony z zaworami wody)

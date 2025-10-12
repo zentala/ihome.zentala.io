@@ -5,6 +5,7 @@ description: "Kompleksowe projektowanie systemów smart home od koncepcji po dok
 lead: "Oferuję profesjonalne projektowanie systemów smart home od podstaw. Zajmuję się całym procesem - od analizy potrzeb po gotowy projekt wykonawczy."
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2023-09-07T16:33:54+02:00
+contributors: ['Paweł Żentała']
 draft: false
 type: "services"
 seo:

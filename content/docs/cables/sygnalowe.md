@@ -1,22 +1,26 @@
 ---
-title: "Sygnałowe"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Sygnałowe - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-7b7f8d2e53878a44"
-weight: 600
-toc: true
+    identifier: docs-7b7f8d2e53878a44
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Sygnałowe - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Sygnałowe | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Sygnałowe
+toc: true
+weight: 600
 ---
+
 
 **Definicja:** Przewody sygnałowe to rodzaj kabli zaprojektowanych do przesyłania sygnałów analogowych lub cyfrowych w różnych aplikacjach, takich jak telekomunikacja, systemy sterowania, systemy alarmowe, i inne. Mogą one mieć różną liczbę żył, od pojedynczych par do wieloparowych konfiguracji (np. 24, 36 żył itp.), w zależności od wymagań aplikacji. Ich konstrukcja może być podobna do kabli sieciowych (skrętek), ale są przystosowane do szerszego zakresu zastosowań.
 

@@ -1,21 +1,25 @@
 ---
-title: "Antenowe"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Antenowe - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-93f67d10b4d975d5"
-weight: 30
-toc: true
+    identifier: docs-93f67d10b4d975d5
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Antenowe - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Antenowe | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Antenowe
+toc: true
+weight: 30
 ---
+
 Złącza Koaksjalne
 Typy złącz antenowych, zastosowanie w telewizji kablowej i satelitarnej.

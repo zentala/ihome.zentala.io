@@ -1,22 +1,26 @@
 ---
-title: "Czujnik Dymu"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Czujnik Dymu - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-94efa7c1206e680f"
-weight: 30
-toc: true
+    identifier: docs-94efa7c1206e680f
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Czujnik Dymu - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Czujnik Dymu | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Czujnik Dymu
+toc: true
+weight: 30
 ---
+
 
 ## Definicja
 

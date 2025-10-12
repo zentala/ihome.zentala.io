@@ -1,17 +1,21 @@
 ---
-title: "Polityka Prywatności"
-description: ""
-summary: ""
-date: 2023-09-07T17:19:07+02:00
-lastmod: 2023-09-07T17:19:07+02:00
+date: 2023-09-07 17:19:07+02:00
+description: Polityka Prywatności - kompleksowy opis Więcej informacji na smart home
+  znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
-type: "legal"
+lastmod: 2023-09-07 17:19:07+02:00
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Polityka Prywatności - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Polityka Prywatności | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Polityka Prywatności
+type: legal
 ---
+
 
 ## Wprowadzenie
 

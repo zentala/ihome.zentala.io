@@ -1,22 +1,27 @@
 ---
-title: "Kupiłem używaną aparaturę modułowa (RCBOs) Siemensa"
-description: "d"
-summary: "Zaoszczędziłem 70%. Było warto? Dlaczego zdecydowałem się na drogie zabezpieczenia różnicowo-prądowe z członem nadprądowym (po 200-300zł) i dlaczego kupiłem używane - znacznie tańsze (60-70zł) -  zamiast nowych?"
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
-categories: ['Elektryka']
-tags: []
+categories:
+- Elektryka
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: d
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Kupiłem używaną aparaturę modułowa (RCBOs) Siemensa - kompleksowy opis
+    Więcej informacji na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Kupiłem używaną aparaturę modułowa (RCBOs) Siem... | Dokumentacja - ihome.zentala.io
+summary: Zaoszczędziłem 70%. Było warto? Dlaczego zdecydowałem się na drogie zabezpieczenia
+  różnicowo-prądowe z członem nadprądowym (po 200-300zł) i dlaczego kupiłem używane
+  - znacznie tańsze (60-70zł) -  zamiast nowych?
+tags: []
+title: Kupiłem używaną aparaturę modułowa (RCBOs) Siemensa
+weight: 50
 ---
+
 
 
 ## wylacznik roznicowo-pradowy z czloniem nadpradowym (RCBO)

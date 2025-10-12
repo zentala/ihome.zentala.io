@@ -1,22 +1,26 @@
 ---
-title: "Inteligentne biurko z regulacją wysokości"
-description: "Śledzi ile czasu spędzasz przed komputerem i w dyskretny sposob sugeruję zmianę pozycji na stojącą lub przerwę."
-summary: ""
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
-categories: ['Smart Home']
-tags: []
+categories:
+- Smart Home
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Śledzi ile czasu spędzasz przed komputerem i w dyskretny sposob sugeruję
+  zmianę pozycji na stojącą lub przerwę.
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Inteligentne biurko z regulacją wysokości - kompleksowy opis Więcej
+    informacji na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Inteligentne biurko z regulacją wysokości | Dokumentacja - ihome.zentala.io
+summary: ''
+tags: []
+title: Inteligentne biurko z regulacją wysokości
+weight: 50
 ---
+
 
 co to ten art?
 

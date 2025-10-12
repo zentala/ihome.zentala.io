@@ -1,19 +1,23 @@
 ---
-title: "Szklo zbrojone"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Szklo zbrojone - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-6035894d14666f72"
-weight: 30
-toc: true
+    identifier: docs-6035894d14666f72
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Szklo zbrojone - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Szklo zbrojone | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Szklo zbrojone
+toc: true
+weight: 30
 ---
+

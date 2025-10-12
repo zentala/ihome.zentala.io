@@ -1,22 +1,28 @@
 ---
-title: "przeprojektowalem pracownie"
-description: ""
-summary: "zaaplikowalem pomysly na konstrukcje rastrowe aby poprawic projekt pracowni od projektantki"
-date: 2023-04-07T16:27:22+02:00
-lastmod: 2023-04-07T16:27:22+02:00
-draft: true
-weight: 50
-categories: ['Home Office']
-tags: ['Wnętrza i Meble']
+categories:
+- Home Office
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-04-07 16:27:22+02:00
+description: przeprojektowalem pracownie - kompleksowy opis Więcej informacji na smart
+  home znajdziesz w naszym serwisie.
+draft: true
 homepage: false
+lastmod: 2023-04-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: przeprojektowalem pracownie - kompleksowy opis Więcej informacji na
+    smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: przeprojektowalem pracownie | Dokumentacja - ihome.zentala.io
+summary: zaaplikowalem pomysly na konstrukcje rastrowe aby poprawic projekt pracowni
+  od projektantki
+tags:
+- Wnętrza i Meble
+title: przeprojektowalem pracownie
+weight: 50
 ---
+
 
 
 ponieaz moja [projektantka nie umiala praocwac z konsturkacjmi rastreywmi i indusitalnymi, jak wikszosc projektantow w polsce]() zaskasalem rekawy, odpalilem fusion 360 i przeprojektowalem projekt swojej pracowni, a przynajmniej kilka scian.

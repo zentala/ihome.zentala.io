@@ -1,25 +1,30 @@
 ---
-slug: "configuration"
-title : "Konfiguracja"
-description: ""
-lead: "Masz już urządzenia smart home, ale nie wiesz jak je skonfigurować? Albo potrzebujesz pomocy w optymalizacji istniejącego systemu? Oferuję kompleksową pomoc w konfiguracji i wdrażaniu rozwiązań IoT."
-date: 2023-09-07T16:33:54+02:00
-lastmod: 2023-09-07T16:33:54+02:00
+color: '#17a2b8'
+date: 2023-09-07 16:33:54+02:00
+description: Konfiguracja - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
-type: "services"
-seo:
- title: "Konfiguracja Smart Home - Paweł Żentała"
- description: "Pomoc w setup urządzeń, tworzenie automatyzacji i integracja systemów IoT."
- canonical: ""
- noindex: false
-# Custom fields for services template
-icon: "gear"
-color: "#17a2b8"
 features:
-  - "Panel sterowania w Home Assistant"
-  - "Dedykowane automatyzacje oraz widgety"
-  - "Domowy serwer plików oraz prywatna chmura"
+- Panel sterowania w Home Assistant
+- Dedykowane automatyzacje oraz widgety
+- Domowy serwer plików oraz prywatna chmura
+icon: gear
+lastmod: 2023-09-07 16:33:54+02:00
+lead: Masz już urządzenia smart home, ale nie wiesz jak je skonfigurować? Albo potrzebujesz
+  pomocy w optymalizacji istniejącego systemu? Oferuję kompleksową pomoc w konfiguracji
+  i wdrażaniu rozwiązań IoT.
+seo:
+  canonical: ''
+  description: Pomoc w setup urządzeń, tworzenie automatyzacji i integracja systemów
+    IoT.
+  noindex: false
+  title: Konfiguracja Smart Home - Paweł Żentała
+slug: configuration
+title: Konfiguracja
+type: services
 ---
+
 
 # Konfiguracja i Wdrożenie Smart Home
 

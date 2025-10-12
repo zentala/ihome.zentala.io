@@ -1,19 +1,23 @@
 ---
-title: "Blacha Perforowana"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Blacha Perforowana - kompleksowy opis Więcej informacji na smart home
+  znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-177b3554e9d66fb5"
-weight: 30
-toc: true
+    identifier: docs-177b3554e9d66fb5
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Blacha Perforowana - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: Blacha Perforowana | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Blacha Perforowana
+toc: true
+weight: 30
 ---
+

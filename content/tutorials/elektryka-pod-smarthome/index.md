@@ -1,22 +1,24 @@
 ---
-title: "Elektryka do smarthome"
-description: "Rozne sugestie i rekomendacje"
-summary: ""
-thumb: ""
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Rozne sugestie i rekomendacje
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Elektryka do smarthome - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Elektryka do smarthome | Dokumentacja - ihome.zentala.io
+summary: ''
+tags: []
+thumb: ''
+title: Elektryka do smarthome
+weight: 50
 ---
+
 
 Weź po prostu wsadź wszędzie głębokie puszki pod elektronikę, nawet wielokrotne (najwyżej wstawisz w te miejsca jakieś puste gniazda czy inne zaślepki, żeby mieć mnóstwo miejsca na dokładanie różnych modułów) i przestań cudować z robieniem pajęczyny w mieszkaniu. Szkoda czasu, nerwów, pieniędzy, a później kolejnych nerwów podczas wiercenia.

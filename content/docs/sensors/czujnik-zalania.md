@@ -1,22 +1,26 @@
 ---
-title: "Czujnik Zalania"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Czujnik Zalania - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-64586790ee49d476"
-weight: 60
-toc: true
+    identifier: docs-64586790ee49d476
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Czujnik Zalania - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: Czujnik Zalania | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Czujnik Zalania
+toc: true
+weight: 60
 ---
+
 
 ## Definicja
 

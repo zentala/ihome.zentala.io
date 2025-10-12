@@ -1,19 +1,22 @@
 ---
-title: "mikroSerwerownia w mieszkaniu"
-description: ""
-summary: "Gdzie upchać nagłośnienie strefowe, serwery i UPS."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: mikroSerwerownia w mieszkaniu - kompleksowy opis Więcej informacji na
+  smart home znajdziesz w naszym serwisie.
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: mikroSerwerownia w mieszkaniu - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: mikroSerwerownia w mieszkaniu | Dokumentacja - ihome.zentala.io
+summary: Gdzie upchać nagłośnienie strefowe, serwery i UPS.
+tags: []
+title: mikroSerwerownia w mieszkaniu
+weight: 50
 ---
+

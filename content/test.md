@@ -1,14 +1,18 @@
 ---
-title : "test"
-description: ""
-lead: ""
-date: 2023-09-07T16:33:54+02:00
-lastmod: 2023-09-07T16:33:54+02:00
+date: 2023-09-07 16:33:54+02:00
+description: test - kompleksowy opis Więcej informacji na smart home znajdziesz w
+  naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
-type: "test"
+lastmod: 2023-09-07 16:33:54+02:00
+lead: ''
 seo:
- title: ""
- description: ""
- canonical: ""
- noindex: false
+  canonical: ''
+  description: test - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: test | Dokumentacja - ihome.zentala.io
+title: test
+type: test
 ---
+

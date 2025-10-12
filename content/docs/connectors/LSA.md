@@ -1,22 +1,26 @@
 ---
-title: "LSA"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: LSA - kompleksowy opis Więcej informacji na smart home znajdziesz w naszym
+  serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-d9e36e5f8ceb5267"
-weight: 30
-toc: true
+    identifier: docs-d9e36e5f8ceb5267
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: LSA - kompleksowy opis Więcej informacji na smart home znajdziesz w
+    naszym serwisie.
+  noindex: false
+  title: LSA | Dokumentacja - ihome.zentala.io
+summary: ''
+title: LSA
+toc: true
+weight: 30
 ---
+
 
 Złącze **LSA** (*Liniowe Systemy Abonenckie*), znane również jako złącze **krone**, to typ złącza używanego w telekomunikacji do szybkiego i niezawodnego łączenia przewodów telefonicznych i danych bez potrzeby lutowania czy zdejmowania izolacji z przewodów. Złącza te są szeroko stosowane w punktach dystrybucyjnych, gdzie niezbędna jest łatwa i szybka zmiana połączeń.
 

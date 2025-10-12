@@ -1,21 +1,25 @@
 ---
-title: "Szklo dymione"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Szklo dymione - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-b58313a1ff009731"
-weight: 30
-toc: true
+    identifier: docs-b58313a1ff009731
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Szklo dymione - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Szklo dymione | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Szklo dymione
+toc: true
+weight: 30
 ---
+
 
 ## szklo karbowane, zebraowane

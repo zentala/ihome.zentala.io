@@ -4,6 +4,7 @@ description: "Profesjonalne usługi projektowania, konfiguracji i tworzenia inte
 lead: "Jeśli realizujesz projekt wymagjący interdyscyplinarnego połączenia automatyki budynkowej, programowania i projektowania intuicyjnych interfejsów użytkownika, mogę być właściwą osobą aby pomóc Ci go zrealizować! Oto kilka pomysłow, jak mogę Cię wesprzeć:"
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2023-09-07T16:33:54+02:00
+contributors: ['Paweł Żentała']
 draft: false
 type: "services"
 aliases: ["/contact/"]

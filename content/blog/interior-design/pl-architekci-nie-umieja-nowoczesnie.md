@@ -1,23 +1,32 @@
 ---
-title: "Polscy projektanci nie umieją projektować nowoczesnych wnętrz"
-description: ""
-summary: "i poslugiac sie nowoczesnymi materialami.  Zapytalem ich na grupie dla projektantow czy poprawia mi design aby wygladal jak centrach handlowych i na lotniskach i powiedzieli ze nie umieja, a Ci co umieja to kilka filrm w PL i wezma min 3x tyle co za zwykly projekt. A ja potrzrbuje takich rozwizan aby byc elastyczny z instalacja IoT w inteligentym domu.  "
-thumb: "https://static.zentala.io/flat/modern-ceiling.jpg"
-date: 2023-04-07T16:27:22+02:00
-lastmod: 2023-04-07T16:27:22+02:00
-draft: false
-weight: 50
-categories: ['Interior design']
-tags: ['Wnętrza i Meble']
+categories:
+- Interior design
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-04-07 16:27:22+02:00
+description: Polscy projektanci nie umieją projektować nowoczesnych wnętrz - kompleksowy
+  opis Więcej informacji na smart home znajdziesz w naszym serwisie.
+draft: false
 homepage: false
+lastmod: 2023-04-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Polscy projektanci nie umieją projektować nowoczesnych wnętrz - kompleksowy
+    opis Więcej informacji na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Polscy projektanci nie umieją projektować nowoc... | Dokumentacja - ihome.zentala.io
+summary: 'i poslugiac sie nowoczesnymi materialami.  Zapytalem ich na grupie dla projektantow
+  czy poprawia mi design aby wygladal jak centrach handlowych i na lotniskach i powiedzieli
+  ze nie umieja, a Ci co umieja to kilka filrm w PL i wezma min 3x tyle co za zwykly
+  projekt. A ja potrzrbuje takich rozwizan aby byc elastyczny z instalacja IoT w inteligentym
+  domu.  '
+tags:
+- Wnętrza i Meble
+thumb: https://static.zentala.io/flat/modern-ceiling.jpg
+title: Polscy projektanci nie umieją projektować nowoczesnych wnętrz
+weight: 50
 ---
+
 
 Zacnzimjmy od tego ze oceniam ze [IoT bedzie ewoluowac]. I jesli planujes zjakies bardziej zaawanswane rozwiazania niz [mininalne zalecane automatyzacje smarthome]() to warto przygotowac swoja instalacje tak aby byla otwarta i modlarana. Bo wiele rozwiazan na jakie mamy pomysly bo porstu nie jest jeszcze dzis gotowe.
 

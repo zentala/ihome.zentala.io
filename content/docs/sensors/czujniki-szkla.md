@@ -1,21 +1,25 @@
 ---
-title: "Czujnik Szkła"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Czujnik Szkła - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: true
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-a55292c7844fb419"
-weight: 910
-toc: true
+    identifier: docs-a55292c7844fb419
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Czujnik Szkła - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Czujnik Szkła | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Czujnik Szkła
+toc: true
+weight: 910
 ---
+
 
 Specjalizują się w wykrywaniu specyficznego dźwięku tłuczonego szkła, co może wskazywać na próbę włamania przez rozbicie okna. Czujniki te są wysoce specjalistyczne i mogą odróżnić dźwięk tłuczonego szkła od innych, co minimalizuje ryzyko fałszywego alarmu.[text](czujniki-szkla.md)

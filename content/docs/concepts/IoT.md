@@ -1,22 +1,26 @@
 ---
-title: "IoT (Internet of Things)"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: IoT (Internet of Things) - kompleksowy opis Więcej informacji na smart
+  home znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-589f8ced60a13f2f"
-weight: 810
-toc: true
+    identifier: docs-589f8ced60a13f2f
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: IoT (Internet of Things) - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: IoT (Internet of Things) | Dokumentacja - ihome.zentala.io
+summary: ''
+title: IoT (Internet of Things)
+toc: true
+weight: 810
 ---
+
 
 ## Definicja
 

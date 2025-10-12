@@ -1,23 +1,26 @@
 ---
-title: "Tani setup do nagrywania video"
-thumb: "https://static.zentala.io/remote-videos/hardware.jpg"
-description: ""
-summary: ""
-date: 2024-02-11T20:13:05+01:00
-lastmod: 2024-02-27T22:41:07+01:00
-draft: false
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2024-02-11 20:13:05+01:00
+description: Tani setup do nagrywania video - kompleksowy opis Więcej informacji na
+  smart home znajdziesz w naszym serwisie.
+draft: false
 homepage: false
+lastmod: 2024-02-27 22:41:07+01:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Tani setup do nagrywania video - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Tani setup do nagrywania video | Dokumentacja - ihome.zentala.io
+summary: ''
+tags: []
+thumb: https://static.zentala.io/remote-videos/hardware.jpg
+title: Tani setup do nagrywania video
+weight: 50
 ---
+
 
 [Na zdalnym wszyscy jesteśmy video creatorami](), dlatego aby wyglądać i brzmieć profesjonalnie warto zaopatrzeć się w sprawdzony zestaw urządzeń do tworzenia video w domu. Podpatrzyłem go u YouTuberów, znajomych zajmujących się video i na kursach dla Content Creatorów. Z pewnością nie jest to ani jedyne, ani osteczene rozwiązanie, jednak - jeśli nie interesowałeś się zagadnieniem profesjonalne - to jest to rozwiązanie dość dobre, które z pewnością sprawdzi się dla Ciebie.
 

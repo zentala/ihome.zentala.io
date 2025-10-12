@@ -1,22 +1,26 @@
 ---
-title: "Licznik"
-description: "Reference pages are ideal for outlining how things work in terse and clear terms."
-summary: ""
-date: 2023-09-07T16:13:18+02:00
-lastmod: 2023-09-07T16:13:18+02:00
+date: 2023-09-07 16:13:18+02:00
+description: Reference pages are ideal for outlining how things work in terse and
+  clear terms.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:13:18+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-a55b3e0a5cc7e0eb"
-weight: 100
-toc: true
+    identifier: docs-a55b3e0a5cc7e0eb
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Licznik - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Licznik | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Licznik
+toc: true
+weight: 100
 ---
+
 
 To co nas interesuje to odczyt energii z licznika, oraz podliczniki - miezenie pradu na kazdyej zyle, za kazdym zabezpiecznien,.
 

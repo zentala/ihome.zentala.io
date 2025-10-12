@@ -1,21 +1,25 @@
 ---
-title: "Audio-Video"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Audio-Video - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-1ef656c776d43930"
-weight: 30
-toc: true
+    identifier: docs-1ef656c776d43930
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Audio-Video - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Audio-Video | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Audio-Video
+toc: true
+weight: 30
 ---
+
 
  Omówienie złącz RCA, XLR, Toslink itp., ich zastosowanie w systemach audio-wideo.

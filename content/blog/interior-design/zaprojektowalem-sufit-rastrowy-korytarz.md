@@ -1,24 +1,32 @@
 ---
-title: "Zaprojektowalem sufit rastrowy w korytarzu aby upchnąć wszystkie kable"
-description: "bo prpjektantka nie wiedziala o co mi chodzi i nie umiala zrbic nic innego niz zainstalowac kraty z suyfitu rastrowego ;/ mi sie podoba. "
-summary: "Jak ukryć ogromną ilość kabli biegnących do rozdzielnicy, zarazem nie tracąc mozliwosc modyfikacji czy rozbudowy instalacji inteligentnego domu? Ja zdecydowałem się zamaskować główną magistralę komunikacyjną, gdzie zbiegają się ze sobą wszystkie przewody, tak zwanym sufitem otwartym, ukrywając je za ażurową, listwową konstrukcją."
-thumb: "https://static.zentala.io/flat/raster.png"
-date: 2022-07-21T13:11:37+01:00
-lastmod: 2022-07-21T13:11:37+01:00
-draft: false
-weight: 50
-categories: ['Interior design', 'Instalacje']
-tags: ['Wnętrza i Meble']
+categories:
+- Interior design
+- Instalacje
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2022-07-21 13:11:37+01:00
+description: 'bo prpjektantka nie wiedziala o co mi chodzi i nie umiala zrbic nic
+  innego niz zainstalowac kraty z suyfitu rastrowego ;/ mi sie podoba. '
+draft: false
 homepage: false
-# http://localhost:1313/8_16917628281777760138_hudd4c2e605819639a0788014b2452f048_0_746a42a5b4aad78e8d819b2964c865c8.webp
+lastmod: 2022-07-21 13:11:37+01:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Zaprojektowalem sufit rastrowy w korytarzu aby upchnąć wszystkie kable
+    - kompleksowy opis Więcej informacji na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Zaprojektowalem sufit rastrowy w korytarzu aby ... | Dokumentacja - ihome.zentala.io
+summary: Jak ukryć ogromną ilość kabli biegnących do rozdzielnicy, zarazem nie tracąc
+  mozliwosc modyfikacji czy rozbudowy instalacji inteligentnego domu? Ja zdecydowałem
+  się zamaskować główną magistralę komunikacyjną, gdzie zbiegają się ze sobą wszystkie
+  przewody, tak zwanym sufitem otwartym, ukrywając je za ażurową, listwową konstrukcją.
+tags:
+- Wnętrza i Meble
+thumb: https://static.zentala.io/flat/raster.png
+title: Zaprojektowalem sufit rastrowy w korytarzu aby upchnąć wszystkie kable
+weight: 50
 ---
+
 
 ---
 title: "Jak i Gdzie pomiescielm te wszysztkie przewody w starym mieszkaniu? "

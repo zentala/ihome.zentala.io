@@ -5,6 +5,7 @@ description: "Skorzystaj z mojej wiedzy i doświadczenia w projektowaniu Automat
 lead: "Potrzebujesz profesjonalnej porady w zakresie Smart Home? Konsultacja online pomoże Ci podjąć właściwe decyzje, uniknąć błędów i zaplanować sensowny budżet."
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2023-09-07T16:33:54+02:00
+contributors: ['Paweł Żentała']
 draft: false
 type: "services"
 seo:

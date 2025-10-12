@@ -1,23 +1,34 @@
 ---
-title: "Pudełka ze sklejki na wymiar"
-description: ""
-summary: "Poszukiwalem sposobu aby uporzadkwoac czesci elektroniczne, ktorych sporo mi sie walalo. W pokoju nie mialem wiele miejsca na przechowywanie, a znalezeinie pudelek pasujacych do dostpenych mebli okazalo sie niemozliwe. Dlatego zdecydowalem sie wiec wykonac swoje wlasne pudelka na wymiar, wykorzystujac mozliwosci modeleowania 3D oraz dostepne na rynku uslugi CNC, tj. wyciananie sklejki laserowo. W tym artykule podziele sie z Tobą efektami, opowiem Ci ile mnie to kosztowalo, czego nauczylem sie po drodze oraz podziele się z Tobą wypracowanymi modelami 3D i plikami DFX, gdybyś chciał wykonac podobne pudelka na ich podstawie."
-thumb: "https://static.zentala.io/plywood-box/v2a-6.jpg"
-date: 2022-05-15T12:41:22+02:00
-lastmod: 2022-05-15T12:41:22+02:00
-draft: false
-weight: 50
-categories: ['Organizacja']
-tags: []
+categories:
+- Organizacja
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2022-05-15 12:41:22+02:00
+description: Pudełka ze sklejki na wymiar - kompleksowy opis Więcej informacji na
+  smart home znajdziesz w naszym serwisie.
+draft: false
 homepage: false
+lastmod: 2022-05-15 12:41:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Pudełka ze sklejki na wymiar - kompleksowy opis Więcej informacji na
+    smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Pudełka ze sklejki na wymiar | Dokumentacja - ihome.zentala.io
+summary: Poszukiwalem sposobu aby uporzadkwoac czesci elektroniczne, ktorych sporo
+  mi sie walalo. W pokoju nie mialem wiele miejsca na przechowywanie, a znalezeinie
+  pudelek pasujacych do dostpenych mebli okazalo sie niemozliwe. Dlatego zdecydowalem
+  sie wiec wykonac swoje wlasne pudelka na wymiar, wykorzystujac mozliwosci modeleowania
+  3D oraz dostepne na rynku uslugi CNC, tj. wyciananie sklejki laserowo. W tym artykule
+  podziele sie z Tobą efektami, opowiem Ci ile mnie to kosztowalo, czego nauczylem
+  sie po drodze oraz podziele się z Tobą wypracowanymi modelami 3D i plikami DFX,
+  gdybyś chciał wykonac podobne pudelka na ich podstawie.
+tags: []
+thumb: https://static.zentala.io/plywood-box/v2a-6.jpg
+title: Pudełka ze sklejki na wymiar
+weight: 50
 ---
+
 
 
 <zdjecie w szafce>

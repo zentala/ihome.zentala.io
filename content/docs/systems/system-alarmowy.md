@@ -1,22 +1,26 @@
 ---
-title: "System Alarmowy"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: System Alarmowy - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-ed63dd82fc6ccdf0"
-weight: 200
-toc: true
+    identifier: docs-ed63dd82fc6ccdf0
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: System Alarmowy - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: System Alarmowy | Dokumentacja - ihome.zentala.io
+summary: ''
+title: System Alarmowy
+toc: true
+weight: 200
 ---
+
 
 ## Definicja
 

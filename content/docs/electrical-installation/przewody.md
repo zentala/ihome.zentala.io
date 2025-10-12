@@ -1,22 +1,26 @@
 ---
-title: "Przewody"
-description: "Reference pages are ideal for outlining how things work in terse and clear terms."
-summary: ""
-date: 2023-09-07T16:13:18+02:00
-lastmod: 2023-09-07T16:13:18+02:00
+date: 2023-09-07 16:13:18+02:00
+description: Reference pages are ideal for outlining how things work in terse and
+  clear terms.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:13:18+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-29e0fda3b73546de-00"
-weight: 300
-toc: true
+    identifier: docs-29e0fda3b73546de-00
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Przewody - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Przewody | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Przewody
+toc: true
+weight: 300
 ---
+
 
 Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.
 

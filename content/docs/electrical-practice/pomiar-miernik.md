@@ -1,19 +1,23 @@
 ---
-title: "Pomiary miernikiem"
-description: ""
-summary: ""
-date: 2023-09-07T16:13:18+02:00
-lastmod: 2023-09-07T16:13:18+02:00
+date: 2023-09-07 16:13:18+02:00
+description: Pomiary miernikiem - kompleksowy opis Więcej informacji na smart home
+  znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:13:18+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-f8560a4a307aec6a"
-weight: 300
-toc: true
+    identifier: docs-f8560a4a307aec6a
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Pomiary miernikiem - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: Pomiary miernikiem | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Pomiary miernikiem
+toc: true
+weight: 300
 ---
+

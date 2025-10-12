@@ -1,21 +1,25 @@
 ---
-title: "Roboty Sprzątające"
-description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Roboty Sprzątające - kompleksowy opis Więcej informacji na smart home
+  znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-f5a62b289de337fb"
-weight: 810
-toc: true
+    identifier: docs-f5a62b289de337fb
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Roboty Sprzątające - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: Roboty Sprzątające | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Roboty Sprzątające
+toc: true
+weight: 810
 ---
+
 
 https://hpcontrol.pl/elektrozawor-kulowy-1cal-z-silownikiem-a80-lub-a83.html

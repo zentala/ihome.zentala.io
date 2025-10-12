@@ -1,22 +1,26 @@
 ---
-title: "Zaciskanie"
-description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Zaciskanie - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-604850fa04179779"
-weight: 810
-toc: true
+    identifier: docs-604850fa04179779
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Zaciskanie - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Zaciskanie | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Zaciskanie
+toc: true
+weight: 810
 ---
+
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
 

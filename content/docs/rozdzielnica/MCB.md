@@ -1,22 +1,26 @@
 ---
-title: "MCB - Zabezpiecznie Nadprądowe"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: MCB - Zabezpiecznie Nadprądowe - kompleksowy opis Więcej informacji na
+  smart home znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-e5f3c11b9692e593"
-weight: 40
-toc: true
+    identifier: docs-e5f3c11b9692e593
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "zabezpiecznie-nadpradowe" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: zabezpiecznie-nadpradowe
+  description: MCB - Zabezpiecznie Nadprądowe - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: MCB - Zabezpiecznie Nadprądowe | Dokumentacja - ihome.zentala.io
+summary: ''
+title: MCB - Zabezpiecznie Nadprądowe
+toc: true
+weight: 40
 ---
+
 
 **Zwykły bezpiecznik**: Nazywa się to **Miniature Circuit Breaker (MCB)** lub po prostu **Circuit Breaker**. Jest to podstawowy rodzaj zabezpieczenia stosowanego w instalacjach elektrycznych do ochrony przed przeciążeniami prądowymi.
 

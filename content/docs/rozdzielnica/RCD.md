@@ -1,22 +1,25 @@
 ---
-title: "RCD - zabezpiecznie różnicowo-prądowe (przeciwporażeniowe)"
-description: "Uzywane do sterowania wieloma elementami, np w drzwigach"
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Uzywane do sterowania wieloma elementami, np w drzwigach
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-a910ac418ece6983"
-weight: 50
-toc: true
+    identifier: docs-a910ac418ece6983
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: RCD - zabezpiecznie różnicowo-prądowe (przeciwporażeniowe) - kompleksowy
+    opis Więcej informacji na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: RCD - zabezpiecznie różnicowo-prądowe (przeciwp... | Dokumentacja - ihome.zentala.io
+summary: ''
+title: RCD - zabezpiecznie różnicowo-prądowe (przeciwporażeniowe)
+toc: true
+weight: 50
 ---
+
 
 **RCD (Residual Current Device)**: jego głównym zadaniem jest wykrywanie nieszczelności prądu w obwodzie i natychmiastowe odcięcie zasilania w celu ochrony przed porażeniem elektrycznym. W inteligentnych domach RCD może być niezbędny dla zapewnienia bezpieczeństwa użytkowników.
 

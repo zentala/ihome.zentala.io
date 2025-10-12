@@ -1,24 +1,29 @@
 ---
-title: "Projekt wnętrza ukończony!"
-description: ""
-summary: "Ponad 6mcy, 7.5k zł. Jest nieźle ale nadal nie jestem w pełni zadowolony. Będą modyfikacje. Tymczasem przedstawiam i recenzuję wizualizacje mieszkania."
-date: 2022-08-14T10:11:21+01:00
-lastmod: 2022-08-14T10:11:21+01:00
-draft: false
-weight: 50
-categories: ['Interior design']
-thumb: "https://static.zentala.io/flat/4.jpg"
-tags: ['Wnętrza i Meble']
+categories:
+- Interior design
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2022-08-14 10:11:21+01:00
+description: Projekt wnętrza ukończony! - kompleksowy opis Więcej informacji na smart
+  home znajdziesz w naszym serwisie.
+draft: false
 homepage: false
-# http://localhost:1313/8_16917628281777760138_hudd4c2e605819639a0788014b2452f048_0_746a42a5b4aad78e8d819b2964c865c8.webp
+lastmod: 2022-08-14 10:11:21+01:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Projekt wnętrza ukończony! - kompleksowy opis Więcej informacji na
+    smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Projekt wnętrza ukończony! | Dokumentacja - ihome.zentala.io
+summary: Ponad 6mcy, 7.5k zł. Jest nieźle ale nadal nie jestem w pełni zadowolony.
+  Będą modyfikacje. Tymczasem przedstawiam i recenzuję wizualizacje mieszkania.
+tags:
+- Wnętrza i Meble
+thumb: https://static.zentala.io/flat/4.jpg
+title: Projekt wnętrza ukończony!
+weight: 50
 ---
+
 
 ## Wizualizacje wnętrza
 

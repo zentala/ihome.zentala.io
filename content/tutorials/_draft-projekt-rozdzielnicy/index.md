@@ -1,19 +1,22 @@
 ---
-title: "Projektowanie rodzielnicy"
-description: ""
-summary: "Jak rozplanować rozdzielnicę?"
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Projektowanie rodzielnicy - kompleksowy opis Więcej informacji na smart
+  home znajdziesz w naszym serwisie.
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Projektowanie rodzielnicy - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Projektowanie rodzielnicy | Dokumentacja - ihome.zentala.io
+summary: Jak rozplanować rozdzielnicę?
+tags: []
+title: Projektowanie rodzielnicy
+weight: 50
 ---
+

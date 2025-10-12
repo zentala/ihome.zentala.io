@@ -1,19 +1,23 @@
 ---
-title: "Aktuatory"
-description: "Aktuatory to elementy wykonawcze, które mogą regulować pracę systemu na podstawie odczytów z czujników."
-summary: ""
-date: 2023-09-07T16:06:50+02:00
-lastmod: 2023-09-07T16:06:50+02:00
+date: 2023-09-07 16:06:50+02:00
+description: Aktuatory to elementy wykonawcze, które mogą regulować pracę systemu
+  na podstawie odczytów z czujników.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:06:50+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-3ac5a10d636729da-00"
-weight: 800
-toc: true
+    identifier: docs-3ac5a10d636729da-00
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Aktuatory - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Aktuatory | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Aktuatory
+toc: true
+weight: 800
 ---
+

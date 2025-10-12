@@ -1,19 +1,23 @@
 ---
-title: "Systemy"
-description: ""
-summary: ""
-date: 2023-09-07T16:06:50+02:00
-lastmod: 2023-09-07T16:06:50+02:00
+date: 2023-09-07 16:06:50+02:00
+description: Systemy - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:06:50+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-3ac5a10d636729da-19"
-weight: 120
-toc: true
+    identifier: docs-3ac5a10d636729da-19
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Systemy - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Systemy | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Systemy
+toc: true
+weight: 120
 ---
+

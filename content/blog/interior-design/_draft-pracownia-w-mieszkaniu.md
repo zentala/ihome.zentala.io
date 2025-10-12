@@ -1,22 +1,26 @@
 ---
-title: "Pracownia w mieszkaniu"
-description: "d"
-summary: "Jest malo inspiracji jak zorganizowac miejsce do pracy w mieszkaniu, dlatego jesli planujesz pracowac zdalnie albo lubisz DIY to zaprszam"
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
-categories: ['Home Office']
-tags: []
+categories:
+- Home Office
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: d
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Pracownia w mieszkaniu - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Pracownia w mieszkaniu | Dokumentacja - ihome.zentala.io
+summary: Jest malo inspiracji jak zorganizowac miejsce do pracy w mieszkaniu, dlatego
+  jesli planujesz pracowac zdalnie albo lubisz DIY to zaprszam
+tags: []
+title: Pracownia w mieszkaniu
+weight: 50
 ---
+
 
 # kryteria i cele
 - latwe do przebudowy na inna funkcje - pokoj mieszkalny albo...

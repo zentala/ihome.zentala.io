@@ -1,22 +1,25 @@
 ---
-title: "Smart Home w wersji minimum"
-description: ""
-summary: "Co zaimplementowałbym nawet w mieszkaniu na wynajem."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: false
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Smart Home w wersji minimum - kompleksowy opis Więcej informacji na inteligentny
+  dom znajdziesz w naszym serwisie.
+draft: false
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Smart Home w wersji minimum - kompleksowy opis Więcej informacji na
+    inteligentny dom znajdziesz w naszym serwisie.
+  noindex: false
+  title: Smart Home w wersji minimum | Dokumentacja - ihome.zentala.io
+summary: Co zaimplementowałbym nawet w mieszkaniu na wynajem.
+tags: []
+title: Smart Home w wersji minimum
+weight: 50
 ---
+
 
 te rzeczy zrobilbym nawet w mieszkaniu na wynajem, co prawda po taniosci ale jednak. zyski z wdrozenia tych systemow przekraczaja koszta.
 

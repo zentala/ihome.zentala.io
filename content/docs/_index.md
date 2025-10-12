@@ -1,19 +1,23 @@
 ---
-title: "Encyklopedia"
-description: ""
-summary: ""
-date: 2023-09-07T16:12:03+02:00
-lastmod: 2023-09-07T16:12:03+02:00
+date: 2023-09-07 16:12:03+02:00
+description: Encyklopedia - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:12:03+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-230d43470e2b9b03"
-weight: 999
-toc: true
+    identifier: docs-230d43470e2b9b03
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Encyklopedia - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Encyklopedia | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Encyklopedia
+toc: true
+weight: 999
 ---
+

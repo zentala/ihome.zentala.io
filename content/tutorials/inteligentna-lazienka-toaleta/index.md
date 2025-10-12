@@ -1,22 +1,25 @@
 ---
-title: "Inteligentna łazienka i toaleta"
-description: ""
-summary: "Jak je zaprojektować? Co mogą i powinny zawierać?"
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Inteligentna łazienka i toaleta - kompleksowy opis Więcej informacji
+  na smart home znajdziesz w naszym serwisie.
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Inteligentna łazienka i toaleta - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Inteligentna łazienka i toaleta | Dokumentacja - ihome.zentala.io
+summary: Jak je zaprojektować? Co mogą i powinny zawierać?
+tags: []
+title: Inteligentna łazienka i toaleta
+weight: 50
 ---
+
 
 musialem wymyslec co musi zawierac inteligenta lazienka. tutaj podsumowanie moich pomyslo i researchu
 

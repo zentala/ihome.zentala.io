@@ -1,19 +1,23 @@
 ---
-title: "Instalacja Elektryczna"
-description: ""
-summary: ""
-date: 2023-09-07T16:12:37+02:00
-lastmod: 2023-09-07T16:12:37+02:00
+date: 2023-09-07 16:12:37+02:00
+description: Instalacja Elektryczna - kompleksowy opis Więcej informacji na smart
+  home znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:12:37+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-3ac5a10d636729da-06"
-weight: 340
-toc: true
+    identifier: docs-3ac5a10d636729da-06
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Instalacja Elektryczna - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Instalacja Elektryczna | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Instalacja Elektryczna
+toc: true
+weight: 340
 ---
+

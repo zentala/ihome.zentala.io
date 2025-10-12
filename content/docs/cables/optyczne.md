@@ -1,21 +1,25 @@
 ---
-title: "Światłowody"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Światłowody - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-4a83f913d0979613"
-weight: 700
-toc: true
+    identifier: docs-4a83f913d0979613
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Światłowody - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Światłowody | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Światłowody
+toc: true
+weight: 700
 ---
+
 
 Używane do przesyłania danych z dużą prędkością i na duże odległości z wykorzystaniem światła. Są kluczowe w szybkich sieciach transmisji danych i mogą być użyte w zaawansowanych systemach domowych dla zapewnienia wysokiej jakości połączeń internetowych.

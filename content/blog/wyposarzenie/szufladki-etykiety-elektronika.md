@@ -1,23 +1,28 @@
 ---
-title: "Infograficzne etykiety na szufladki z elektroniką"
-description: ""
-summary: "Jak oznaczyłem 56+ szufladek z komponentami elektronicznymi, aby się nie pogubić co jest gdzie"
-thumb: "https://static.zentala.io/framed/framed_icon.jpg"
-date: 2021-10-17T16:27:22+02:00
-lastmod: 2022-07T16:27:22+02:00
-draft: false
-weight: 50
-categories: ['Organizacja']
-tags: []
+categories:
+- Organizacja
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2021-10-17 16:27:22+02:00
+description: Infograficzne etykiety na szufladki z elektroniką - kompleksowy opis
+  Więcej informacji na smart home znajdziesz w naszym serwisie.
+draft: false
 homepage: false
+lastmod: 2022-07T16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Infograficzne etykiety na szufladki z elektroniką - kompleksowy opis
+    Więcej informacji na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Infograficzne etykiety na szufladki z elektroniką | Dokumentacja - ihome.zentala.io
+summary: Jak oznaczyłem 56+ szufladek z komponentami elektronicznymi, aby się nie
+  pogubić co jest gdzie
+tags: []
+thumb: https://static.zentala.io/framed/framed_icon.jpg
+title: Infograficzne etykiety na szufladki z elektroniką
+weight: 50
 ---
+
 
 zdjecia
 

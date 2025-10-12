@@ -1,19 +1,23 @@
 ---
-title: "Scianki drzialowe"
-description: ""
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Scianki drzialowe - kompleksowy opis Więcej informacji na smart home
+  znajdziesz w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-db8d97abd479bfaa"
-weight: 30
-toc: true
+    identifier: docs-db8d97abd479bfaa
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Scianki drzialowe - kompleksowy opis Więcej informacji na smart home
+    znajdziesz w naszym serwisie.
+  noindex: false
+  title: Scianki drzialowe | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Scianki drzialowe
+toc: true
+weight: 30
 ---
+

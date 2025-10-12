@@ -1,22 +1,26 @@
 ---
-title: "Prąd stały i przemienny"
-description: "Reference pages are ideal for outlining how things work in terse and clear terms."
-summary: ""
-date: 2023-09-07T16:13:18+02:00
-lastmod: 2023-09-07T16:13:18+02:00
+date: 2023-09-07 16:13:18+02:00
+description: Reference pages are ideal for outlining how things work in terse and
+  clear terms.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:13:18+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-d0974f0bad7ee208"
-weight: 100
-toc: true
+    identifier: docs-d0974f0bad7ee208
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Prąd stały i przemienny - kompleksowy opis Więcej informacji na smart
+    home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Prąd stały i przemienny | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Prąd stały i przemienny
+toc: true
+weight: 100
 ---
+
 
 {{< callout context="danger" title="Uwaga, niebezpieczenstwo." icon="alert-octagon" >}}
 Alert: nie pwinienes zabierac sie za jakakoleiek elektryke jesli nie rozumiesz dobrze tych pojec poniewaz grozi to w najelspzym wypadku uszkodzeniem urzadzenn i niestabilnoscia instalacji, a w najgorszzym stworzeniem zagrozenia dla siebie i innych.

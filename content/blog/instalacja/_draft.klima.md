@@ -1,22 +1,25 @@
 ---
-title: "Klimatyzacja - wybór urządzeń"
-description: "Notatki dotyczące wyboru klimatyzacji do mieszkania"
-summary: "Notatki dotyczące wyboru klimatyzacji do mieszkania"
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
-categories: ['Smart Home']
-tags: []
+categories:
+- Smart Home
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Notatki dotyczące wyboru klimatyzacji do mieszkania
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Klimatyzacja - wybór urządzeń - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Klimatyzacja - wybór urządzeń | Dokumentacja - ihome.zentala.io
+summary: Notatki dotyczące wyboru klimatyzacji do mieszkania
+tags: []
+title: Klimatyzacja - wybór urządzeń
+weight: 50
 ---
+
 
 ("jakie klimatyzatory naścienne polecacie? Oczywiście pod kontem integracji z HA")[https://www.facebook.com/groups/130013164361315/?multi_permalinks=1383134132382539
 ]

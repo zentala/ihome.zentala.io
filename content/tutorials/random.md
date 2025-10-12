@@ -1,22 +1,28 @@
 ---
-title: "random notes"
-description: "E.ON (STOEN operator) Warszawa"
-summary: "Zwiększenie mocy i fazowosci, przebudowa instalacji pod wspolczene potrzeby. Zuzywamy coraz wicej energii elektrycznej. Linia zasilająca do mieszkania z rynku wtórnego może nie zapewnić Ci dość mocy jeśli zamierzasz przejść na indukcję czy używać klimatyzacji. Dowiedz się kiedy i jak wymienić ją aby uniknąć przykrych niespodzianek w przyszłości."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: E.ON (STOEN operator) Warszawa
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: random notes - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: random notes | Dokumentacja - ihome.zentala.io
+summary: Zwiększenie mocy i fazowosci, przebudowa instalacji pod wspolczene potrzeby.
+  Zuzywamy coraz wicej energii elektrycznej. Linia zasilająca do mieszkania z rynku
+  wtórnego może nie zapewnić Ci dość mocy jeśli zamierzasz przejść na indukcję czy
+  używać klimatyzacji. Dowiedz się kiedy i jak wymienić ją aby uniknąć przykrych niespodzianek
+  w przyszłości.
+tags: []
+title: random notes
+weight: 50
 ---
+
 
 >> excerpt: My setup of smart home and instructions for you how to start with smart home with this sysyem
 

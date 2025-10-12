@@ -1,19 +1,23 @@
 ---
-title: "Lutowanie"
-description: ""
-summary: ""
-date: 2023-09-07T16:13:18+02:00
-lastmod: 2023-09-07T16:13:18+02:00
+date: 2023-09-07 16:13:18+02:00
+description: Lutowanie - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:13:18+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-98fb7986e3596825"
-weight: 800
-toc: true
+    identifier: docs-98fb7986e3596825
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Lutowanie - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Lutowanie | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Lutowanie
+toc: true
+weight: 800
 ---
+

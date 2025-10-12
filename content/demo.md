@@ -1,16 +1,20 @@
 ---
-title : "Markdown demo"
-description: ""
-lead: ""
-date: 2023-09-07T16:33:54+02:00
-lastmod: 2023-09-07T16:33:54+02:00
+date: 2023-09-07 16:33:54+02:00
+description: Markdown demo - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:33:54+02:00
+lead: ''
 seo:
- title: ""
- description: ""
- canonical: ""
- noindex: false
+  canonical: ''
+  description: Markdown demo - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Markdown demo | Dokumentacja - ihome.zentala.io
+title: Markdown demo
 ---
+
 
 ## Inline styles
 Text can be **bold**, _italic_, or ~~strikethrough~~.

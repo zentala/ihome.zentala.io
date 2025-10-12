@@ -1,23 +1,25 @@
 ---
-title: "Modernizaca przylacza i instalacji elektrycznej - wazniejsze niz smart home"
-description: "E.ON (STOEN operator) Warszawa"
-summary: ""
-thumb: "http://static.zentala.io/flat/moc-fazowosc.jpg"
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: false
-weight: 50
 categories: []
-tags: []
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: E.ON (STOEN operator) Warszawa
+draft: false
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Modernizaca przylacza i instalacji elektrycznej - wazniejsze niz smart
+    home - kompleksowy opis Więcej informacji na inteligentny dom znajdziesz w naszym...
+  noindex: false
+  title: Modernizaca przylacza i instalacji elektrycznej... | Dokumentacja - ihome.zentala.io
+summary: ''
+tags: []
+thumb: http://static.zentala.io/flat/moc-fazowosc.jpg
+title: Modernizaca przylacza i instalacji elektrycznej - wazniejsze niz smart home
+weight: 50
 ---
+
 
 Zuzywamy coraz wicej energii elektrycznej, co w starym budownicmtwie moze skotkowac przeciazniemiem linii. Stad prawdpodobnie wazniejsza nawet niz inteligenty dom rzecza do zrozbienia podczas remontu jest modernizacaj przylacza do wspolczestnych stadnardow.
 

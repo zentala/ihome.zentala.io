@@ -1,47 +1,53 @@
 ---
-title: "Elektryka w komórce lokatorskiej"
-description: "d"
-summary: "Jak podlaczylem prąd do komórki lokatorskiej, jaką zaprojektowałem w niej elektrykę i jakie umieściłem sensory."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: true
-weight: 50
-categories: ['Elektryka']
-tags: []
+categories:
+- Elektryka
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: d
+draft: true
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Elektryka w komórce lokatorskiej - kompleksowy opis Więcej informacji
+    na smart home znajdziesz w naszym serwisie.
+  noindex: false
+  title: Elektryka w komórce lokatorskiej | Dokumentacja - ihome.zentala.io
+summary: Jak podlaczylem prąd do komórki lokatorskiej, jaką zaprojektowałem w niej
+  elektrykę i jakie umieściłem sensory.
+tags: []
+title: Elektryka w komórce lokatorskiej
+weight: 50
 ---
 
-TODO dodac zdjecie z piwnicy
-TDO opublikowac posta jak piwnica bedzie na dalssyym pozomie
+
+TODO dodać zdjęcie z piwnicy
+TODO opublikować posta jak piwnica będzie na dalszym poziomie
 
 
 ## Podłączenie prądu
-W mojej piwnicy - jak w innych - nie bylo pradu.</br>
-Ale mielismy rzecz jasna instalację oświetleniową na korytarzach.
+W mojej piwnicy - jak w innych - nie było prądu.
 
-Skontaktowalem się z administratorem, który pozwolil mi sie podpiąć do sieci do sieci elektrycznej, z zastrzeżeniem, aby nie pobierać przesadnych ilosci pradu, np. urządzając sobie tam warsztat.
+Ale mieliśmy rzecz jasna instalację oświetleniową na korytarzach.
 
-W piwnicy byla instalacja 1 fazowa, 2 żyłowa.</br>
-Niestety więcej nie mialem dostepu do bezpieczników ;/
+Skontaktowałem się z administratorem, który pozwolił mi się podpiąć do sieci elektrycznej, z zastrzeżeniem, aby nie pobierać przesadnych ilości prądu, np. urządzając sobie tam warsztat.
+
+W piwnicy była instalacja 1 fazowa, 2 żyłowa.
+
+Niestety więcej nie miałem dostępu do bezpieczników ;/
 
 Uważnie przepiłowałem więc rurkę elektroinstalacyjną. Próbowałem przeciąć przewód, ale nie byłem pewny jak się za to zabrać więc poprosiłem o pomoc ojca. Rozciął i zabezpieczył żyły osobno: napierw pierwszą, po czym założył na nią [złączkę WAGO](), później zrobił to samo z drugą - osobono aby uniknąć przypadkowego zetknięcia żył pod napięciem.
 
 Zainstalowaliśmy wcześniej zakupioną puszkę - z tej samej serii co inne w piwnicy, aby się nie wyróżniać - bo i po co? Nie chcę niepotrzebnie zwracać uwagi na moją piwnicę, aby nikt nie zastanawiał się co specjalnego może się w niej znajdować. Za puszką wywierciliśmy otwór do przewleczenia przewodu do środka.
 
-Następnie - tymaczsowo - podlączyliścy tam... przedłużcz z listwą zasilającą, co by mieć kilka gniazdek zanim położę tam docelową instalację elektryczną. Z przedłużacza obcieliśmy wtyczkę do gniazdka i wpieliśmy przewody do zainstalowanych wcześniej [złączek WAGO]().
+Następnie - tymczasowo - podłączyliśmy tam... przedłużacz z listwą zasilającą, co by mieć kilka gniazdek zanim położę tam docelową instalację elektryczną. Z przedłużacza obcieliśmy wtyczkę do gniazdka i wpieliśmy przewody do zainstalowanych wcześniej [złączek WAGO]().
 
 Teraz zostało tylko podłączyć [oprawkę żarówki]() do kawałka przewodu z wtyczką i mamy oświetlenie w piwnicy - załączane poprzez włożenie wtyczki z oprawką do gniazka przedłużacza. Pozostałe gniazdka pozwolą podłączyć niezbędne narzędzia na czas remontu.
 
 ## Projekt komórki
 
-Następnie zabralem sie za projetkowanie rozkładu wnętrza, instalacji elektrycznej i automatyki i designu (wykończenia) wnętrza.
+Następnie zabrałem się za projektowanie rozkładu wnętrza, instalacji elektrycznej i automatyki i designu (wykończenia) wnętrza.
 
 ### Projekt Funkcjonalny
 

@@ -1,24 +1,31 @@
 ---
-title: "IoT kablem czy bez kabla? (jakie błędy dopowadziły mnie do 3 lat pustostanu)"
-description: "Zdecydowałem się na instalację kablowa, ale jest mnóstwo argumentów aby wybrać bezprzewodowe rozwiązania smart home. Zanim zdecydujesz się na prócie wszystkich ścian, powinieneś je rozważyć. Prawdę mówiąc do dziś nie wiem, czy nie popełniłem błędu idąc w kable."
-summary: "Ile koszotwało mnie poprowadzenie przewodów pod czujniki w remontowanym mieszkaniu i dlaczego warto poważnie rozważyć bezprzewodowy lub hybrydowy Smart Home?"
-thumb: "https://static.zentala.io/flat/kable3.jpg"
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
-draft: false
-weight: 50
-categories: ['Smart Home']
-tags: []
-url: "iot-kablem-czy-bez-kabla"
+categories:
+- Smart Home
 contributors: ['Paweł Żentała']
-pinned: false
+date: 2023-09-07 16:27:22+02:00
+description: Zdecydowałem się na instalację kablowa, ale jest mnóstwo argumentów aby
+  wybrać bezprzewodowe rozwiązania smart home. Zanim zdecydujesz się na prócie wszystkich
+  ścian, powinieneś je rozważyć. Prawdę mówiąc do dziś nie wiem, czy nie popełniłem
+  błędu idąc w kable.
+draft: false
 homepage: false
+lastmod: 2023-09-07 16:27:22+02:00
+pinned: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: IoT kablem czy bez kabla? (jakie błędy dopowadziły mnie do 3 lat pustostanu)
+    - kompleksowy opis Więcej informacji na smart home znajdziesz w naszym serw...
+  noindex: false
+  title: IoT kablem czy bez kabla? (jakie błędy dopowadz... | Dokumentacja - ihome.zentala.io
+summary: Ile koszotwało mnie poprowadzenie przewodów pod czujniki w remontowanym mieszkaniu
+  i dlaczego warto poważnie rozważyć bezprzewodowy lub hybrydowy Smart Home?
+tags: []
+thumb: https://static.zentala.io/flat/kable3.jpg
+title: IoT kablem czy bez kabla? (jakie błędy dopowadziły mnie do 3 lat pustostanu)
+url: iot-kablem-czy-bez-kabla
+weight: 50
 ---
+
 
 Wielu znajomych radziło mi, żebym zrobił smart home bezprzewodowy. Dziś, po trzech latach remontu i mieszkaniu które stało puste przez ten czas, myślę że mieli rację. Chcę się podzielić swoim doświadczeniem, żebyś nie popełnił moich błędów.
 

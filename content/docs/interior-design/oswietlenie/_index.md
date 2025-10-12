@@ -1,20 +1,24 @@
 ---
-title: "Materiały"
-description: ""
-summary: ""
-date: 2023-09-07T16:06:50+02:00
-lastmod: 2023-09-07T16:06:50+02:00
+date: 2023-09-07 16:06:50+02:00
+description: Materiały - kompleksowy opis Więcej informacji na smart home znajdziesz
+  w naszym serwisie.
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:06:50+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-3ac5a10d636729da-12"
-weight: 680
-toc: true
+    identifier: docs-3ac5a10d636729da-12
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Materiały - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Materiały | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Materiały
+toc: true
+weight: 680
 ---
+
 

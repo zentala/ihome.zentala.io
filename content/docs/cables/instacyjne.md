@@ -1,22 +1,25 @@
 ---
-title: "Instalacyjne"
-description: "Do instalacji elektrycznych"
-summary: ""
-date: 2023-09-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-09-07 16:04:48+02:00
+description: Do instalacji elektrycznych
+contributors: ['Paweł Żentała']
 draft: false
+lastmod: 2023-09-07 16:04:48+02:00
 menu:
   docs:
-    parent: ""
-    identifier: "docs-b6aec33cb87aa0e9"
-weight: 50
-toc: true
+    identifier: docs-b6aec33cb87aa0e9
+    parent: ''
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  canonical: ''
+  description: Instalacyjne - kompleksowy opis Więcej informacji na smart home znajdziesz
+    w naszym serwisie.
+  noindex: false
+  title: Instalacyjne | Dokumentacja - ihome.zentala.io
+summary: ''
+title: Instalacyjne
+toc: true
+weight: 50
 ---
+
 
 Przewody Instalacyjne: Są to przewody używane do stałych instalacji w ścianach, sufitach i podłogach. Przewody instalacyjne mogą być używane do podłączania gniazdek, przełączników, oświetlenia i innych stałych elementów instalacji elektrycznej.
 
