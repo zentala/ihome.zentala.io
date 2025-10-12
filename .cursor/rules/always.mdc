@@ -12,4 +12,27 @@ alwaysApply: true
 * keep it simple
 * kiedy mówię "prznosimy" w kontekście plików to mam na myśli abyś użył `mv` w konsoli
 * write to README.md in english!
+* single source of truth!
+  * in particular for CSS
+
+### Docs
+
+* dokmentuj w kodzie decyzje i życzenia użytkownika, aby było expicit napisane ze user chce takiego i takiego zachwoania, dzialania, aby w przyszłości podczas edycji wiedziec czego chcial, znac jego wole
+* dokumentuj tez wszelkie decyzje architetoniczne i ogolnie decyzje
+
+## Refactoring
+
 * chcemy ujednolić kod, style CSS, iść do 1 źródła prawdy. kod jest zaśmiecony więc staramy się edując go nadać mu jakaś strukturę ,szczególnie w CSS potrzeba opisać co i jak i do czego
+
+* proponuj refaktoring
+* rozbijaj duże pliki na małe
+
+## seo
+
+* istotnym aspektem projektowania serwisu jest SEO, dlatego interlinkwoanie oraz słowa kluczowe są istotne;
+
+## internal code
+
+<instruction: consider text bwtween `<` and `>` as instructions to yourself from user>
+
+

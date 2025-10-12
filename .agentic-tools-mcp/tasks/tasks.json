@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "id": "cfd5e08f-a252-44a5-a5f5-ccbf42851d4e",
+      "name": "UX improvements",
+      "description": "",
+      "createdAt": "2025-10-12T07:07:28.670Z",
+      "updatedAt": "2025-10-12T07:07:28.670Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "549a6e64-39ee-40c6-ab46-3f6057c4c20e",
+      "name": "Reintroduce \"fetured posts\" on homepage",
+      "details": "they was visible added them few commits ago, but some agent working on smth remove it. please reintodcue. design was ok.",
+      "projectId": "cfd5e08f-a252-44a5-a5f5-ccbf42851d4e",
+      "completed": false,
+      "createdAt": "2025-10-12T07:10:05.635Z",
+      "updatedAt": "2025-10-12T07:10:05.635Z",
+      "dependsOn": [],
+      "priority": 5,
+      "status": "pending",
+      "tags": []
+    }
+  ],
+  "subtasks": []
+}
