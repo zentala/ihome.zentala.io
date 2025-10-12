@@ -23,7 +23,7 @@
 
 /* Reusable hover zoom utility */
 .u-hover-zoom {
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .u-hover-zoom:hover {
@@ -197,5 +197,6 @@
   -webkit-mask-size: contain;
   mask-size: contain;
 }
+
 
 
