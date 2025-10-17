@@ -1,8 +1,8 @@
-{{ $last := sub (len .Params.contributors) 1 -}}
+{{- $contributors := .Params.contributors | default slice -}}
+{{ $last := sub (len $contributors) 1 -}}
 <p>
   <small>
     {{- time.Format (default ":date_long" .Site.Params.dateFormat) .PublishDate -}}
-
     {{- with .Params.categories -}}
       &nbsp;in&nbsp;
       {{- range $index, $category := . -}}
@@ -10,7 +10,7 @@
         <a class="stretched-link position-relative link-muted" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
       {{- end }}
     {{- end }}
-    {{- with .Params.contributors -}}
+    {{- with $contributors -}}
       &nbsp;by&nbsp;
       {{- range $index, $contributor := . -}}
         {{- if gt $index 0 }}{{ if eq $index $last }} and {{ else }}, {{ end }}{{ end -}}
@@ -26,7 +26,7 @@
       {{- end }}
     {{- end -}}
     {{- /* NOTE: classes 'stretched-link position-relative' are necessary to properly display the title attribute on hover */ -}}
-    <span class="stretched-link position-relative reading-time" title="{{ i18n "reading_time" }}">{{/* trim subsequent whitespace */ -}}
+    <span class="stretched-link position-relative reading-time text-nowrap" title="{{ i18n "reading_time" }}">{{/* trim subsequent whitespace */ -}}
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
         <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
