@@ -4,3 +4,4 @@ public/
 .specstory
 .cursorindexingignore
 .hugo_build.lock
+.claude/settings.local.json
