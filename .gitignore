@@ -1,5 +1,8 @@
 node_modules/
-resources/
+resources/*
+!resources/_gen/
+resources/_gen/*
+!resources/_gen/getresource/
 public/
 .specstory
 .cursorindexingignore
