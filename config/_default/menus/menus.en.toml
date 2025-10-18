@@ -31,15 +31,25 @@
 # Main menu
 
 [[main]]
-  name = "Docs"
-  url = "/docs/concepts/smart-home"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 10
+  name = "Teoria"
+  url = "/docs/systems/inteligentny-dom/"
+  weight = 35
 
 [[main]]
   name = "Blog"
   url = "/blog/"
+  weight = 20
+
+[[main]]
+  name = "Poradniki"
+  url = "/tutorials/"
   weight = 30
+
+[[main]]
+  name = "Usługi"
+  identifier = "services"
+  url = "/services/"
+  weight = 40
 
 
 
