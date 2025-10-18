@@ -8,8 +8,10 @@ enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "pl-PL"
-paginate = 30
 rssLimit = 20
+
+[pagination]
+  pagerSize = 30
 summarylength = 40 # 70 (default)
 removePathAccents = true # remove PL characters from URLs
 

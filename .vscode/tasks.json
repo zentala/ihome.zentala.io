@@ -144,6 +144,80 @@
       },
       "problemMatcher": [],
       "dependsOn": ["Build Production"]
+    },
+    {
+      "label": "Create New Blog Post",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "new",
+        "content",
+        "${input:blogPath}"
+      ],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Create New Tutorial",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "new",
+        "content",
+        "${input:tutorialPath}"
+      ],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Create New Documentation",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "new",
+        "content",
+        "${input:docsPath}"
+      ],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "blogPath",
+      "type": "promptString",
+      "description": "Blog post path (e.g., blog/instalacja/moj-nowy-post.md or blog/flat/nazwa.md)",
+      "default": "blog/"
+    },
+    {
+      "id": "tutorialPath",
+      "type": "promptString",
+      "description": "Tutorial path (e.g., tutorials/nowy-tutorial/index.md)",
+      "default": "tutorials/"
+    },
+    {
+      "id": "docsPath",
+      "type": "promptString",
+      "description": "Docs path (e.g., docs/actuators/nowy-komponent.md)",
+      "default": "docs/"
     }
   ]
 }
