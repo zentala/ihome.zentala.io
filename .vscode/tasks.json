@@ -152,7 +152,7 @@
       "args": [
         "new",
         "content",
-        "${input:blogPath}"
+        "blog/${input:blogCategory}/${input:blogFilename}.md"
       ],
       "group": "build",
       "presentation": {
@@ -170,7 +170,7 @@
       "args": [
         "new",
         "content",
-        "${input:tutorialPath}"
+        "tutorials/${input:tutorialSlug}/index.md"
       ],
       "group": "build",
       "presentation": {
@@ -188,7 +188,7 @@
       "args": [
         "new",
         "content",
-        "${input:docsPath}"
+        "docs/${input:docsCategory}/${input:docsFilename}.md"
       ],
       "group": "build",
       "presentation": {
@@ -202,22 +202,56 @@
   ],
   "inputs": [
     {
-      "id": "blogPath",
-      "type": "promptString",
-      "description": "Blog post path (e.g., blog/instalacja/moj-nowy-post.md or blog/flat/nazwa.md)",
-      "default": "blog/"
+      "id": "blogCategory",
+      "type": "pickString",
+      "description": "Wybierz kategorię bloga:",
+      "options": [
+        "flat",
+        "instalacja",
+        "interior-design",
+        "wyposarzenie"
+      ],
+      "default": "instalacja"
     },
     {
-      "id": "tutorialPath",
+      "id": "blogFilename",
       "type": "promptString",
-      "description": "Tutorial path (e.g., tutorials/nowy-tutorial/index.md)",
-      "default": "tutorials/"
+      "description": "Nazwa pliku (bez .md, np. 'moj-nowy-post'):"
     },
     {
-      "id": "docsPath",
+      "id": "tutorialSlug",
       "type": "promptString",
-      "description": "Docs path (e.g., docs/actuators/nowy-komponent.md)",
-      "default": "docs/"
+      "description": "Slug tutoriala (folder name, np. 'instalacja-gniazdek'):"
+    },
+    {
+      "id": "docsCategory",
+      "type": "pickString",
+      "description": "Wybierz kategorię dokumentacji:",
+      "options": [
+        "actuators",
+        "cables",
+        "concepts",
+        "connectors",
+        "drivers",
+        "electrical-elements",
+        "electrical-installation",
+        "electrical-practice",
+        "electricity-theory",
+        "interfaces",
+        "interior-design",
+        "leds",
+        "micro-controllers",
+        "networks",
+        "sensors",
+        "software",
+        "systems"
+      ],
+      "default": "actuators"
+    },
+    {
+      "id": "docsFilename",
+      "type": "promptString",
+      "description": "Nazwa pliku (bez .md, np. 'przekaznik'):"
     }
   ]
 }
