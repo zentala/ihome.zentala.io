@@ -34,6 +34,21 @@ pnpm run lint         # Lint all (JS, SCSS, MD)
 3. The project is configured for Windows (PowerShell) and Linux/macOS (bash)
 4. Always commit `pnpm-lock.yaml` after dependency changes
 
+## Content Structure & VS Code Tasks
+
+**Blog categories:** `flat`, `instalacja`, `interior-design`, `wyposarzenie`
+**Docs categories:** `actuators`, `cables`, `concepts`, `connectors`, `drivers`, `electrical-elements`, `electrical-installation`, `electrical-practice`, `electricity-theory`, `interfaces`, `interior-design`, `leds`, `micro-controllers`, `networks`, `sensors`, `software`, `systems`
+
+**Important:** When adding/removing content categories (blog or docs subdirectories):
+1. Update `.vscode/tasks.json` → inputs section → options array
+2. Keep category lists in sync with actual folder structure
+3. Test tasks work correctly after changes
+
+**VS Code Tasks:**
+- `Ctrl+Shift+P` → "Create New Blog Post" (dropdown category selection)
+- `Ctrl+Shift+P` → "Create New Tutorial" (page bundle with index.md)
+- `Ctrl+Shift+P` → "Create New Documentation" (dropdown category selection)
+
 ## Runbook Protocol
 
 **Create daily runbook:** `.claude/runbooks/YYYY-MM-DD.md`
