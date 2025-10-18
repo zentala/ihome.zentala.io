@@ -1,0 +1,222 @@
+{
+  "Hugo Callout - Note": {
+    "scope": "markdown",
+    "prefix": "callout-note",
+    "description": "Insert Hugo callout with note context",
+    "body": [
+      "{{< callout context=\"note\" title=\"${1:Uwaga}\" icon=\"info-circle\" >}}",
+      "$2",
+      "{{< /callout >}}"
+    ]
+  },
+  "Hugo Callout - Tip": {
+    "scope": "markdown",
+    "prefix": "callout-tip",
+    "description": "Insert Hugo callout with tip context",
+    "body": [
+      "{{< callout context=\"tip\" title=\"${1:Wskazówka}\" icon=\"rocket\" >}}",
+      "$2",
+      "{{< /callout >}}"
+    ]
+  },
+  "Hugo Callout - Caution": {
+    "scope": "markdown",
+    "prefix": "callout-caution",
+    "description": "Insert Hugo callout with caution context",
+    "body": [
+      "{{< callout context=\"caution\" title=\"${1:Uwaga}\" icon=\"alert-triangle\" >}}",
+      "$2",
+      "{{< /callout >}}"
+    ]
+  },
+  "Hugo Callout - Danger": {
+    "scope": "markdown",
+    "prefix": "callout-danger",
+    "description": "Insert Hugo callout with danger context",
+    "body": [
+      "{{< callout context=\"danger\" title=\"${1:Niebezpieczeństwo}\" icon=\"alert-octagon\" >}}",
+      "$2",
+      "{{< /callout >}}"
+    ]
+  },
+  "Hugo Details": {
+    "scope": "markdown",
+    "prefix": "details",
+    "description": "Insert Hugo details (collapsible)",
+    "body": [
+      "{{< details \"${1:Tytuł}\" >}}",
+      "$2",
+      "{{< /details >}}"
+    ]
+  },
+  "Hugo Details - Open": {
+    "scope": "markdown",
+    "prefix": "details-open",
+    "description": "Insert Hugo details (open by default)",
+    "body": [
+      "{{< details \"${1:Tytuł}\" open >}}",
+      "$2",
+      "{{< /details >}}"
+    ]
+  },
+  "Hugo Tabs": {
+    "scope": "markdown",
+    "prefix": "tabs",
+    "description": "Insert Hugo tabs with 3 tabs",
+    "body": [
+      "{{< tabs \"${1:tab-group-name}\" >}}",
+      "{{< tab \"${2:Tab 1}\" >}}",
+      "",
+      "$3",
+      "",
+      "{{< /tab >}}",
+      "{{< tab \"${4:Tab 2}\" >}}",
+      "",
+      "$5",
+      "",
+      "{{< /tab >}}",
+      "{{< tab \"${6:Tab 3}\" >}}",
+      "",
+      "$7",
+      "",
+      "{{< /tab >}}",
+      "{{< /tabs >}}"
+    ]
+  },
+  "Hugo Kroki Diagram - D2": {
+    "scope": "markdown",
+    "prefix": "kroki-d2",
+    "description": "Insert Kroki D2 diagram",
+    "body": [
+      "```kroki {type=d2}",
+      "$1",
+      "```"
+    ]
+  },
+  "Hugo Kroki Diagram - Mermaid": {
+    "scope": "markdown",
+    "prefix": "kroki-mermaid",
+    "description": "Insert Kroki Mermaid diagram",
+    "body": [
+      "```kroki {type=mermaid}",
+      "$1",
+      "```"
+    ]
+  },
+  "Hugo Kroki Diagram - PlantUML": {
+    "scope": "markdown",
+    "prefix": "kroki-plantuml",
+    "description": "Insert Kroki PlantUML diagram",
+    "body": [
+      "```kroki {type=plantuml}",
+      "$1",
+      "```"
+    ]
+  },
+  "Hugo Code Block with Title": {
+    "scope": "markdown",
+    "prefix": "code-title",
+    "description": "Insert code block with title",
+    "body": [
+      "```${1:js} {title=\"${2:filename.js}\"}",
+      "$3",
+      "```"
+    ]
+  },
+  "Hugo Code Block with Line Numbers": {
+    "scope": "markdown",
+    "prefix": "code-lines",
+    "description": "Insert code block with line numbers",
+    "body": [
+      "```${1:js} {lineNos=true lineNoStart=${2:1}}",
+      "$3",
+      "```"
+    ]
+  },
+  "Hugo Code Block with Highlight": {
+    "scope": "markdown",
+    "prefix": "code-highlight",
+    "description": "Insert code block with highlighted lines",
+    "body": [
+      "```${1:js} {hl_lines=${2:2-3}}",
+      "$3",
+      "```"
+    ]
+  },
+  "Hugo Image": {
+    "scope": "markdown",
+    "prefix": "img",
+    "description": "Insert Hugo img shortcode",
+    "body": [
+      "{{< img src=\"${1:https://static.zentala.io/...}\" alt=\"${2:Description}\" >}}"
+    ]
+  },
+  "Hugo Picture": {
+    "scope": "markdown",
+    "prefix": "picture",
+    "description": "Insert Hugo picture shortcode",
+    "body": [
+      "{{< picture src=\"${1:https://static.zentala.io/...}\" alt=\"${2:Description}\" >}}"
+    ]
+  },
+  "Hugo Figure": {
+    "scope": "markdown",
+    "prefix": "figure",
+    "description": "Insert Hugo figure with caption",
+    "body": [
+      "{{< figure",
+      "  src=\"${1:https://static.zentala.io/...}\"",
+      "  alt=\"${2:Description}\"",
+      "  caption=\"${3:Caption text}\"",
+      ">}}"
+    ]
+  },
+  "Hugo Inline SVG": {
+    "scope": "markdown",
+    "prefix": "svg",
+    "description": "Insert Tabler icon SVG",
+    "body": [
+      "{{< inline-svg \"${1:coffee}\" >}}"
+    ]
+  },
+  "Hugo YouTube": {
+    "scope": "markdown",
+    "prefix": "youtube",
+    "description": "Insert YouTube video embed",
+    "body": [
+      "{{< youtube id=\"${1:video-id}\">}}"
+    ]
+  },
+  "Hugo Link Card": {
+    "scope": "markdown",
+    "prefix": "link-card",
+    "description": "Insert link card",
+    "body": [
+      "{{< link-card",
+      "  title=\"${1:Title}\"",
+      "  description=\"${2:Description}\"",
+      "  href=\"${3:/path/}\"",
+      ">}}"
+    ]
+  },
+  "Hugo Math Inline": {
+    "scope": "markdown",
+    "prefix": "math-inline",
+    "description": "Insert inline math expression",
+    "body": [
+      "{{< math >}}\\$${1:x^2 + y^2 = z^2}\\${{< /math >}}"
+    ]
+  },
+  "Hugo Math Block": {
+    "scope": "markdown",
+    "prefix": "math-block",
+    "description": "Insert math block",
+    "body": [
+      "{{< math class=text-center >}}",
+      "\\$\\$",
+      "${1:equation}",
+      "\\$\\$",
+      "{{< /math >}}"
+    ]
+  }
+}
