@@ -105,10 +105,13 @@
   url = "/privacy/"
   weight = 10
 
+# Demo link - only visible in development mode (see footer.html)
 [[footer]]
   name = "Markdown Demo"
   url = "/demo/"
   weight = 20
+  [footer.params]
+    devOnly = true  # This link will be hidden in production
 
 # [[footer]]
 #   name = "Terms of Service"

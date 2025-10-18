@@ -9,7 +9,15 @@
       <div class="col-lg-8 text-center text-lg-end">
         <ul class="list-inline">
           {{ range .Site.Menus.footer -}}
+            {{- $showLink := true -}}
+            {{- if .Params.devOnly -}}
+              {{- if eq hugo.Environment "production" -}}
+                {{- $showLink = false -}}
+              {{- end -}}
+            {{- end -}}
+            {{- if $showLink -}}
             <li class="list-inline-item"><a class="text-muted" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+            {{- end -}}
           {{- end }}
         </ul>
       </div>
