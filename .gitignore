@@ -17,3 +17,10 @@ gh-action-log.txt
 # Local env files
 .env.local
 .env.*.local
+
+# Downloaded binaries and archives
+*.zip
+*.tar.gz
+*.exe
+hugo
+hugo.exe
