@@ -36,7 +36,7 @@ pnpm run lint         # Lint all (JS, SCSS, MD)
 
 ## Runbook Protocol
 
-**Create daily runbook:** `.claude/runbook/YYYY/MM/DD.md`
+**Create daily runbook:** `.claude/runbooks/YYYY-MM-DD.md`
 
 - **ONE runbook per day** (not per task)
 - Document all work done during the session
@@ -44,5 +44,6 @@ pnpm run lint         # Lint all (JS, SCSS, MD)
 - Include: problems, solutions, commands, files changed, commits
 - Add learnings and "Next Session TODO"
 - Only create separate task-specific docs if explicitly requested
+- Use flat structure (no subfolders): `2025-10-18.md`, `2025-10-19.md`, etc.
 
-**Format:** See `.claude/runbook/2025/10/18.md` for template
+**Format:** See `.claude/runbooks/2025-10-18.md` for template
