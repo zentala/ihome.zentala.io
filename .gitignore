@@ -8,3 +8,12 @@ public/
 .cursorindexingignore
 .hugo_build.lock
 .claude/settings.local.json
+
+# Logs
+*.log
+*.log.*
+gh-action-log.txt
+
+# Local env files
+.env.local
+.env.*.local
