@@ -10,4 +10,4 @@
   
   [security.http]
     methods = ['(?i)GET|POST']
-    urls = ['.*']
+    urls = ['https://kroki\.io/.*']
