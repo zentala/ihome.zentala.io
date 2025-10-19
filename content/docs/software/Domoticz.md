@@ -23,7 +23,7 @@ weight: 300
 
 ## Domoticz — lekka i wydajna platforma dla DIY
 
-![Domoticz Dashboard](https://www.domoticz.com/wiki/images/3/3a/Dashboard.png)
+{{/* ![Domoticz Dashboard](https://www.domoticz.com/wiki/images/3/3a/Dashboard.png) */}}
 
 ### 1. Co to jest Domoticz
 
