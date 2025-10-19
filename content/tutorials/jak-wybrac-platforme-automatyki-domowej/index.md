@@ -22,7 +22,18 @@ weight: 10
 
 Wybór platformy automatyki domowej to jedna z **najważniejszych decyzji** na początku Twojej przygody ze smart home. Każda platforma ma swoje mocne i słabe strony, a **źle dobrana może kosztować Cię setki godzin przepisywania konfiguracji**.
 
-W tym tutorialu pomożemy Ci wybrać platformę idealną **dla Ciebie** — na podstawie Twojego doświadczenia, celów, sprzętu i preferencji językowych.
+---
+
+## TL;DR — Która platforma dla Ciebie?
+
+**Nie masz czasu czytać całego artykułu? Oto szybka odpowiedź:**
+
+- 🥇 **Nie wiesz co wybrać?** → [Home Assistant](/docs/software/home-assistant/) (najpopularniejsza, łatwa)
+- 🥈 **Budujesz DIY / masz stary sprzęt?** → [Domoticz](/docs/software/domoticz/) (lekka, polska społeczność)
+- 🥉 **Zaawansowany / KNX / Java?** → [openHAB](/docs/software/openhab/) (profesjonalna, elastyczna)
+- 🏅 **Programista JS / wizualizacje?** → [ioBroker](/docs/software/iobroker/) (modułowa, Node.js)
+
+**Chcesz wiedzieć dlaczego?** Czytaj dalej! ⬇️
 
 ---
 
@@ -291,20 +302,7 @@ Obecnie na rynku dominują **cztery otwartoźródłowe platformy**:
 
 ---
 
-## 12. Podsumowanie — ostateczna rekomendacja
-
-### Jeśli nie masz czasu czytać całego artykułu:
-
-- 🥇 **Nie wiesz co wybrać?** → [Home Assistant](/docs/software/home-assistant/)
-- 🥈 **Budujesz DIY / masz stary sprzęt?** → [Domoticz](/docs/software/domoticz/)
-- 🥉 **Zaawansowany / KNX / Java?** → [openHAB](/docs/software/openhab/)
-- 🏅 **Programista JS / wizualizacje?** → [ioBroker](/docs/software/iobroker/)
-
-**Nie wybieraj:** ~~FHEM~~ (przestarzałe)
-
----
-
-## 13. Następne kroki
+## 12. Następne kroki
 
 Po wyborze platformy:
 
@@ -329,11 +327,5 @@ Po wyborze platformy:
 
 5. **Testuj i ucz się!**
 
----
-
-## 14. Pytania? Dołącz do dyskusji!
-
-Masz pytania dotyczące wyboru platformy? **Skomentuj poniżej** lub dołącz do naszej społeczności!
-
-**Powodzenia w budowie smart home! 🏠✨**
+**Powodzenia w budowie smart home! 🏠**
 

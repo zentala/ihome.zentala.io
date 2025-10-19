@@ -140,6 +140,74 @@ pnpm run lint         # Lint all (JS, SCSS, MD)
 
 ---
 
+## Content Strategy
+
+### Target Audience
+
+**Primary:** People with first-time exposure to smart home:
+- Often programmers (know computers but not deeply IT/electronics)
+- People building a new home (know computers, sometimes electricity)
+- Age: mostly under 40
+- Mix: Some know programming, some know electricity, some neither
+
+### Dictionary (Encyclopedia) Purpose
+
+The **dictionary/docs section** is a **Wikipedia-style encyclopedia** that:
+- Introduces smart home concepts encyclopedically
+- Interlinking related terms extensively
+- Serves as reference material for people learning IoT
+
+**When creating/modifying content:**
+- **ALWAYS search for related terms** in the dictionary
+- **Add internal links** to connect concepts
+- Think about what terms the user might need to understand this topic
+- Create a web of interconnected knowledge
+
+### Site Vision & Goals
+
+**Primary goal:** Create an **onboarding guide to IoT** based on my (Paweł's) experience and knowledge of how I wanted to understand this topic when I was learning.
+
+**Key differentiators from AI/ChatGPT:**
+1. **Guided UX** — I (human) know what you need to learn and guide you through it
+2. **Content presentation** — Professional GUI, easy to navigate and read
+3. **Curated knowledge** — AI often generates dictionary content, but my articles sit on top providing structure and guidance
+4. **Meta-level connections** — Linking concepts at meta-level (my talent)
+
+**SEO Strategy:**
+- Build strong SEO foundation in smart home topic
+- But **content quality is paramount** (not SEO spam)
+- Easy to browse, read, and navigate
+- Real traffic from people genuinely learning
+
+### Content Layers
+
+1. **Dictionary (Encyclopedia)** — AI-generated, encyclopedic, interlinked
+2. **My Articles (Blog/Tutorials)** — Human-curated, experiential, guiding
+3. **Guides & Tutorials** — Step-by-step onboarding paths
+
+### Future Development
+
+**UI/UX Evolution:**
+- Improve topic navigation (jumping between related concepts)
+- Deeper exploration tools (SEO + UX benefit)
+- Better ways to transfer knowledge
+- Organize and structure content progressively
+- Help users onboard step-by-step
+
+**AI Assistant (future):**
+- Simple chatbot that recommends content
+- Doesn't talk much, mostly links and redirects
+- Guides you through the site's content
+- "Read this, then this, then come back here"
+
+### Why This Site Exists
+
+**Gap in the market:** Few sites provide this meta-level understanding and guided learning in smart home/IoT.
+
+**My contribution:** I have a talent for linking things at meta-level and want to use it to create the meta-understanding I wish I had when I started.
+
+---
+
 ## Testing Architecture
 
 ### Smoke Tests (Implemented ✅)
