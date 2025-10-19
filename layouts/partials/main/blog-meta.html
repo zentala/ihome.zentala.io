@@ -1,5 +1,8 @@
 {{- $contributors := .Params.contributors | default slice -}}
-{{ $last := sub (len $contributors) 1 -}}
+{{- $last := 0 -}}
+{{- if gt (len $contributors) 0 -}}
+  {{- $last = sub (len $contributors) 1 -}}
+{{- end -}}
 <p>
   <small>
     {{- time.Format (default ":date_long" .Site.Params.dateFormat) .PublishDate -}}

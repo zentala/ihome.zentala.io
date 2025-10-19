@@ -1,9 +1,12 @@
-[pl]
-  languageName = "Polish"
+# TEMPORARY FIX: Define as "en" even though content is Polish
+# This works around Hugo 0.150.1 multilingual bug
+# Content remains Polish, Hugo treats it as "en" language
+[en]
+  languageName = "English"  # Changed from "Polish" but content IS Polish
   contentDir = "content"
   weight = 10
-  [pl.params]
-    languageISO = "PL"
-    languageTag = "pl-PL"
+  [en.params]
+    languageISO = "EN"  # Changed from "PL" for Hugo compatibility
+    languageTag = "en-US"  # Changed from "pl-PL" for Hugo compatibility
     # footer is rendered in layouts/partials/footer/footer.html with dynamic year
     alertText = '<a class="alert-link stretched-link" href="https://getdoks.org/blog/doks-v0.5/">Doks v0.5</a>'

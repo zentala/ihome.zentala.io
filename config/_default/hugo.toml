@@ -16,9 +16,12 @@ summarylength = 40 # 70 (default)
 removePathAccents = true # remove PL characters from URLs
 
 # Multilingual
-defaultContentLanguage = "pl"
+# TEMPORARY FIX: Set to "en" even though content is Polish
+# This works around Hugo 0.150.1 multilingual bug where it defaults to EN
+# Content remains Polish, URLs unchanged, but Hugo treats it as "en" language
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
-disableLanguages = ["en", "de", "nl", "es"]
+disableLanguages = ["de", "nl", "es"]  # Removed "en" from disabled list
 
 [build.buildStats]
   enable = false

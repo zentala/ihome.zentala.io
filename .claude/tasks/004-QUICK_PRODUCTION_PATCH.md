@@ -1,11 +1,42 @@
 # Task: Quick Production Patch - Fix Indexed Pages
 
-**Status:** 🔴 **URGENT** - Production Broken
+**Status:** ✅ **COMPLETED** (2025-10-19)
 **Created:** 2025-10-19
-**Priority:** 🔴 **CRITICAL**
+**Priority:** 🔴 **CRITICAL** (was)
 **Complexity:** Low (1-2 hours)
 **Branch:** `main` (direct to production)
-**Related:** `STATUS.md`, `.claude/specs/content-google-index.md`
+**Related:** `STATUS.md`, `.claude/specs/content-google-index.md`, `.claude/runbooks/2025-10-19.md`
+
+---
+
+## ✅ COMPLETED SUMMARY (2025-10-19)
+
+**What was fixed:**
+1. ✅ Homepage showing Polish content (6 feature boxes) instead of EN placeholder
+2. ✅ Language classification (270 EN pages = Polish content at root URLs)
+3. ✅ Related posts feature re-enabled (works without infinite recursion)
+4. ✅ Build succeeds with Hugo 0.121.1 (~6.4s)
+5. ✅ All URLs unchanged: `/docs/`, `/blog/`, `/tutorials/`
+
+**How it was fixed:**
+- Changed `defaultContentLanguage = "en"` in `hugo.toml` (workaround for Hugo 0.150.1 bug)
+- Changed `[pl]` to `[en]` in `languages.toml` (Polish content classified as "EN")
+- Re-enabled `relatedPosts = true` in `params.toml`
+- Fixed `blog-meta.html` to handle missing contributors
+- Deleted invalid `motywacje.editor.md` file
+
+**Result:**
+- Homepage works: https://ihome.zentala.io/ shows Polish content ✅
+- Menu already Polish (no fix needed) ✅
+- Related posts working (3 per page) ✅
+
+**See:** `.claude/runbooks/2025-10-19.md` for full details
+
+**Still TODO (out of scope for this task):**
+- Fix 404 errors (3 pages): `/docs/software/openhab/`, `/blog/projekt-wnetrza-ukonczony/`, `/docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/`
+- See Task 006-FIX_404_ERRORS.md
+
+---
 
 ---
 
