@@ -607,12 +607,231 @@ Hugo v0.150+ **requires explicit language structure** for multilingual sites. Th
 
 **Next steps:**
 1. ✅ Created ADR documenting decision rationale
-2. Read `.claude/tasks/I18N_URL_MIGRATION.md`
-3. Plan migration phases
-4. Implement with smoke tests verifying each step
-5. Deploy with redirects
-6. Monitor Google Search Console
+2. ✅ User requested content audit before migration
+3. ✅ Created comprehensive content audit task
+4. ✅ Created dictionary redesign spec
+5. ✅ Created STATUS.md as single source of truth
+6. ✅ Created FIX_404_ERRORS task
+7. ⏸️ I18N_URL_MIGRATION blocked by CONTENT_AUDIT
+8. 🔄 Next: Start content audit Phase 1 (inventory)
 
 ---
 
-**End of Session Runbook**
+## Session Continuation: Content Audit Planning
+
+### User Request: Content Audit Before Migration
+
+**User's concern:** Before migrating to `/pl/` structure, need to:
+1. Check what's currently indexed by Google
+2. Identify all drafts and incomplete content
+3. Create content editor questionnaire (tailored per article)
+4. Plan dictionary redesign
+5. Fix 404 errors (67 found in Google Search Console)
+
+### Phase 2: Documentation & Planning (COMPLETED)
+
+**Timeline:** ~2 hours
+
+**Deliverables:**
+1. ✅ Created `.claude/tasks/CONTENT_AUDIT.md` (343 lines)
+   - 6 comprehensive phases
+   - Content Editor Questionnaire template
+   - Pre-migration checklist
+   - Success criteria
+
+2. ✅ Created `.claude/specs/003-dictionary-redesign.md` (436 lines)
+   - Current problem analysis
+   - Proposed A-Z browsable index
+   - Category view toggle design
+   - Search functionality
+   - Bilingual support (/pl/slownik/, /en/dictionary/)
+   - Migration plan (6 steps)
+
+3. ✅ Created `STATUS.md` (350 lines)
+   - 🚨 Critical issues section
+   - 📋 Current plan & vision
+   - 📊 Content inventory (234 files, ~41 drafts, only 31 indexed!)
+   - 🧪 Testing status (9 tests: 6 fail, 3 pass)
+   - 🐛 Known issues (67 404 errors)
+   - 🎯 Success criteria
+
+4. ✅ Created `.claude/tasks/FIX_404_ERRORS.md` (500+ lines)
+   - Catalogued all 67 404 errors into 6 categories:
+     - Category 1: static.zentala.io → CDN (~30 errors)
+     - Category 2: ideas.zentala.io subdomain (~25 errors)
+     - Category 3: Internal broken links (~5 errors)
+     - Category 4: Other subdomains (~5 errors)
+     - Category 5: Test files indexed (1 error)
+     - Category 6: Duplicate URLs (4 errors)
+   - Decision matrix template (redirect vs 410 vs ignore)
+   - 4-phase implementation plan
+   - Questions for user decision
+
+5. ✅ Updated `.claude/CLAUDE.md`
+   - Added "Project Status Protocol" section
+   - Linked to STATUS.md as single source of truth
+   - Defined CLAUDE.md (AI instructions) vs STATUS.md (project state)
+   - Removed outdated "Current Issues" section
+   - Updated smoke tests status to "Implemented ✅"
+
+6. ✅ Updated `.claude/tasks/I18N_URL_MIGRATION.md`
+   - Status: ⏸️ BLOCKED by content audit
+   - Added dependency note
+   - Linked to CONTENT_AUDIT.md and 003-dictionary-redesign.md
+
+### Key Discoveries
+
+**Content Inventory:**
+- 234 markdown files total
+- ~41 drafts (not 1 as initially counted!)
+  - Files starting with `_` (Hugo ignores)
+  - Files with `draft: true` in frontmatter
+- Only 31 pages indexed by Google (13% of published content!)
+- 67 404 errors in Google Search Console
+
+**User Corrections:**
+1. **About drafts:** "drafow na pewno jest wiecej, jest ich w chuj. z 30 albo wiec"
+   - I was only checking `draft: true`, missing files starting with `_`
+
+2. **About content editor questions:** "tak ale dla kazdego arykulu inne ptyania nacelowane na wyciagniecie wartosci dla czytelnika"
+   - Wants tailored questions per article, not generic template
+
+3. **About project status:** Wants STATUS.md instead of tracking in CLAUDE.md
+   - CLAUDE.md = AI instructions (how to work)
+   - STATUS.md = Project state (what needs work)
+
+### Commits Made
+
+**Commit 4:** `c4d7ec8` - docs: create FIX_404_ERRORS task and update CLAUDE.md
+- Created `.claude/tasks/FIX_404_ERRORS.md`
+- Created `STATUS.md`
+- Updated `.claude/CLAUDE.md` with Project Status Protocol
+
+**Previous commits:**
+- `76556c8` - Smoke tests implementation
+- `c247107` - ADR 001 for multilingual decision
+- `b17e435` - Content audit & dictionary tasks
+
+### Task Execution Order (from STATUS.md)
+
+```
+1. CONTENT_AUDIT (1-2 weeks) 📋 PLANNED ← NEXT
+   ├─ Inventory all 234 files
+   ├─ Identify ~41 drafts
+   ├─ Content Editor Questionnaire (tailored per article)
+   ├─ Translation planning
+   └─ Quality assessment
+
+2. FIX_404_ERRORS (2-3 days) 📋 PLANNED
+   ├─ Setup redirects: static.zentala.io → CDN
+   ├─ Fix internal broken links
+   └─ User decisions needed (redirect vs 410)
+
+3. I18N_URL_MIGRATION (2-3 days) ⏸️ BLOCKED
+   ├─ Change defaultContentLanguageInSubdir = true
+   ├─ All URLs → /pl/ prefix
+   ├─ Setup 301 redirects
+   └─ Verify with smoke tests
+
+4. DICTIONARY_REDESIGN (3-5 days) 📋 PLANNED (Long-term)
+   ├─ Create /pl/slownik/ index page
+   ├─ A-Z navigation
+   └─ Bilingual structure
+```
+
+---
+
+## Files Modified This Session
+
+**Created:**
+- `playwright.config.js`
+- `tests/e2e/smoke/homepage-content.spec.js`
+- `tests/e2e/smoke/navigation-menu.spec.js`
+- `tests/e2e/smoke/multilingual-config.spec.js`
+- `.claude/adrs/001-multilingual-url-structure.md`
+- `.claude/tasks/CONTENT_AUDIT.md`
+- `.claude/specs/003-dictionary-redesign.md`
+- `.claude/tasks/FIX_404_ERRORS.md`
+- `STATUS.md`
+
+**Modified:**
+- `package.json` (test scripts)
+- `pnpm-lock.yaml` (Playwright)
+- `.gitignore` (Playwright artifacts)
+- `.claude/tasks/I18N_URL_MIGRATION.md` (added BLOCKED status)
+- `.claude/CLAUDE.md` (Project Status Protocol)
+
+---
+
+## Verification Commands for Next Session
+
+**Test smoke tests still work:**
+```bash
+pnpm run test:smoke
+# Should show: 6 FAIL, 3 PASS (unchanged)
+```
+
+**Check STATUS.md is comprehensive:**
+```bash
+cat STATUS.md
+# Should show: critical issues, plan, inventory, metrics
+```
+
+**Verify FIX_404_ERRORS task complete:**
+```bash
+cat .claude/tasks/FIX_404_ERRORS.md | grep "Category"
+# Should show: 6 categories of 404 errors
+```
+
+**Check all commits present:**
+```bash
+git log --oneline -4
+# Should show:
+# c4d7ec8 docs: create FIX_404_ERRORS task and update CLAUDE.md
+# b17e435 docs(task): comprehensive content audit planning
+# c247107 docs(adr): multilingual URL structure decision
+# 76556c8 test: implement smoke tests
+```
+
+---
+
+## Next Session TODO
+
+### Immediate Priority
+
+1. **User decisions needed for FIX_404_ERRORS:**
+   - [ ] static.zentala.io → Redirect to CDN or return 410?
+   - [ ] ideas.zentala.io → Redirect to main site or return 410?
+   - [ ] zentala.io root → Redirect to ihome.zentala.io?
+   - [ ] Old projects (eu, gpnf, desk) → Redirect or 410?
+
+2. **Start CONTENT_AUDIT Phase 1:**
+   - [ ] Generate complete inventory of 234 files
+   - [ ] Extract metadata (title, date, draft, language, word count)
+   - [ ] Create `.claude/content-inventory.json`
+   - [ ] Find all ~41 draft files specifically
+   - [ ] Timeline: 2-3 hours
+
+### Future Sessions
+
+3. **CONTENT_AUDIT Phase 2:** Quality assessment
+4. **CONTENT_AUDIT Phase 3:** Content Editor Questionnaire (tailored!)
+5. **FIX_404_ERRORS:** Implement redirects (after user decisions)
+6. **I18N_URL_MIGRATION:** Execute migration (after audit complete)
+7. **DICTIONARY_REDESIGN:** Implement browsable index (long-term)
+
+---
+
+## Lessons Learned
+
+1. **Smoke tests invaluable:** Would have caught multilingual issue immediately
+2. **Hugo version matters:** 0.150.1 has breaking changes vs 0.121.1
+3. **Content audit essential:** Can't migrate without knowing what we have
+4. **Google indexing poor:** Only 31/234 pages indexed, need investigation
+5. **Drafts underestimated:** ~41 drafts vs 1 initially reported
+6. **STATUS.md clarity:** Single source of truth better than scattered notes
+7. **Tailored questions:** Generic templates don't extract personal value
+
+---
+
+**End of Session Runbook - 2025-10-19**
