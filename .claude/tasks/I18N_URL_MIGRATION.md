@@ -1,10 +1,12 @@
 # Task: i18n URL Migration & Multi-language Support
 
-**Status:** Backlog (Future Refinement)
+**Status:** 🔴 **URGENT** - Production Broken
 **Created:** 2025-10-18
-**Priority:** Medium
-**Complexity:** Medium (3-5 days)
-**Dependencies:** Glossary Tooltips System (001)
+**Updated:** 2025-10-19
+**Priority:** 🔴 **CRITICAL**
+**Complexity:** Medium (2-3 days)
+**Decision:** ✅ **ACCEPTED** - See ADR `.claude/adrs/001-multilingual-url-structure.md`
+**Related:** `.claude/runbooks/2025-10-19-smoke-tests-implementation.md`
 
 ---
 

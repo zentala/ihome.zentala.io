@@ -548,7 +548,8 @@ Hugo v0.150+ **requires explicit language structure** for multilingual sites. Th
 
 ### RECOMMENDED SOLUTION: Full i18n Migration
 
-**Task exists:** `.claude/tasks/I18N_URL_MIGRATION.md`
+**Decision:** See ADR `.claude/adrs/001-multilingual-url-structure.md` ✅ **ACCEPTED**
+**Task:** `.claude/tasks/I18N_URL_MIGRATION.md`
 
 **What it involves:**
 1. Change `defaultContentLanguageInSubdir = true` in `hugo.toml`
@@ -595,18 +596,22 @@ Hugo v0.150+ **requires explicit language structure** for multilingual sites. Th
 
 ### DECISION: Proceed with i18n Migration
 
+**Status:** ✅ **ACCEPTED** (see ADR `.claude/adrs/001-multilingual-url-structure.md`)
+
 **Reasoning:**
 1. Hugo v0.150+ is the future - can't avoid it forever
 2. Proper multilingual structure is more maintainable
 3. Smoke tests are ready - can verify migration works
 4. Better to fix properly now than patch repeatedly
+5. All alternatives exhausted (documented in ADR)
 
 **Next steps:**
-1. Read `.claude/tasks/I18N_URL_MIGRATION.md`
-2. Plan migration phases
-3. Implement with smoke tests verifying each step
-4. Deploy with redirects
-5. Monitor Google Search Console
+1. ✅ Created ADR documenting decision rationale
+2. Read `.claude/tasks/I18N_URL_MIGRATION.md`
+3. Plan migration phases
+4. Implement with smoke tests verifying each step
+5. Deploy with redirects
+6. Monitor Google Search Console
 
 ---
 
