@@ -94,54 +94,40 @@ pnpm run lint         # Lint all (JS, SCSS, MD)
 
 **Format:** See `.claude/runbooks/2025-10-18.md` for template
 
----
+## Project Status Protocol
 
-## Current Issues & Priorities
+**ALWAYS refer to `STATUS.md` for current project state.**
 
-### 🔴 BLOCKED: Multilingual Configuration Issue (2025-10-18)
+- **Current Status:** See `STATUS.md` (single source of truth)
+- **Critical Issues:** Listed in STATUS.md with severity levels
+- **Task Execution Order:** STATUS.md shows priority queue
+- **Known Issues:** All catalogued in STATUS.md
+- **Next Steps:** STATUS.md lists immediate actions
 
-**Status:** Diagnosed, fix attempted but not tested (too many background processes)
+**When to update STATUS.md:**
+- After discovering new critical issues
+- After completing major tasks
+- After making architectural decisions (ADRs)
+- When project state changes significantly
+- At end of each session (summary)
 
-**Problem:**
-- Homepage shows English placeholder ("Update content") instead of Polish content (6 feature boxes)
-- Menu missing 2 items (Tutorials, Services)
-- Docs link pointing to old 404 URL
-
-**Root Cause:**
-- `languages.toml` had `contentDir = "content/pl"` but directory doesn't exist
-- Hugo fell back to English language
-- Used outdated `menus.en.toml` (only 2 items, wrong URLs)
-
-**Fix Applied (not tested):**
-- Removed `[en]` from `languages.toml`
-- Set `contentDir = "content"` for Polish
-- Removed `disableLanguages` from `hugo.toml`
-
-**Next Steps:**
-1. **Implement smoke tests** (`.claude/specs/002-smoke-tests.md`) ← DO THIS FIRST
-2. **Test the fix** using smoke tests
-3. **Decide** multilingual strategy (Polish-only vs `/pl/` prefix)
-4. **Document** final decision
-
-**See:** `.claude/runbooks/2025-10-18-multilingual-analysis.md` for full analysis
+**What belongs in CLAUDE.md vs STATUS.md:**
+- **CLAUDE.md:** Instructions for AI agent (how to work)
+- **STATUS.md:** Current project state (what needs work)
 
 ---
 
 ## Testing Architecture
 
-### Smoke Tests (Priority 1)
+### Smoke Tests (Implemented ✅)
 
 **Spec:** `.claude/specs/002-smoke-tests.md`
 **Architecture:** `.claude/specs/000-testing-architecture.md`
 
-**Implementation order:**
-1. Setup Playwright (`pnpm add -D @playwright/test`)
-2. Create `tests/e2e/smoke/` directory
-3. Implement Phase 1 tests:
-   - `homepage-content.spec.js` - Polish content, not placeholders
-   - `navigation-menu.spec.js` - All 4 items, correct URLs
-   - `multilingual-config.spec.js` - Language settings work
+**Status:** 9 tests implemented (6 FAIL, 3 PASS)
+- ✅ Implemented Playwright framework
+- ✅ Created 3 test files, 9 tests total
+- ✅ Tests correctly detect production issues
+- ⏸️ Tests will pass after i18n migration
 
-**Timeline:** 1-2 hours to implement
-
-**Why critical:** Would have prevented 2025-10-18 production incident
+**See:** `STATUS.md` for current test results
