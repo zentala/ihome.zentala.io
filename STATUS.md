@@ -355,14 +355,29 @@ PHASE 2: REFACTOR (feature/content-audit branch) 📋 PLANNED
 - **Current runbook:** `.claude/runbooks/2025-10-19-smoke-tests-implementation.md`
 - **Migration ADR:** `.claude/adrs/001-multilingual-url-structure.md`
 
-### Next Actions
-1. Read: `.claude/tasks/CONTENT_AUDIT.md`
-2. Create: `.claude/tasks/FIX_404_ERRORS.md`
-3. Start: Content inventory (Phase 1)
-4. Review: ~41 draft files
+### Next Actions (UPDATED 2025-10-19)
+
+**🔴 IMMEDIATE (Today):**
+1. Execute `.claude/tasks/004-QUICK_PRODUCTION_PATCH.md`
+   - Fix homepage EN placeholder → PL content
+   - Create missing content for 3 broken pages:
+     - `/docs/software/openhab/` (OpenHub) ← Paweł will provide AI content
+     - `/blog/projekt-wnetrza-ukonczony/`
+     - `/docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/`
+   - Deploy to production (main branch)
+
+**📋 THIS WEEK (After patch):**
+2. Create feature branch: `git checkout -b feature/content-audit`
+3. Start `.claude/tasks/002-CONTENT_AUDIT.md` Phase 1 (inventory)
+4. Review ~41 draft files
 5. Decide: Publish, archive, or delete each draft
+
+**🔄 NEXT WEEK:**
+6. Execute `.claude/tasks/005-I18N_URL_MIGRATION.md` (on feature branch)
+7. Verify with smoke tests (expect 9/9 PASS)
+8. Merge to main
 
 ---
 
-**Last Session:** 2025-10-19 (Smoke tests, ADR, content planning)
-**Next Session:** Content audit Phase 1 - Generate inventory
+**Last Session:** 2025-10-19 (Smoke tests, ADR, content planning, quick patch strategy)
+**Next Session:** Execute quick production patch → fix 3 broken indexed pages

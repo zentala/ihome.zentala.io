@@ -51,21 +51,44 @@ pnpm run lint         # Lint all (JS, SCSS, MD)
 
 ## Specs & Tasks Protocol
 
-**When creating new features/improvements:**
-
-1. **Specs:** `.claude/specs/NNN-feature-name.md` (technical specification)
-2. **Future:** `.claude/specs/NNN-feature-name.FUTURE.md` (enhancements backlog)
-3. **Tasks:** `.claude/tasks/FEATURE_NAME.md` (implementation roadmap)
+**IMPORTANT: ALL specs and tasks MUST have numbers.**
 
 **Naming convention:**
-- NNN = sequential number (001, 002, etc.)
-- feature-name = kebab-case descriptive name
-- FEATURE_NAME = SCREAMING_SNAKE_CASE for tasks
+- **Specs:** `.claude/specs/NNN-feature-name.md` (technical specification)
+- **Future:** `.claude/specs/NNN-feature-name.FUTURE.md` (enhancements backlog)
+- **Tasks:** `.claude/tasks/NNN-FEATURE_NAME.md` (implementation roadmap)
+- **ADRs:** `.claude/adrs/NNN-decision-name.md` (architecture decisions)
 
-**Example:**
+**Numbering:**
+- NNN = sequential number (001, 002, 003, etc.)
+- Numbers are GLOBAL across specs, tasks, and ADRs
+- Number does NOT indicate priority or execution order
+- Number is for reference and tracking only
+- Always use 3 digits with leading zeros (001, not 1)
+
+**Name formats:**
+- Specs: kebab-case (e.g., `001-glossary-tooltips.md`)
+- Tasks: SCREAMING_SNAKE_CASE (e.g., `001-GLOSSARY_TOOLTIPS.md`)
+- ADRs: kebab-case (e.g., `001-multilingual-url-structure.md`)
+
+**Examples:**
 - `.claude/specs/001-glossary-tooltips.md`
 - `.claude/specs/001-glossary-tooltips.FUTURE.md`
-- `.claude/tasks/GLOSSARY_TOOLTIPS.md`
+- `.claude/tasks/001-GLOSSARY_TOOLTIPS.md`
+- `.claude/adrs/001-multilingual-url-structure.md`
+- `.claude/tasks/002-CONTENT_AUDIT.md`
+- `.claude/specs/003-dictionary-redesign.md`
+
+**Current numbering (as of 2025-10-19):**
+```
+001 - Glossary Tooltips (spec + task)
+002 - Content Audit (task)
+003 - Dictionary Redesign (spec)
+004 - Quick Production Patch (task)
+005 - I18n URL Migration (task)
+006 - Fix 404 Errors (task)
+007 - Auto Detect Indexed Pages (task, backlog)
+```
 
 **Spec structure:**
 - Problem statement

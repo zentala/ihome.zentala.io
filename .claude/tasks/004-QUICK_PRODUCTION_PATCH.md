@@ -21,6 +21,7 @@ This is a **quick patch**, not a full refactor. Full content audit and migration
 
 **Source:** User confirmation (NOT Google Search Console - ihome doesn't have it connected)
 
+**Status (Updated 2025-10-19):**
 ```
 ✅ https://ihome.zentala.io/                              (homepage - BROKEN: shows EN placeholder)
 ✅ https://ihome.zentala.io/privacy/                      (works)
@@ -31,11 +32,19 @@ This is a **quick patch**, not a full refactor. Full content audit and migration
 ✅ https://ihome.zentala.io/services/consulting/          (works)
 ✅ https://ihome.zentala.io/docs/connectors/lsa/          (works)
 ✅ https://ihome.zentala.io/docs/connectors/patchpanele/  (works)
-❓ https://ihome.zentala.io/docs/software/openhab/        (check if exists)
-✅ https://ihome.zentala.io/blog/projekt-wnetrza-ukonczony/ (works)
+❌ https://ihome.zentala.io/docs/software/openhab/        (404 - no content)
+❌ https://ihome.zentala.io/blog/projekt-wnetrza-ukonczony/ (404 NOT FOUND)
+❌ https://ihome.zentala.io/docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/ (404 NOT FOUND)
 ✅ https://ihome.zentala.io/docs/systems/inteligentny-dom/ (works)
-✅ https://ihome.zentala.io/docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/ (works)
 ```
+
+**User confirmed:**
+- ✅ Menu is Polish (Teoria, Blog, Poradniki, Usługi) - NO FIX NEEDED
+- ❌ Homepage shows EN placeholder - NEEDS FIX
+- ❌ 3 pages return 404:
+  - `/docs/software/openhab/` - no content exists
+  - `/blog/projekt-wnetrza-ukonczony/` - 404
+  - `/docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/` - 404
 
 ---
 
