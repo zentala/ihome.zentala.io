@@ -5,6 +5,8 @@ description: MCB - Zabezpiecznie Nadprądowe - kompleksowy opis Więcej informac
 contributors: ['Paweł Żentała']
 draft: false
 lastmod: 2023-09-07 16:04:48+02:00
+aliases:
+  - /docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/
 menu:
   docs:
     identifier: docs-e5f3c11b9692e593

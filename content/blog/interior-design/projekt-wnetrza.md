@@ -9,6 +9,8 @@ draft: false
 homepage: false
 lastmod: 2022-08-14 10:11:21+01:00
 pinned: false
+aliases:
+  - /blog/projekt-wnetrza-ukonczony/
 seo:
   canonical: ''
   description: Projekt wnętrza ukończony! - kompleksowy opis Więcej informacji na
