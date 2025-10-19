@@ -61,10 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(0, 0, 0, 0.35);
-    @media (prefers-color-scheme: dark) {
-      color: rgba(255, 255, 255, 0.25);
-    }
+    color: rgba(0, 0, 0, 0.40); // Dark text on light theme (increased from 0.35)
   }
 
   .placeholder-title {
@@ -88,6 +85,13 @@
   .icon-4 { bottom: 8%; right: 10%; transform: rotate(-15deg); }
   .icon-5 { top: 26%; left: 28%; }
   .icon-6 { bottom: 26%; right: 28%; transform: rotate(22deg) scale(1.1); }
+}
+
+// Dark theme override for placeholder
+[data-bs-theme="dark"] .post-placeholder {
+  .placeholder-overlay {
+    color: rgba(255, 255, 255, 0.30); // Light text on dark theme (increased from 0.25)
+  }
 }
 
 // Draft post styles
