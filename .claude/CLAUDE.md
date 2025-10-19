@@ -185,6 +185,26 @@ The **dictionary/docs section** is a **Wikipedia-style encyclopedia** that:
 2. **My Articles (Blog/Tutorials)** — Human-curated, experiential, guiding
 3. **Guides & Tutorials** — Step-by-step onboarding paths
 
+### Content Writing Rules
+
+**IMPORTANT: Follow these rules when creating/editing content:**
+
+1. **Single Author Voice:**
+   - Always write as "I" (Paweł), never "we" (editorial team)
+   - Use: "Pomogę Ci", "Polecam", "Moim zdaniem"
+   - Avoid: "Pomożemy", "Nasz portal", "Nasza redakcja"
+
+2. **Tutorial Content Type:**
+   - Tutorials are a CONTENT TYPE, not a category
+   - Never use `categories: ["Tutorial"]` or similar in frontmatter
+   - Use only ONE category per tutorial that describes the TOPIC (e.g., "Smart Home", "DIY", "Automation")
+   - Tutorials live in `/tutorials/` directory structure
+
+3. **Categories:**
+   - Use categories to describe WHAT the article is about (topic)
+   - One category per tutorial/guide
+   - Multiple categories allowed for blog posts if needed
+
 ### Future Development
 
 **UI/UX Evolution:**
