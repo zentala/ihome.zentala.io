@@ -94,6 +94,49 @@
   }
 }
 
+// Comparison table badges
+.comparison-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.comparison-badge-green {
+  background-color: rgba(40, 167, 69, 0.15);
+  color: #28a745;
+}
+
+.comparison-badge-yellow {
+  background-color: rgba(255, 193, 7, 0.15);
+  color: #856404;
+}
+
+.comparison-badge-red {
+  background-color: rgba(220, 53, 69, 0.15);
+  color: #dc3545;
+}
+
+// Dark theme overrides for badges
+[data-bs-theme="dark"] {
+  .comparison-badge-green {
+    background-color: rgba(40, 167, 69, 0.25);
+    color: #5cb85c;
+  }
+
+  .comparison-badge-yellow {
+    background-color: rgba(255, 193, 7, 0.25);
+    color: #ffc107;
+  }
+
+  .comparison-badge-red {
+    background-color: rgba(220, 53, 69, 0.25);
+    color: #f16178;
+  }
+}
+
 // Draft post styles
 .draft-post {
   position: relative;

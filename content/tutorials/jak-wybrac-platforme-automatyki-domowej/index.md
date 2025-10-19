@@ -80,16 +80,16 @@ Obecnie na rynku dominują **cztery otwartoźródłowe platformy**:
 |-------|---------------|----------|----------|----------|
 | **Język** | Python | C++ | Java | Node.js |
 | **Rok powstania** | 2013 | 2012 | 2010 | 2014 |
-| **Próg wejścia** | **Niski** 🟢 | Średni 🟡 | Wysoki 🔴 | Średni 🟡 |
-| **Integracje** | **2000+** 🟢 | ~100 🟡 | 400+ 🟢 | 500+ 🟢 |
+| **Próg wejścia** | {{< badge color="green" bold="true" >}}Niski{{< /badge >}} | {{< badge color="yellow" >}}Średni{{< /badge >}} | {{< badge color="red" >}}Wysoki{{< /badge >}} | {{< badge color="yellow" >}}Średni{{< /badge >}} |
+| **Integracje** | {{< badge color="green" bold="true" >}}2000+{{< /badge >}} | {{< badge color="yellow" >}}~100{{< /badge >}} | {{< badge color="green" >}}400+{{< /badge >}} | {{< badge color="green" >}}500+{{< /badge >}} |
 | **Konfiguracja** | GUI + YAML | GUI + skrypty | Pliki + GUI | GUI + JS |
-| **Zużycie RAM** | ~300 MB | **~50 MB** 🟢 | ~400 MB | ~250 MB |
-| **Społeczność** | **Ogromna** 🟢 | Mała 🔴 | Średnia 🟡 | Duża (DE) 🟢 |
-| **Polska społeczność** | Mała 🟡 | **Duża** 🟢 | Bardzo mała 🔴 | Bardzo mała 🔴 |
-| **Aktualizacje** | **Co miesiąc** 🟢 | Rzadkie 🔴 | Co kilka m-cy 🟡 | Regularne 🟢 |
-| **Mobile app** | Natywna 🟢 | Webowa 🟡 | Webowa 🟡 | Webowa 🟡 |
-| **Wizualizacje** | Dobre 🟢 | Podstawowe 🟡 | Dobre 🟢 | **Świetne** 🟢 |
-| **DIY (ESP, Arduino)** | Dobre 🟡 | **Świetne** 🟢 | Średnie 🟡 | Dobre 🟡 |
+| **Zużycie RAM** | ~300 MB | {{< badge color="green" bold="true" >}}~50 MB{{< /badge >}} | ~400 MB | ~250 MB |
+| **Społeczność** | {{< badge color="green" bold="true" >}}Ogromna{{< /badge >}} | {{< badge color="red" >}}Mała{{< /badge >}} | {{< badge color="yellow" >}}Średnia{{< /badge >}} | {{< badge color="green" >}}Duża (DE){{< /badge >}} |
+| **Polska społeczność** | {{< badge color="yellow" >}}Mała{{< /badge >}} | {{< badge color="green" bold="true" >}}Duża{{< /badge >}} | {{< badge color="red" >}}Bardzo mała{{< /badge >}} | {{< badge color="red" >}}Bardzo mała{{< /badge >}} |
+| **Aktualizacje** | {{< badge color="green" bold="true" >}}Co miesiąc{{< /badge >}} | {{< badge color="red" >}}Rzadkie{{< /badge >}} | {{< badge color="yellow" >}}Co kilka m-cy{{< /badge >}} | {{< badge color="green" >}}Regularne{{< /badge >}} |
+| **Mobile app** | {{< badge color="green" >}}Natywna{{< /badge >}} | {{< badge color="yellow" >}}Webowa{{< /badge >}} | {{< badge color="yellow" >}}Webowa{{< /badge >}} | {{< badge color="yellow" >}}Webowa{{< /badge >}} |
+| **Wizualizacje** | {{< badge color="green" >}}Dobre{{< /badge >}} | {{< badge color="yellow" >}}Podstawowe{{< /badge >}} | {{< badge color="green" >}}Dobre{{< /badge >}} | {{< badge color="green" bold="true" >}}Świetne{{< /badge >}} |
+| **DIY (ESP, Arduino)** | {{< badge color="yellow" >}}Dobre{{< /badge >}} | {{< badge color="green" bold="true" >}}Świetne{{< /badge >}} | {{< badge color="yellow" >}}Średnie{{< /badge >}} | {{< badge color="yellow" >}}Dobre{{< /badge >}} |
 
 ---
 

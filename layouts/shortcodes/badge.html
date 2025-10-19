@@ -1,0 +1,30 @@
+{{/*
+  Colored badge for comparison tables
+
+  Usage:
+    {{< badge color="green" >}}Niski{{< /badge >}}
+    {{< badge color="yellow" bold >}}Średni{{< /badge >}}
+    {{< badge color="red" >}}Wysoki{{< /badge >}}
+
+  Params:
+    - color: "green", "yellow", "red" (required)
+    - bold: boolean (optional) - makes text bold
+*/}}
+
+{{- $color := .Get "color" -}}
+{{- $bold := .Get "bold" -}}
+{{- $class := "comparison-badge" -}}
+
+{{- if eq $color "green" -}}
+  {{- $class = printf "%s comparison-badge-green" $class -}}
+{{- else if eq $color "yellow" -}}
+  {{- $class = printf "%s comparison-badge-yellow" $class -}}
+{{- else if eq $color "red" -}}
+  {{- $class = printf "%s comparison-badge-red" $class -}}
+{{- end -}}
+
+{{- if $bold -}}
+  {{- $class = printf "%s fw-bold" $class -}}
+{{- end -}}
+
+<span class="{{ $class }}">{{ .Inner | markdownify }}</span>

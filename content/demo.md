@@ -36,6 +36,26 @@ That is so funny! :joy:
 | Header      | Title       |
 | Paragraph   | Text        |
 
+### Comparison Table Badges
+
+Use colored badges for comparison tables:
+
+| Feature | Status | Example |
+|---------|--------|---------|
+| Good    | {{< badge color="green" >}}Działa{{< /badge >}} | Green background |
+| Medium  | {{< badge color="yellow" >}}Średnie{{< /badge >}} | Yellow background |
+| Bad     | {{< badge color="red" >}}Nie działa{{< /badge >}} | Red background |
+| Bold    | {{< badge color="green" bold="true" >}}Świetne{{< /badge >}} | Bold text |
+
+**Shortcode syntax:**
+
+```markdown
+{{</* badge color="green" */>}}Good{{</* /badge */>}}
+{{</* badge color="yellow" */>}}Medium{{</* /badge */>}}
+{{</* badge color="red" */>}}Bad{{</* /badge */>}}
+{{</* badge color="green" bold="true" */>}}Bold{{</* /badge */>}}
+```
+
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
