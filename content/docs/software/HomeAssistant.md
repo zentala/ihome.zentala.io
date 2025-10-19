@@ -23,8 +23,6 @@ weight: 300
 
 ## Home Assistant — najpopularniejsza platforma smart home
 
-![Home Assistant Dashboard](https://www.home-assistant.io/images/blog/2023-01-release-1/hero.png)
-
 ### 1. Co to jest Home Assistant
 
 Home Assistant to **najpopularniejsza i najszybciej rozwijająca się** otwartoźródłowa platforma automatyki domowej, napisana w języku **Python**. Charakteryzuje się bardzo niskim progiem wejścia — większość konfiguracji można wykonać przez interfejs graficzny (GUI), bez konieczności pisania kodu.

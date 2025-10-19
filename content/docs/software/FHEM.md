@@ -23,8 +23,6 @@ weight: 500
 
 ## FHEM — historyczna platforma smart home
 
-![FHEM Interface](https://fhem.de/fhemwiki/images/thumb/d/db/Fhemweb_rooms.png/800px-Fhemweb_rooms.png)
-
 ### 1. Co to jest FHEM
 
 FHEM (**F**reundliche **H**ausautomations-**E**ntwicklungs-**M**aschine) to jedna z **najstarszych** otwartoźródłowych platform automatyki domowej, napisana w języku **Perl**. Powstała w 2005 roku w Niemczech i była jednym z pionierów ruchu DIY smart home.

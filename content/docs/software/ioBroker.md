@@ -23,8 +23,6 @@ weight: 300
 
 ## ioBroker — modułowa platforma z Node.js
 
-![ioBroker Dashboard](https://www.iobroker.net/wp-content/uploads/2021/07/ioBroker_Image_Homeautomation_13-1024x576.jpg)
-
 ### 1. Co to jest ioBroker
 
 ioBroker to **modułowa** otwartoźródłowa platforma automatyki domowej, napisana w języku **Node.js (JavaScript)**. Charakteryzuje się architekturą opartą na **adapterach** — każda integracja to osobny moduł, który można doinstalować niezależnie.
