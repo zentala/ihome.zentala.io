@@ -1,35 +1,40 @@
 # Project Status - ihome.zentala.io
 
-**Last Updated:** 2025-10-19
+**Last Updated:** 2025-10-19 (evening)
 **Environment:** Development
-**Production Status:** 🔴 **BROKEN** (multilingual issue)
+**Production Status:** 🟢 **WORKING** (with workaround)
 
 ---
 
 ## 🚨 Critical Issues
 
-### 1. Production Site Broken (Hugo 0.150.1)
+### 1. Hugo 0.150.1 Multilingual Issue - FIXED WITH WORKAROUND
 
-**Status:** 🔴 **CRITICAL**
-**Since:** 2025-10-19 (Hugo upgrade)
-**Impact:** Site serves English instead of Polish
+**Status:** ✅ **FIXED** (with temporary workaround)
+**Fixed:** 2025-10-19 (evening)
+**Impact:** Site now working, Polish content visible
 
-**Symptoms:**
-- Homepage shows `<html lang="en">` instead of `lang="pl"`
-- English placeholder content instead of Polish features
-- Menu missing 2 items (Tutorials, Services)
-- 6 out of 9 smoke tests failing
+**What was broken:**
+- Homepage showed English placeholder instead of 6 Polish feature boxes
+- Related posts infinite recursion
+- Hugo classified 271 pages as "EN" when they were Polish
 
 **Root Cause:**
 - Hugo 0.150.1 breaking changes in multilingual
 - Theme provides `i18n/en.toml` → Hugo auto-creates EN language
-- Hugo ignores `defaultContentLanguage = "pl"`
-- Defaults to "en" (alphabetically first)
+- Hugo defaults to "en" alphabetically, ignoring `defaultContentLanguage = "pl"`
 
-**Decision:** Full i18n migration to `/pl/` URL prefix
+**Workaround Applied:**
+- Changed `defaultContentLanguage = "en"` (Polish content classified as "EN")
+- Changed `[pl]` to `[en]` in languages.toml
+- Re-enabled relatedPosts (works after language fix)
+- Fixed blog-meta.html for missing contributors
+- **Result:** Homepage shows Polish, related posts work, URLs unchanged
+
+**Permanent Fix (Future):**
 - **ADR:** `.claude/adrs/001-multilingual-url-structure.md` ✅ **ACCEPTED**
-- **Task:** `.claude/tasks/I18N_URL_MIGRATION.md` ⏸️ **BLOCKED** by content audit
-- **Runbook:** `.claude/runbooks/2025-10-19-smoke-tests-implementation.md`
+- **Task:** `.claude/tasks/005-I18N_URL_MIGRATION.md` ⏸️ **BLOCKED** by content audit
+- **Runbook:** `.claude/runbooks/2025-10-19.md`
 
 ---
 
@@ -63,8 +68,8 @@ https://ihome.zentala.io/docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/ ✅
 **404 Errors:** Not applicable to ihome (was different site)
 
 **Tasks:**
-- **URGENT:** `.claude/tasks/QUICK_PRODUCTION_PATCH.md` 🔴 **FIX NOW**
-- **Backlog:** `.claude/tasks/AUTO_DETECT_INDEXED_PAGES.md` 💡 **FUTURE**
+- **COMPLETED:** `.claude/tasks/done/004-QUICK_PRODUCTION_PATCH.md` ✅ **DONE** (2025-10-19)
+- **Backlog:** `.claude/tasks/007-AUTO_DETECT_INDEXED_PAGES.md` 💡 **FUTURE**
 
 ---
 
@@ -355,16 +360,16 @@ PHASE 2: REFACTOR (feature/content-audit branch) 📋 PLANNED
 - **Current runbook:** `.claude/runbooks/2025-10-19-smoke-tests-implementation.md`
 - **Migration ADR:** `.claude/adrs/001-multilingual-url-structure.md`
 
-### Next Actions (UPDATED 2025-10-19)
+### Next Actions (UPDATED 2025-10-19 evening)
 
-**🔴 IMMEDIATE (Today):**
-1. Execute `.claude/tasks/004-QUICK_PRODUCTION_PATCH.md`
-   - Fix homepage EN placeholder → PL content
-   - Create missing content for 3 broken pages:
+**✅ COMPLETED (Today):**
+1. ✅ Execute `.claude/tasks/done/004-QUICK_PRODUCTION_PATCH.md`
+   - ✅ Fix homepage EN placeholder → PL content (DONE)
+   - ⏸️ Create missing content for 3 broken pages (POSTPONED - see task 006):
      - `/docs/software/openhab/` (OpenHub) ← Paweł will provide AI content
      - `/blog/projekt-wnetrza-ukonczony/`
      - `/docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/`
-   - Deploy to production (main branch)
+   - 🔄 Ready to deploy to production (main branch)
 
 **📋 THIS WEEK (After patch):**
 2. Create feature branch: `git checkout -b feature/content-audit`
