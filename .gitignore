@@ -9,6 +9,11 @@ public/
 .hugo_build.lock
 .claude/settings.local.json
 
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
 # Logs
 *.log
 *.log.*

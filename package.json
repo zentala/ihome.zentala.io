@@ -12,7 +12,10 @@
     "lint:scripts": "eslint --cache assets/js",
     "lint:styles": "stylelint --cache \"assets/scss/**/*.{css,sass,scss}\"",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/e2e/smoke/",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
     "icons": "node scripts/generate-icons.mjs",
     "build": "pnpm run icons && exec-bin node_modules/.bin/hugo/hugo --minify",
     "preview": "http-server --gzip --brotli --ext=html --cors",
@@ -37,6 +40,7 @@
     "hugo-installer": "^4.0.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.56.1",
     "sharp": "^0.33.5",
     "shx": "^0.3.4"
   },

@@ -17,8 +17,8 @@ removePathAccents = true # remove PL characters from URLs
 
 # Multilingual
 defaultContentLanguage = "pl"
-disableLanguages = ["en", "de", "nl"]
 defaultContentLanguageInSubdir = false
+disableLanguages = ["en", "de", "nl", "es"]
 
 [build.buildStats]
   enable = false

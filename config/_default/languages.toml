@@ -1,17 +1,7 @@
-[en]
-  languageName = "English"
-  contentDir = "content/en"
-  weight = 10
-  [en.params]
-    languageISO = "EN"
-    languageTag = "en-US"
-    # footer is rendered in layouts/partials/footer/footer.html with dynamic year
-    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
-
 [pl]
   languageName = "Polish"
-  contentDir = "content/pl"
-  weight = 15
+  contentDir = "content"
+  weight = 10
   [pl.params]
     languageISO = "PL"
     languageTag = "pl-PL"
