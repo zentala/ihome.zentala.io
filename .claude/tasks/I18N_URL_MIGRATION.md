@@ -1,12 +1,13 @@
 # Task: i18n URL Migration & Multi-language Support
 
-**Status:** 🔴 **URGENT** - Production Broken
+**Status:** 🔴 **URGENT** - Production Broken, ⏸️ **BLOCKED** by content audit
 **Created:** 2025-10-18
 **Updated:** 2025-10-19
 **Priority:** 🔴 **CRITICAL**
 **Complexity:** Medium (2-3 days)
+**Blocked By:** `.claude/tasks/CONTENT_AUDIT.md` - Must audit content first
 **Decision:** ✅ **ACCEPTED** - See ADR `.claude/adrs/001-multilingual-url-structure.md`
-**Related:** `.claude/runbooks/2025-10-19-smoke-tests-implementation.md`
+**Related:** `.claude/runbooks/2025-10-19-smoke-tests-implementation.md`, `.claude/specs/003-dictionary-redesign.md`
 
 ---
 
