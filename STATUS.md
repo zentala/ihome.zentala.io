@@ -35,22 +35,36 @@
 
 ### 2. Google Indexing - Low Coverage
 
-**Status:** ⚠️ **WARNING**
-**Indexed:** Only 31 pages out of ~234 markdown files
-**404 Errors:** 67 broken links
+**Status:** ⚠️ **WARNING** → ✅ **CORRECTED**
+**Indexed:** Actually only 14 pages (not 31)
+**404 Errors:** 67 broken links (from different site - not ihome!)
 
-**Indexed Pages (31):**
-- Homepage, blog, docs, tutorials
-- Last crawl: 8 Oct 2025
+**CORRECTION:** The Google Search Console data was from a **different site**, NOT ihome.zentala.io!
+- ihome.zentala.io does NOT have Search Console connected
+- Actual indexed pages: 14 (confirmed by user)
 
-**404 Errors (67):**
-- `static.zentala.io/*` - old static files (should redirect to CDN?)
-- `ideas.zentala.io/*` - old subdomain (should redirect or remove?)
-- `cdn.zentala.io/test-workflow.txt` - test file indexed (!)
-- Some internal broken links
+**Indexed Pages (14 - confirmed):**
+```
+https://ihome.zentala.io/                              ✅
+https://ihome.zentala.io/privacy/                      ✅
+https://ihome.zentala.io/demo/                         ✅
+https://ihome.zentala.io/blog/                         ✅
+https://ihome.zentala.io/services/                     ✅
+https://ihome.zentala.io/tutorials/                    ✅
+https://ihome.zentala.io/services/consulting/          ✅
+https://ihome.zentala.io/docs/connectors/lsa/          ✅
+https://ihome.zentala.io/docs/connectors/patchpanele/  ✅
+https://ihome.zentala.io/docs/software/openhab/        ❓
+https://ihome.zentala.io/blog/projekt-wnetrza-ukonczony/ ✅
+https://ihome.zentala.io/docs/systems/inteligentny-dom/ ✅
+https://ihome.zentala.io/docs/rozdzielnica/mcb-zabezpiecznie-nadpradowe/ ✅
+```
 
-**Source:** `.claude/specs/content-google-index.md`
-**Task:** `.claude/tasks/FIX_404_ERRORS.md` (to be created)
+**404 Errors:** Not applicable to ihome (was different site)
+
+**Tasks:**
+- **URGENT:** `.claude/tasks/QUICK_PRODUCTION_PATCH.md` 🔴 **FIX NOW**
+- **Backlog:** `.claude/tasks/AUTO_DETECT_INDEXED_PAGES.md` 💡 **FUTURE**
 
 ---
 
@@ -91,35 +105,42 @@
 
 ### Task Execution Order
 
+**🚀 NEW STRATEGY: Quick Patch First, Then Refactor**
+
 ```
-1. CONTENT_AUDIT (1-2 weeks) 📋 PLANNED
-   ├─ Inventory all 234 files
-   ├─ Identify ~41 drafts
-   ├─ Content Editor Questionnaire (personal stories)
-   ├─ Translation planning (EN→PL, PL→EN)
-   └─ Quality assessment
+PHASE 1: PRODUCTION FIX (main branch) 🔴 URGENT
+├─ 1. QUICK_PRODUCTION_PATCH (1-2 hours) 🔴 DO NOW
+│  ├─ Fix homepage Polish content (6 features)
+│  ├─ Fix menu Polish labels (4 items)
+│  ├─ Fix 14 indexed pages (ensure all work)
+│  ├─ Add missing content for broken pages
+│  └─ Deploy to production immediately
+│
+└─ 2. AUTO_DETECT_INDEXED_PAGES (backlog) 💡 FUTURE
+   └─ MCP server for Google Search Console API
 
-2. FIX_404_ERRORS (2-3 days) 📋 PLANNED
-   ├─ Setup redirects: static.zentala.io → CDN
-   ├─ Setup redirects: ideas.zentala.io → main site or remove
-   ├─ Fix internal broken links
-   └─ Update Google Search Console
-
-3. I18N_URL_MIGRATION (2-3 days) ⏸️ BLOCKED
-   ├─ Change defaultContentLanguageInSubdir = true
-   ├─ All URLs → /pl/ prefix
-   ├─ Setup 301 redirects
-   ├─ Update sitemap.xml
-   └─ Verify with smoke tests
-
-4. DICTIONARY_REDESIGN (3-5 days) 📋 PLANNED (Long-term)
-   ├─ Create /pl/slownik/ index page
-   ├─ A-Z navigation
-   ├─ Category view toggle
-   ├─ Search functionality
-   └─ Bilingual structure (PL/EN)
-
-5. CONTENT_TRANSLATION (Ongoing) 📋 PLANNED (Long-term)
+PHASE 2: REFACTOR (feature/content-audit branch) 📋 PLANNED
+├─ 3. CONTENT_AUDIT (1-2 weeks)
+│  ├─ Inventory all 234 files
+│  ├─ Identify ~41 drafts
+│  ├─ Content Editor Questionnaire (tailored per article)
+│  ├─ Translation planning (EN→PL, PL→EN)
+│  └─ Quality assessment
+│
+├─ 4. I18N_URL_MIGRATION (2-3 days) ⏸️ BLOCKED by audit
+│  ├─ Change defaultContentLanguageInSubdir = true
+│  ├─ All URLs → /pl/ prefix
+│  ├─ Setup 301 redirects (only for 14 indexed pages!)
+│  ├─ Update sitemap.xml
+│  └─ Verify with smoke tests (expect 9/9 PASS)
+│
+├─ 5. DICTIONARY_REDESIGN (3-5 days) 📋 Long-term
+│  ├─ Create /pl/slownik/ index page
+│  ├─ A-Z navigation
+│  ├─ Category view toggle
+│  └─ Search functionality
+│
+└─ 6. CONTENT_TRANSLATION (Ongoing) 📋 Long-term
    ├─ EN docs → PL
    ├─ Select key PL articles → EN
    └─ Maintain glossary per language
@@ -130,9 +151,11 @@
 1. ✅ **DONE:** Implement smoke tests (9 tests)
 2. ✅ **DONE:** Create ADR 001 (multilingual decision)
 3. ✅ **DONE:** Plan content audit & dictionary
-4. 🔄 **NEXT:** Start content audit Phase 1 (inventory)
-5. 🔄 **NEXT:** Create FIX_404_ERRORS task
-6. ⏸️ **BLOCKED:** Wait for content audit before i18n migration
+4. ✅ **DONE:** Create QUICK_PRODUCTION_PATCH task
+5. ✅ **DONE:** Create AUTO_DETECT_INDEXED_PAGES task (backlog)
+6. 🔴 **NOW:** Execute QUICK_PRODUCTION_PATCH (1-2h)
+7. 🔄 **NEXT:** Start content audit on feature branch
+8. ⏸️ **BLOCKED:** i18n migration (wait for audit)
 
 ---
 
