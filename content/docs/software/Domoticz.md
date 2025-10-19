@@ -23,8 +23,6 @@ weight: 300
 
 ## Domoticz — lekka i wydajna platforma dla DIY
 
-{{/* ![Domoticz Dashboard](https://www.domoticz.com/wiki/images/3/3a/Dashboard.png) */}}
-
 ### 1. Co to jest Domoticz
 
 Domoticz to **lekka i wydajna** otwartoźródłowa platforma automatyki domowej, napisana w języku **C++**. Charakteryzuje się bardzo małym zużyciem zasobów, dzięki czemu doskonale sprawdza się na **starszym sprzęcie** (Raspberry Pi Zero, stare komputery, routery z OpenWrt).
