@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.3.0
     version: 1.6.1
   '@hyas/images':
-    specifier: ^2.0.3
-    version: 2.0.3
+    specifier: ^3.2.0
+    version: 3.2.0
   '@hyas/inline-svg':
     specifier: ^1.0.5
     version: 1.1.0
@@ -1177,9 +1177,9 @@ packages:
       flexsearch: 0.7.43
     dev: false
 
-  /@hyas/images@2.0.3:
-    resolution: {integrity: sha512-4LqRiOZDQ3h0qyNBCRqfBD3yKwsVWmhPe0/JGuxtn6Kpr7GdTOBKNcfKunR8MATIBI15/Zulil9bYsFnCGr8Cw==}
-    engines: {node: '>=16.12.0'}
+  /@hyas/images@3.2.0:
+    resolution: {integrity: sha512-z5l7NK9dmeCzhicx57DPBxznqm6vTmo9GzwxG0Zqg1GYEu2UzEEQ187GWvLZrh5AAOAhpC+xydNR8SYvccen2w==}
+    engines: {node: '>=20.11.0'}
     deprecated: Package no longer supported. Use https://www.npmjs.com/package/@thulite/images instead.
     dev: false
 
