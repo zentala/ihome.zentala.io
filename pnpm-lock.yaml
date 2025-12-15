@@ -18,8 +18,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.3.0
   '@tabler/icons':
-    specifier: ^2.40.0
-    version: 2.47.0
+    specifier: ^3.36.0
+    version: 3.36.0
   exec-bin:
     specifier: ^1.0.0
     version: 1.0.0
@@ -1117,8 +1117,8 @@ packages:
       '@babel/helper-validator-identifier': 7.27.1
     dev: false
 
-  /@emnapi/runtime@1.5.0:
-    resolution: {integrity: sha512-97/BJ3iXHww3djw6hYIfErCZFee7qCtrneuLa20UXFCOTCfBM2cvQHjWJ2EG0s0MtdNwInarqCTz35i4wWXHsQ==}
+  /@emnapi/runtime@1.7.1:
+    resolution: {integrity: sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA==}
     requiresBuild: true
     dependencies:
       tslib: 2.8.1
@@ -1353,7 +1353,7 @@ packages:
     cpu: [wasm32]
     requiresBuild: true
     dependencies:
-      '@emnapi/runtime': 1.5.0
+      '@emnapi/runtime': 1.7.1
     dev: true
     optional: true
 
@@ -1475,8 +1475,8 @@ packages:
       defer-to-connect: 2.0.1
     dev: false
 
-  /@tabler/icons@2.47.0:
-    resolution: {integrity: sha512-4w5evLh+7FUUiA1GucvGj2ReX2TvOjEr4ejXdwL/bsjoSkof6r1gQmzqI+VHrE2CpJpB3al7bCTulOkFa/RcyA==}
+  /@tabler/icons@3.36.0:
+    resolution: {integrity: sha512-z9OfTEG6QbaQWM9KBOxxUdpgvMUn0atageXyiaSc2gmYm51ORO8Ua7eUcjlks+Dc0YMK4rrodAFdK9SfjJ4ZcA==}
     dev: false
 
   /@types/cacheable-request@6.0.3:
