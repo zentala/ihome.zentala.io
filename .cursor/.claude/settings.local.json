@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/code/ihome.zentala.io/config/_default/**)",
+      "Read(//c/code/ihome.zentala.io/**)",
+      "Bash(mkdir -p .claude/specs .claude/tasks)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
